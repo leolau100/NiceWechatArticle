@@ -181,6 +181,19 @@ import { ref, computed, onMounted, watch, nextTick } from 'vue'
 import { marked } from 'marked'
 // 硬换行保留为 <br>，让每一行 > 引用都成为独立的新行
 marked.setOptions({ breaks: true, gfm: true })
+
+// 代码块不使用 <pre> 标签，改为 <div class="code-block"><code>...</code></div>
+function escapeHtmlForCode(s) {
+  return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+}
+marked.use({
+  renderer: {
+    code(token) {
+      const text = (token && token.text) || ''
+      return `<div class="code-block"><code>${escapeHtmlForCode(text)}</code></div>\n`
+    }
+  }
+})
 import ThemeSelector from '../components/ThemeSelector.vue'
 import TemplateModal from '../components/TemplateModal.vue'
 import SvgEffectsModal from '../components/SvgEffectsModal.vue'
@@ -499,8 +512,8 @@ function applyThemeRulesToDom(container, rules, doc) {
     const afterRules = findPseudoRules(tag, '::after')
 
     container.querySelectorAll(tag).forEach(el => {
-      if (tag === 'code' && el.closest('pre')) {
-        const preCodeRules = rules['pre code']
+      if (tag === 'code' && el.closest('.code-block')) {
+        const preCodeRules = rules['.code-block code']
         if (preCodeRules) applyProps(el, preCodeRules)
         return
       }
@@ -730,7 +743,7 @@ async function updatePreview() {
 <body>
   <section style="margin:0;padding:0;width:100%;box-sizing:border-box;">
     <div data-tpl="header" class="tpl-header-box" style="${headerWrapStyle}">${headerLabel}${headerHtml}</div>
-    <div data-tpl="body" class="theme-${currentTheme.value}" style="padding:0 15px;word-break:break-all;overflow-wrap:break-word;">${bodyHtml}</div>
+    <div data-tpl="body" class="theme-${currentTheme.value}" style="padding:0 15px;overflow-wrap:break-word;">${bodyHtml}</div>
     <div data-tpl="footer" class="tpl-footer-box" style="${footerWrapStyle}">${footerLabel}${footerHtml}</div>
   </section>
 </body></html>`

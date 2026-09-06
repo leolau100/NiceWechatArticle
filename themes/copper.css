@@ -5,10 +5,10 @@
 .theme-copper h2{margin:1.5em 0 .7em;font-weight:700;font-size:1.35em;color:#d4a840;padding:8px 14px;background:rgba(180,136,42,.08);border-left:3px solid #b8882a}
 .theme-copper h3{margin:1.3em 0 .5em;font-weight:600;font-size:1.15em;color:#c09030;letter-spacing:.04em}
 .theme-copper h4,h5,h6{margin:1em 0 .4em;font-weight:600;color:#a87820}
-.theme-copper blockquote{margin:1.4em 0;padding:14px 18px;background:rgba(180,136,42,.07);border-left:3px solid #b8882a;color:#a88840;font-style:italic}
+.theme-copper blockquote{margin:1.4em 0;padding:3px 18px;background:rgba(180,136,42,.07);border-left:3px solid #b8882a;color:#a88840;font-style:italic}
 .theme-copper code{background:rgba(184,136,42,.1);padding:2px 7px;border-radius:3px;font-family:Consolas,Monaco,monospace;font-size:13px;color:#d4a840;border:1px solid rgba(184,136,42,.25)}
-.theme-copper pre{background:#0a0802;padding:16px;border-radius:6px;overflow-x:auto;margin:1.5em 0;font-family:Consolas,Monaco,monospace;font-size:13px;color:#d4c090;border:1px solid rgba(184,136,42,.2)}
-.theme-copper pre code{background:none;padding:0;border:none;color:inherit}
+.theme-copper .code-block{background:#0a0802;padding:16px;border-radius:6px;overflow-x:auto;margin:1.5em 0;font-family:Consolas,Monaco,monospace;font-size:13px;color:#d4c090;border:1px solid rgba(184,136,42,.2) white-space:pre-wrap;
+.theme-copper .code-block code{background:none;padding:0;border:none;color:inherit}
 .theme-copper strong{font-weight:700;color:#e8c460}
 .theme-copper em{color:#c09030;font-style:italic}
 .theme-copper a{color:#d4a840;text-decoration:none;border-bottom:1px solid rgba(212,168,64,.35)}
@@ -17,7 +17,7 @@
 .theme-copper ul>li::before{content:'⚙';position:absolute;left:-1.3em;color:#b8882a;font-size:.75em;line-height:2.1}
 .theme-copper ol{margin:.8em 0;padding-left:1.8em}
 .theme-copper li{margin:.4em 0;line-height:1.8;color:#c8b480}
-.theme-copper hr{border:none;height:1px;background:linear-gradient(90deg,transparent,#b8882a,#e8c460,#b8882a,transparent);margin:2em 0}
+.theme-copper hr{border:none;height:1px;background:#e8c460;margin:2em 0}
 .theme-copper table{border-collapse:collapse;width:100%;margin:1.5em 0}
 .theme-copper th{border:1px solid rgba(184,136,42,.3);padding:9px 13px;background:rgba(184,136,42,.1);color:#d4a840;font-weight:600}
 .theme-copper td{border:1px solid rgba(184,136,42,.14);padding:9px 13px;color:#c8b480}

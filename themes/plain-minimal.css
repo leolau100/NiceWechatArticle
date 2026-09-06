@@ -7,10 +7,10 @@
 .theme-plain-minimal h4 { margin:1.1em 0 0.4em;font-weight:700;font-size:1.1em;color:#111; }
 .theme-plain-minimal h5 { margin:1em 0 0.4em;font-weight:700;font-size:1em;color:#111; }
 .theme-plain-minimal h6 { margin:1em 0 0.3em;font-weight:700;font-size:0.95em;color:#666; }
-.theme-plain-minimal blockquote { margin:1.2em 0;padding-left:1em;color:#555;border-left:3px solid #ccc; }
+.theme-plain-minimal blockquote {padding-top:3px;padding-bottom:3px; margin:1.2em 0;padding-left:1em;color:#555;border-left:3px solid #ccc; }
 .theme-plain-minimal code { background:none;padding:0;font-family:Consolas,Monaco,monospace;font-size:13px;color:#c00; }
-.theme-plain-minimal pre { margin:1.4em 0;padding:12px;overflow-x:auto;font-family:Consolas,Monaco,monospace;font-size:13px;color:#333;background:none;border:1px solid #e0e0e0; }
-.theme-plain-minimal pre code { background:none;padding:0;color:inherit; }
+.theme-plain-minimal .code-block {margin:1.4em 0;padding:12px;overflow-x:auto;font-family:Consolas,Monaco,monospace;font-size:13px;color:#333;background:none;border:1px solid #e0e0e0; white-space:pre-wrap;
+.theme-plain-minimal .code-block code { background:none;padding:0;color:inherit; }
 .theme-plain-minimal strong { font-weight:700;color:#111; }
 .theme-plain-minimal em { font-style:italic;color:#333; }
 .theme-plain-minimal a { color:#0066cc;text-decoration:underline; }

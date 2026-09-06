@@ -2,23 +2,23 @@
 .theme-warm-orange p { margin:0.875rem 0;line-height:1.85;color:#374151;text-align:justify; }
 .theme-warm-orange h1 { margin:0 0 1.25rem;font-weight:700;color:#ea580c;font-size:1.5rem;line-height:1.4;border-bottom:3px solid #ea580c;padding-bottom:0.5rem; }
 .theme-warm-orange h2 { margin:1.25rem 0 0.75rem;font-weight:700;padding-left:1.25rem;color:#ea580c;font-size:1.35rem;line-height:1.5;position:relative; }
-.theme-warm-orange h2::before { content:'';position:absolute;left:0;top:50%;transform:translateY(-50%);width:6px;height:100%;background:linear-gradient(180deg,#f97316 0%,#ea580c 50%,#c2410c 100%);border-radius:3px; }
+.theme-warm-orange h2::before { content:'';position:absolute;left:0;top:50%;transform:translateY(-50%);width:6px;height:100%;background:#ea580c 50%;border-radius:3px; }
 .theme-warm-orange h3 { margin:1rem 0 0.75rem;padding-left:1.5rem;color:#f97316;font-weight:600;line-height:1.5;font-size:1.15rem;position:relative; }
 .theme-warm-orange h3::before { content:'●';position:absolute;left:0;top:0;color:#fb923c;font-size:1.25rem;line-height:1.5; }
 .theme-warm-orange h4 { margin:0.8rem 0 0.5rem;font-weight:600;color:#ea580c;font-size:1.1em; }
 .theme-warm-orange h5 { margin:0.6rem 0 0.4rem;font-weight:600;color:#ea580c;font-size:1em; }
 .theme-warm-orange h6 { margin:0.5rem 0 0.3rem;font-weight:600;color:#ea580c;font-size:0.95em; }
-.theme-warm-orange blockquote { margin:1.25rem 0;padding:1.75rem 1.5rem 1.25rem;background:linear-gradient(135deg,rgba(255,237,213,0.8) 0%,rgba(254,243,199,0.6) 100%);border-left:5px solid #f97316;border-radius:0 10px 10px 0;position:relative;font-style:normal;color:#4b5563;box-shadow:0 2px 8px rgba(249,115,22,0.1); }
+.theme-warm-orange blockquote { margin:1.25rem 0;padding:3px 1.5rem 3px 1.5rem;background:rgba(254,243,199,0.6)135deg,rgba(255,237,213,0.8) 0%,rgba(254,243,199,0.6) 100%);border-left:5px solid #f97316;border-radius:0 10px 10px 0;position:relative;font-style:normal;color:#4b5563;box-shadow:0 2px 8px rgba(249,115,22,0.1); }
 .theme-warm-orange blockquote::before { content:'❝';position:absolute;top:0.75rem;left:1rem;color:rgba(249,115,22,0.3);font-size:2.5rem;font-family:Georgia,serif;line-height:1; }
-.theme-warm-orange code { display:inline-block;margin:0 0.125rem;font-size:0.75rem;font-family:'SF Mono',Monaco,'Cascadia Code','Roboto Mono',monospace;padding:0.1rem 0.4rem;color:#ea580c;background:linear-gradient(135deg,rgba(255,237,213,0.6) 0%,rgba(254,243,199,0.4) 100%);border-radius:6px; }
-.theme-warm-orange pre { background:#431407;padding:16px;border-radius:8px;overflow-x:auto;margin:1.5em 0;font-family:'SF Mono',Monaco,'Cascadia Code','Roboto Mono',monospace;font-size:14px;color:#fed7aa; }
-.theme-warm-orange pre code { background:none;padding:0;border-radius:0;color:inherit; }
-.theme-warm-orange strong { font-weight:700;color:#ea580c;background:linear-gradient(135deg,rgba(255,237,213,0.4) 0%,transparent 100%);padding:0 3px;border-radius:3px; }
+.theme-warm-orange code { display:inline-block;margin:0 0.125rem;font-size:0.75rem;font-family:'SF Mono',Monaco,'Cascadia Code','Roboto Mono',monospace;padding:0.1rem 0.4rem;color:#ea580c;background:rgba(254,243,199,0.4)135deg,rgba(255,237,213,0.6) 0%,rgba(254,243,199,0.4) 100%);border-radius:6px; }
+.theme-warm-orange .code-block {background:#431407;padding:16px;border-radius:8px;overflow-x:auto;margin:1.5em 0;font-family:'SF Mono',Monaco,'Cascadia Code','Roboto Mono',monospace;font-size:14px;color:#fed7aa; white-space:pre-wrap;
+.theme-warm-orange .code-block code { background:none;padding:0;border-radius:0;color:inherit; }
+.theme-warm-orange strong { font-weight:700;color:#ea580c;background:rgba(255,237,213,0.4)135deg,rgba(255,237,213,0.4) 0%,transparent 100%);padding:0 3px;border-radius:3px; }
 .theme-warm-orange a { color:#ea580c;text-decoration:none;border-bottom:2px solid rgba(234,88,12,0.3);padding-bottom:1px;font-weight:500; }
 .theme-warm-orange ul { margin:0.75rem 0;padding-left:0;list-style:none; }
 .theme-warm-orange ol { margin:0.75rem 0;padding-left:0;list-style:none; }
 .theme-warm-orange li { position:relative;margin:0.5rem 0;padding-left:1.5rem;color:#374151;line-height:1.8; }
-.theme-warm-orange hr { height:3px;margin:2rem 0;background:linear-gradient(90deg,transparent 0%,#fed7aa 20%,#f97316 50%,#fed7aa 80%,transparent 100%);border:none;border-radius:3px; }
+.theme-warm-orange hr { height:3px;margin:2rem 0;background:#f97316 50%;border:none;border-radius:3px; }
 .theme-warm-orange table { border-collapse:collapse;width:100%;margin:1.5em 0; }
 .theme-warm-orange th { border:1px solid #fdba74;padding:10px 14px;text-align:left;background:#fff7ed;color:#c2410c;font-weight:600; }
 .theme-warm-orange td { border:1px solid #fdba74;padding:10px 14px;text-align:left;color:#374151; }

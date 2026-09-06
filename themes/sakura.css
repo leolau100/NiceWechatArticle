@@ -3,15 +3,15 @@
 .theme-sakura p { margin:0.9em 0;line-height:1.9;color:#3a2030;font-size:15px; }
 .theme-sakura h1 { margin:1.8em 0 0.8em;font-weight:700;font-size:1.8em;color:#c2185b;text-align:center;position:relative;padding-bottom:0.6em; }
 .theme-sakura h1::after { content:'🌸';position:absolute;bottom:0;left:50%;transform:translateX(-50%);font-size:0.7em; }
-.theme-sakura h2 { margin:1.5em 0 0.7em;font-weight:700;font-size:1.35em;color:#ad1457;padding:7px 14px;background:linear-gradient(135deg,rgba(252,228,236,0.8),rgba(248,187,208,0.5));border-left:4px solid #e91e8c;border-radius:0 10px 10px 0; }
+.theme-sakura h2 { margin:1.5em 0 0.7em;font-weight:700;font-size:1.35em;color:#ad1457;padding:7px 14px;background:rgba(248,187,208,0.5)135deg,rgba(252,228,236,0.8),rgba(248,187,208,0.5));border-left:4px solid #e91e8c;border-radius:0 10px 10px 0; }
 .theme-sakura h3 { margin:1.3em 0 0.5em;font-weight:600;font-size:1.15em;color:#c2185b;padding-left:0.8em;border-left:2px solid #f8bbd0; }
 .theme-sakura h4 { margin:1.1em 0 0.4em;font-weight:600;font-size:1.05em;color:#c2185b; }
 .theme-sakura h5 { margin:0.9em 0 0.3em;font-weight:600;font-size:1em;color:#c2185b; }
 .theme-sakura h6 { margin:0.8em 0 0.3em;font-weight:600;font-size:0.95em;color:#c2185b; }
-.theme-sakura blockquote { margin:1.4em 0;padding:14px 18px;background:rgba(248,187,208,0.2);border-left:4px solid #e91e8c;border-radius:0 12px 12px 0;color:#7a1040;font-style:italic; }
+.theme-sakura blockquote { margin:1.4em 0;padding:3px 18px;background:rgba(248,187,208,0.2);border-left:4px solid #e91e8c;border-radius:0 12px 12px 0;color:#7a1040;font-style:italic; }
 .theme-sakura code { background:rgba(233,30,140,0.08);padding:2px 7px;border-radius:5px;font-family:Consolas,Monaco,monospace;font-size:13px;color:#c2185b;border:1px solid rgba(233,30,140,0.18); }
-.theme-sakura pre { background:#1a0510;padding:16px;border-radius:10px;overflow-x:auto;margin:1.5em 0;font-family:Consolas,Monaco,monospace;font-size:13px;color:#ffc1e3; }
-.theme-sakura pre code { background:none;padding:0;border:none;color:inherit;font-size:inherit; }
+.theme-sakura .code-block {background:#1a0510;padding:16px;border-radius:10px;overflow-x:auto;margin:1.5em 0;font-family:Consolas,Monaco,monospace;font-size:13px;color:#ffc1e3; white-space:pre-wrap;
+.theme-sakura .code-block code { background:none;padding:0;border:none;color:inherit;font-size:inherit; }
 .theme-sakura strong { font-weight:700;color:#c2185b; }
 .theme-sakura em { color:#e91e8c;font-style:italic; }
 .theme-sakura a { color:#ad1457;text-decoration:none;border-bottom:1px solid rgba(173,20,87,0.35); }
@@ -20,7 +20,7 @@
 .theme-sakura ul > li::before { content:'🌸';position:absolute;left:-1.5em;font-size:0.7em;line-height:2.2; }
 .theme-sakura ol { margin:0.8em 0;padding-left:1.8em; }
 .theme-sakura li { margin:0.4em 0;line-height:1.8;color:#3a2030; }
-.theme-sakura hr { border:none;height:1px;background:linear-gradient(90deg,transparent,#f48fb1,transparent);margin:2em 0; }
+.theme-sakura hr { border:none;height:1px;background:#f48fb1;margin:2em 0; }
 .theme-sakura table { border-collapse:collapse;width:100%;margin:1.5em 0; }
 .theme-sakura th { border:1px solid rgba(233,30,140,0.25);padding:9px 13px;text-align:left;background:rgba(248,187,208,0.2);color:#ad1457;font-weight:600; }
 .theme-sakura td { border:1px solid rgba(233,30,140,0.12);padding:9px 13px;color:#3a2030; }

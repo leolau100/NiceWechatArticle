@@ -10,10 +10,10 @@
 .theme-minimal-blue h4 { margin:1.5em 0 0.8em;font-weight:700;color:#333333;font-size:16px; }
 .theme-minimal-blue h5 { margin:1.2em 0 0.6em;font-weight:700;color:#333333;font-size:15px; }
 .theme-minimal-blue h6 { margin:1em 0 0.5em;font-weight:700;color:#333333;font-size:14px; }
-.theme-minimal-blue blockquote { margin:1.5em 0;padding:16px;color:#666666;background:#ffffff;border-left:4px solid #1a6dfc;border-radius:0 8px 8px 0;box-shadow:0 2px 12px rgba(0,0,0,0.03); }
+.theme-minimal-blue blockquote { margin:1.5em 0;padding:3px 16px;color:#666666;background:#ffffff;border-left:4px solid #1a6dfc;border-radius:0 8px 8px 0;box-shadow:0 2px 12px rgba(0,0,0,0.03); }
 .theme-minimal-blue code { display:inline-block;margin:0 0.125rem;padding:0.125rem 0.375rem;font-size:0.75rem;font-family:'SF Mono',Monaco,'Cascadia Code','Roboto Mono',monospace;line-height:1rem;background:rgba(26,109,252,0.1);border-radius:0.25rem;color:#1a6dfc; }
-.theme-minimal-blue pre { background:#0f172a;padding:16px;border-radius:8px;overflow-x:auto;margin:1.5em 0;font-family:'SF Mono',Monaco,monospace;font-size:14px;color:#93c5fd; }
-.theme-minimal-blue pre code { background:none;padding:0;border-radius:0;color:inherit;font-size:inherit; }
+.theme-minimal-blue .code-block {background:#0f172a;padding:16px;border-radius:8px;overflow-x:auto;margin:1.5em 0;font-family:'SF Mono',Monaco,monospace;font-size:14px;color:#93c5fd; white-space:pre-wrap;
+.theme-minimal-blue .code-block code { background:none;padding:0;border-radius:0;color:inherit;font-size:inherit; }
 .theme-minimal-blue strong { font-weight:600;color:#1a6dfc; }
 .theme-minimal-blue a { color:#1a6dfc;text-decoration:none;border-bottom:1px solid rgba(26,109,252,0.3);transition:border-color 0.2s; }
 .theme-minimal-blue ul { margin:0.5rem 0;padding-left:1.5rem;list-style-type:disc; }

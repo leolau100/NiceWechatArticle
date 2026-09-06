@@ -2,16 +2,16 @@
 .theme-rose-gold { font-family:'PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif;background:#fffaf9;color:#2d1f1f; }
 .theme-rose-gold p { margin:0.9em 0;line-height:1.85;color:#2d1f1f;font-size:15px; }
 .theme-rose-gold h1 { margin:1.8em 0 0.8em;font-weight:700;font-size:1.8em;color:#1a0a0a;text-align:center;position:relative;padding-bottom:0.6em; }
-.theme-rose-gold h1::after { content:'';position:absolute;bottom:0;left:50%;transform:translateX(-50%);width:80px;height:2px;background:linear-gradient(90deg,#e8a4a4,#c8748c,#e8a4a4); }
-.theme-rose-gold h2 { margin:1.6em 0 0.7em;font-weight:700;font-size:1.35em;color:#8b2252;padding:6px 14px;background:linear-gradient(135deg,rgba(232,164,164,0.18),rgba(200,116,140,0.1));border-left:4px solid #c8748c;border-radius:0 6px 6px 0; }
+.theme-rose-gold h1::after { content:'';position:absolute;bottom:0;left:50%;transform:translateX(-50%);width:80px;height:2px;background:#c8748c; }
+.theme-rose-gold h2 { margin:1.6em 0 0.7em;font-weight:700;font-size:1.35em;color:#8b2252;padding:6px 14px;background:rgba(200,116,140,0.1)135deg,rgba(232,164,164,0.18),rgba(200,116,140,0.1));border-left:4px solid #c8748c;border-radius:0 6px 6px 0; }
 .theme-rose-gold h3 { margin:1.3em 0 0.5em;font-weight:600;font-size:1.15em;color:#a03060;padding-left:0.8em;border-left:2px solid #e8a4a4; }
 .theme-rose-gold h4 { margin:1.1em 0 0.4em;font-weight:600;font-size:1.05em;color:#a03060; }
 .theme-rose-gold h5 { margin:0.9em 0 0.3em;font-weight:600;font-size:1em;color:#a03060; }
 .theme-rose-gold h6 { margin:0.8em 0 0.3em;font-weight:600;font-size:0.95em;color:#a03060; }
-.theme-rose-gold blockquote { margin:1.4em 0;padding:14px 18px;background:linear-gradient(135deg,rgba(232,164,164,0.15),rgba(255,240,244,0.8));border-left:4px solid #c8748c;border-radius:0 8px 8px 0;color:#6b2040;font-style:italic; }
+.theme-rose-gold blockquote { margin:1.4em 0;padding:3px 18px;background:rgba(255,240,244,0.8)135deg,rgba(232,164,164,0.15),rgba(255,240,244,0.8));border-left:4px solid #c8748c;border-radius:0 8px 8px 0;color:#6b2040;font-style:italic; }
 .theme-rose-gold code { background:rgba(200,116,140,0.1);padding:2px 7px;border-radius:4px;font-family:Consolas,Monaco,monospace;font-size:13px;color:#c8748c;border:1px solid rgba(200,116,140,0.2); }
-.theme-rose-gold pre { background:#1a0a10;padding:16px;border-radius:8px;overflow-x:auto;margin:1.5em 0;font-family:Consolas,Monaco,monospace;font-size:13px;color:#f4c2c2; }
-.theme-rose-gold pre code { background:none;padding:0;border:none;color:inherit;font-size:inherit; }
+.theme-rose-gold .code-block {background:#1a0a10;padding:16px;border-radius:8px;overflow-x:auto;margin:1.5em 0;font-family:Consolas,Monaco,monospace;font-size:13px;color:#f4c2c2; white-space:pre-wrap;
+.theme-rose-gold .code-block code { background:none;padding:0;border:none;color:inherit;font-size:inherit; }
 .theme-rose-gold strong { font-weight:700;color:#c8748c; }
 .theme-rose-gold em { color:#a03060;font-style:italic; }
 .theme-rose-gold a { color:#c8748c;text-decoration:none;border-bottom:1px solid rgba(200,116,140,0.4); }

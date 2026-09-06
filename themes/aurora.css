@@ -1,14 +1,14 @@
 /* Aurora · 极光幻彩 */
 .theme-aurora{font-family:'PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif;background:#f0fff8;color:#0a2a1a}
 .theme-aurora p{margin:.9em 0;line-height:1.85;color:#1a3a2a;font-size:15px}
-.theme-aurora h1{margin:1.8em 0 .8em;font-weight:800;font-size:1.8em;text-align:center;padding:14px 20px;background:linear-gradient(135deg,#00c896,#00a8e8,#7b5ea7);color:#fff;border-radius:12px;letter-spacing:.02em}
+.theme-aurora h1{margin:1.8em 0 .8em;font-weight:800;font-size:1.8em;text-align:center;padding:14px 20px;background:#00a8e8;color:#fff;border-radius:12px;letter-spacing:.02em}
 .theme-aurora h2{margin:1.5em 0 .7em;font-weight:700;font-size:1.35em;color:#00a878;padding:7px 14px;background:rgba(0,200,150,.09);border-left:4px solid #00c896;border-radius:0 8px 8px 0}
 .theme-aurora h3{margin:1.3em 0 .5em;font-weight:600;font-size:1.15em;color:#00a8e8;padding-left:.8em;border-left:2px solid #7be8d4}
 .theme-aurora h4,h5,h6{margin:1em 0 .4em;font-weight:600;color:#00a878}
-.theme-aurora blockquote{margin:1.4em 0;padding:14px 18px;background:rgba(0,200,150,.07);border-left:4px solid #00c896;border-radius:0 8px 8px 0;color:#0a4a30;font-style:italic}
+.theme-aurora blockquote{margin:1.4em 0;padding:3px 18px;background:rgba(0,200,150,.07);border-left:4px solid #00c896;border-radius:0 8px 8px 0;color:#0a4a30;font-style:italic}
 .theme-aurora code{background:rgba(0,168,232,.1);padding:2px 7px;border-radius:4px;font-family:Consolas,Monaco,monospace;font-size:13px;color:#0078b4;border:1px solid rgba(0,168,232,.2)}
-.theme-aurora pre{background:#061a10;padding:16px;border-radius:10px;overflow-x:auto;margin:1.5em 0;font-family:Consolas,Monaco,monospace;font-size:13px;color:#7be8d4}
-.theme-aurora pre code{background:none;padding:0;border:none;color:inherit}
+.theme-aurora .code-block{background:#061a10;padding:16px;border-radius:10px;overflow-x:auto;margin:1.5em 0;font-family:Consolas,Monaco,monospace;font-size:13px;color:#7be8d4 white-space:pre-wrap;
+.theme-aurora .code-block code{background:none;padding:0;border:none;color:inherit}
 .theme-aurora strong{font-weight:700;color:#00a878}
 .theme-aurora em{color:#00a8e8;font-style:italic}
 .theme-aurora a{color:#00a878;text-decoration:none;border-bottom:1px solid rgba(0,200,150,.4)}
@@ -17,7 +17,7 @@
 .theme-aurora ul>li::before{content:'◎';position:absolute;left:-1.2em;color:#00c896;font-size:.75em;line-height:2.2}
 .theme-aurora ol{margin:.8em 0;padding-left:1.8em}
 .theme-aurora li{margin:.4em 0;line-height:1.8;color:#1a3a2a}
-.theme-aurora hr{border:none;height:2px;background:linear-gradient(90deg,transparent,#00c896,#00a8e8,transparent);margin:2em 0}
+.theme-aurora hr{border:none;height:2px;background:#00c896;margin:2em 0}
 .theme-aurora table{border-collapse:collapse;width:100%;margin:1.5em 0}
 .theme-aurora th{border:1px solid rgba(0,200,150,.28);padding:9px 13px;background:rgba(0,200,150,.1);color:#007a5a;font-weight:600}
 .theme-aurora td{border:1px solid rgba(0,200,150,.14);padding:9px 13px;color:#1a3a2a}

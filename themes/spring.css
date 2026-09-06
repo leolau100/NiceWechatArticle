@@ -1,14 +1,14 @@
 /* Spring · 春日百花 */
 .theme-spring{font-family:'PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif;background:#fffef8;color:#1a1a10}
 .theme-spring p{margin:.9em 0;line-height:1.85;color:#2a2a18;font-size:15px}
-.theme-spring h1{margin:1.8em 0 .8em;font-weight:800;font-size:1.8em;text-align:center;padding:14px 20px;background:linear-gradient(135deg,#56ab2f,#a8e063);color:#fff;border-radius:12px;text-shadow:0 1px 3px rgba(0,0,0,.15)}
+.theme-spring h1{margin:1.8em 0 .8em;font-weight:800;font-size:1.8em;text-align:center;padding:14px 20px;background:#56ab2f;color:#fff;border-radius:12px;text-shadow:0 1px 3px rgba(0,0,0,.15)}
 .theme-spring h2{margin:1.5em 0 .7em;font-weight:700;font-size:1.35em;color:#2d7a18;padding:7px 14px;background:rgba(86,171,47,.1);border-left:4px solid #56ab2f;border-radius:0 8px 8px 0}
 .theme-spring h3{margin:1.3em 0 .5em;font-weight:600;font-size:1.15em;color:#3d8a20;padding-left:.8em;border-left:2px solid #a8e063}
 .theme-spring h4,h5,h6{margin:1em 0 .4em;font-weight:600;color:#2d7a18}
-.theme-spring blockquote{margin:1.4em 0;padding:14px 18px;background:rgba(86,171,47,.08);border-left:4px solid #56ab2f;border-radius:0 10px 10px 0;color:#1a4a08;font-style:italic}
+.theme-spring blockquote{margin:1.4em 0;padding:3px 18px;background:rgba(86,171,47,.08);border-left:4px solid #56ab2f;border-radius:0 10px 10px 0;color:#1a4a08;font-style:italic}
 .theme-spring code{background:rgba(86,171,47,.1);padding:2px 7px;border-radius:5px;font-family:Consolas,Monaco,monospace;font-size:13px;color:#2d7a18;border:1px solid rgba(86,171,47,.22)}
-.theme-spring pre{background:#0a1a05;padding:16px;border-radius:10px;overflow-x:auto;margin:1.5em 0;font-family:Consolas,Monaco,monospace;font-size:13px;color:#c8f0a0}
-.theme-spring pre code{background:none;padding:0;border:none;color:inherit}
+.theme-spring .code-block{background:#0a1a05;padding:16px;border-radius:10px;overflow-x:auto;margin:1.5em 0;font-family:Consolas,Monaco,monospace;font-size:13px;color:#c8f0a0 white-space:pre-wrap;
+.theme-spring .code-block code{background:none;padding:0;border:none;color:inherit}
 .theme-spring strong{font-weight:700;color:#2d7a18}
 .theme-spring em{color:#4a9a20;font-style:italic}
 .theme-spring a{color:#2d7a18;text-decoration:none;border-bottom:1px solid rgba(45,122,24,.4)}
@@ -17,7 +17,7 @@
 .theme-spring ul>li::before{content:'🌱';position:absolute;left:-1.5em;font-size:.72em;line-height:2.1}
 .theme-spring ol{margin:.8em 0;padding-left:1.8em}
 .theme-spring li{margin:.4em 0;line-height:1.8;color:#2a2a18}
-.theme-spring hr{border:none;height:2px;background:linear-gradient(90deg,transparent,#56ab2f,#a8e063,transparent);margin:2em 0}
+.theme-spring hr{border:none;height:2px;background:#56ab2f;margin:2em 0}
 .theme-spring table{border-collapse:collapse;width:100%;margin:1.5em 0}
 .theme-spring th{border:1px solid rgba(86,171,47,.28);padding:9px 13px;background:rgba(86,171,47,.1);color:#1d5a0a;font-weight:600}
 .theme-spring td{border:1px solid rgba(86,171,47,.14);padding:9px 13px;color:#2a2a18}

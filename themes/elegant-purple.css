@@ -1,26 +1,26 @@
 /* 主题：优雅紫色风 - 参考优雅紫色风.html */
 .theme-elegant-purple p { margin:0.875rem 0;line-height:1.85;color:#374151;text-align:justify; }
-.theme-elegant-purple h1 { margin:0 0 1.25rem;font-weight:700;color:#6b46c1;font-size:1.5rem;line-height:1.4;border-bottom:3px solid;border-image:linear-gradient(90deg,#8b5cf6 0%,#a78bfa 50%,#c4b5fd 100%) 1;padding-bottom:0.5rem;position:relative; }
-.theme-elegant-purple h2 { margin:1.75rem 0 1rem;font-weight:700;padding:0.5rem 0.75rem;color:#7c3aed;font-size:1.35rem;line-height:1.4;background:linear-gradient(90deg,rgba(139,92,246,0.08) 0%,transparent 100%);border-left:4px solid #8b5cf6;border-radius:0 4px 4px 0; }
+.theme-elegant-purple h1 { margin:0 0 1.25rem;font-weight:700;color:#6b46c1;font-size:1.5rem;line-height:1.4;border-bottom:3px solid;border-image:#a78bfa 50% 1;padding-bottom:0.5rem;position:relative; }
+.theme-elegant-purple h2 { margin:1.75rem 0 1rem;font-weight:700;padding:0.5rem 0.75rem;color:#7c3aed;font-size:1.35rem;line-height:1.4;background:rgba(139,92,246,0.08)90deg,rgba(139,92,246,0.08) 0%,transparent 100%);border-left:4px solid #8b5cf6;border-radius:0 4px 4px 0; }
 .theme-elegant-purple h3 { margin:1.5rem 0 0.875rem;padding-left:1.75rem;color:#8b5cf6;font-weight:600;font-size:1.15rem;line-height:1.4;position:relative; }
 .theme-elegant-purple h3::before { content:'◆';position:absolute;left:0;color:#a78bfa;font-size:1.25rem;line-height:1.4; }
 .theme-elegant-purple h4 { margin:1rem 0 0.5rem;font-weight:600;color:#7c3aed;font-size:1.1em; }
 .theme-elegant-purple h5 { margin:0.8rem 0 0.4rem;font-weight:600;color:#7c3aed;font-size:1em; }
 .theme-elegant-purple h6 { margin:0.6rem 0 0.3rem;font-weight:600;color:#7c3aed;font-size:0.95em; }
-.theme-elegant-purple blockquote { margin:1.25rem 0;padding:1.25rem 1.5rem;background:linear-gradient(135deg,rgba(139,92,246,0.1) 0%,rgba(167,139,250,0.08) 100%);border-left:4px solid #8b5cf6;border-top-right-radius:8px;border-bottom-right-radius:8px;box-shadow:0 2px 8px rgba(139,92,246,0.1);font-style:italic;color:#4b5563; }
-.theme-elegant-purple code { display:inline-block;margin:0 0.25rem;padding:0.1rem 0.4rem;color:#7c3aed;font-weight:500;font-size:0.75rem;font-family:'SF Mono','Monaco','Cascadia Code','Roboto Mono',monospace;line-height:1.5;background:linear-gradient(135deg,rgba(139,92,246,0.15) 0%,rgba(167,139,250,0.12) 100%);border-radius:4px; }
-.theme-elegant-purple pre { background:#1e1b4b;padding:16px;border-radius:8px;overflow-x:auto;margin:1.5em 0;font-family:'SF Mono',Monaco,monospace;font-size:14px;color:#c4b5fd; }
-.theme-elegant-purple pre code { background:none;padding:0;border-radius:0;color:inherit;font-size:inherit; }
-.theme-elegant-purple strong { font-weight:700;color:#6b46c1;background:linear-gradient(135deg,rgba(139,92,246,0.1) 0%,transparent 100%);padding:0 2px; }
+.theme-elegant-purple blockquote { margin:1.25rem 0;padding:3px 1.5rem;background:rgba(167,139,250,0.08)135deg,rgba(139,92,246,0.1) 0%,rgba(167,139,250,0.08) 100%);border-left:4px solid #8b5cf6;border-top-right-radius:8px;border-bottom-right-radius:8px;box-shadow:0 2px 8px rgba(139,92,246,0.1);font-style:italic;color:#4b5563; }
+.theme-elegant-purple code { display:inline-block;margin:0 0.25rem;padding:0.1rem 0.4rem;color:#7c3aed;font-weight:500;font-size:0.75rem;font-family:'SF Mono','Monaco','Cascadia Code','Roboto Mono',monospace;line-height:1.5;background:rgba(167,139,250,0.12)135deg,rgba(139,92,246,0.15) 0%,rgba(167,139,250,0.12) 100%);border-radius:4px; }
+.theme-elegant-purple .code-block {background:#1e1b4b;padding:16px;border-radius:8px;overflow-x:auto;margin:1.5em 0;font-family:'SF Mono',Monaco,monospace;font-size:14px;color:#c4b5fd; white-space:pre-wrap;
+.theme-elegant-purple .code-block code { background:none;padding:0;border-radius:0;color:inherit;font-size:inherit; }
+.theme-elegant-purple strong { font-weight:700;color:#6b46c1;background:rgba(139,92,246,0.1)135deg,rgba(139,92,246,0.1) 0%,transparent 100%);padding:0 2px; }
 .theme-elegant-purple a { color:#7c3aed;text-decoration:none;border-bottom:1.5px solid rgba(124,58,237,0.3);padding-bottom:1px;transition:all 0.2s ease; }
 .theme-elegant-purple ul { margin:0.75rem 0;padding-left:0;list-style:none; }
 .theme-elegant-purple ol { margin:0.75rem 0;padding-left:0;list-style:none;counter-reset:list-counter; }
 .theme-elegant-purple li { position:relative;margin:0.5rem 0;padding-left:1.5rem;color:#374151;line-height:1.8; }
 .theme-elegant-purple ul > li::before { content:'▸';position:absolute;left:0;color:#8b5cf6;font-weight:bold;font-size:1em;line-height:1.8; }
 .theme-elegant-purple ol > li { counter-increment:list-counter;padding-left:2rem; }
-.theme-elegant-purple ol > li::before { content:counter(list-counter);position:absolute;top:0.3em;left:0;display:flex;align-items:center;justify-content:center;width:1.4rem;height:1.4rem;color:white;font-weight:600;font-size:0.75rem;background:linear-gradient(135deg,#8b5cf6,#a78bfa);border-radius:50%; }
-.theme-elegant-purple hr { height:2px;margin:2rem 0;background:linear-gradient(90deg,transparent 0%,#c4b5fd 20%,#8b5cf6 50%,#c4b5fd 80%,transparent 100%);border:none;border-radius:2px; }
+.theme-elegant-purple ol > li::before { content:counter(list-counter);position:absolute;top:0.3em;left:0;display:flex;align-items:center;justify-content:center;width:1.4rem;height:1.4rem;color:white;font-weight:600;font-size:0.75rem;background:#8b5cf6;border-radius:50%; }
+.theme-elegant-purple hr { height:2px;margin:2rem 0;background:#8b5cf6 50%;border:none;border-radius:2px; }
 .theme-elegant-purple table { border-collapse:collapse;width:100%;margin:1.5em 0; }
-.theme-elegant-purple th { border:1px solid #ddd6fe;padding:10px 14px;text-align:left;background:linear-gradient(90deg,rgba(139,92,246,0.08) 0%,transparent 100%);color:#6b46c1;font-weight:600; }
+.theme-elegant-purple th { border:1px solid #ddd6fe;padding:10px 14px;text-align:left;background:rgba(139,92,246,0.08)90deg,rgba(139,92,246,0.08) 0%,transparent 100%);color:#6b46c1;font-weight:600; }
 .theme-elegant-purple td { border:1px solid #ddd6fe;padding:10px 14px;text-align:left;color:#374151; }
 .theme-elegant-purple img { max-width:100%;height:auto;border-radius:4px;margin:1em 0; }

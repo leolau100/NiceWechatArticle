@@ -9,11 +9,11 @@
 .theme-pop-art h4 { margin:1.5em 0 0.6em;font-weight:900;color:#000000;font-size:1.1rem; }
 .theme-pop-art h5 { margin:1.2em 0 0.5em;font-weight:900;color:#000000;font-size:1rem; }
 .theme-pop-art h6 { margin:1em 0 0.4em;font-weight:900;color:#000000;font-size:0.95rem; }
-.theme-pop-art blockquote { margin:1.5em 0;padding:16px;background:#ffffff;border:3px solid #000000;border-left-width:8px;color:#333333;box-shadow:6px 6px 0px #eeeeee; }
+.theme-pop-art blockquote { margin:1.5em 0;padding:3px 16px;background:#ffffff;border:3px solid #000000;border-left-width:8px;color:#333333;box-shadow:6px 6px 0px #eeeeee; }
 .theme-pop-art code { display:inline-block;margin:0 0.125rem;font-size:0.75rem;font-family:'SF Mono',Monaco,'Cascadia Code','Roboto Mono',monospace;line-height:1rem;background:#000000;color:#ffd43b;padding:2px 6px;border-radius:4px;font-weight:600; }
-.theme-pop-art pre { background:#000000;padding:16px;border-radius:0;overflow-x:auto;margin:1.5em 0;font-family:'SF Mono',Monaco,monospace;font-size:14px;color:#ffd43b;border:3px solid #000000;box-shadow:6px 6px 0px #ffd43b; }
-.theme-pop-art pre code { background:none;padding:0;border-radius:0;color:inherit;font-size:inherit; }
-.theme-pop-art strong { font-weight:800;color:#000000;background:linear-gradient(120deg,#ffd43b 0%,#ffd43b 100%);background-repeat:no-repeat;background-size:100% 40%;background-position:0 88%;padding:0 2px; }
+.theme-pop-art .code-block {background:#000000;padding:16px;border-radius:0;overflow-x:auto;margin:1.5em 0;font-family:'SF Mono',Monaco,monospace;font-size:14px;color:#ffd43b;border:3px solid #000000;box-shadow:6px 6px 0px #ffd43b; white-space:pre-wrap;
+.theme-pop-art .code-block code { background:none;padding:0;border-radius:0;color:inherit;font-size:inherit; }
+.theme-pop-art strong { font-weight:800;color:#000000;background:#ffd43b 0%;background-repeat:no-repeat;background-size:100% 40%;background-position:0 88%;padding:0 2px; }
 .theme-pop-art a { color:#000000;text-decoration:none;border-bottom:3px solid #ff6bcb;font-weight:700; }
 .theme-pop-art ul { margin:0.5rem 0;padding-left:1.5rem;list-style-type:disc; }
 .theme-pop-art ol { margin:0.5rem 0;padding-left:1.5rem;list-style-type:decimal; }

@@ -1,14 +1,14 @@
 /* Indigo · 靛蓝深海 */
 .theme-indigo{font-family:'PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif;background:#f5f7ff;color:#1a1a35}
 .theme-indigo p{margin:.9em 0;line-height:1.85;color:#252550;font-size:15px}
-.theme-indigo h1{margin:1.8em 0 .8em;font-weight:800;font-size:1.8em;color:#fff;text-align:center;padding:14px 20px;background:linear-gradient(135deg,#3730a3,#4f46e5,#6366f1);border-radius:10px;letter-spacing:.02em}
+.theme-indigo h1{margin:1.8em 0 .8em;font-weight:800;font-size:1.8em;color:#fff;text-align:center;padding:14px 20px;background:#4f46e5;border-radius:10px;letter-spacing:.02em}
 .theme-indigo h2{margin:1.5em 0 .7em;font-weight:700;font-size:1.35em;color:#3730a3;padding:8px 14px;background:rgba(67,56,163,.08);border-left:4px solid #4338ca;border-radius:0 6px 6px 0}
 .theme-indigo h3{margin:1.3em 0 .5em;font-weight:600;font-size:1.15em;color:#4f46e5;padding-left:.8em;border-left:2px solid #a5b4fc}
 .theme-indigo h4,h5,h6{margin:1em 0 .4em;font-weight:600;color:#4338ca}
-.theme-indigo blockquote{margin:1.4em 0;padding:14px 18px;background:rgba(79,70,229,.07);border-left:4px solid #6366f1;border-radius:0 8px 8px 0;color:#3730a3;font-style:italic}
+.theme-indigo blockquote{margin:1.4em 0;padding:3px 18px;background:rgba(79,70,229,.07);border-left:4px solid #6366f1;border-radius:0 8px 8px 0;color:#3730a3;font-style:italic}
 .theme-indigo code{background:rgba(99,102,241,.1);padding:2px 7px;border-radius:4px;font-family:Consolas,Monaco,monospace;font-size:13px;color:#4f46e5;border:1px solid rgba(99,102,241,.22)}
-.theme-indigo pre{background:#1e1b4b;padding:16px;border-radius:10px;overflow-x:auto;margin:1.5em 0;font-family:Consolas,Monaco,monospace;font-size:13px;color:#a5b4fc}
-.theme-indigo pre code{background:none;padding:0;border:none;color:inherit}
+.theme-indigo .code-block{background:#1e1b4b;padding:16px;border-radius:10px;overflow-x:auto;margin:1.5em 0;font-family:Consolas,Monaco,monospace;font-size:13px;color:#a5b4fc white-space:pre-wrap;
+.theme-indigo .code-block code{background:none;padding:0;border:none;color:inherit}
 .theme-indigo strong{font-weight:700;color:#3730a3}
 .theme-indigo em{color:#6366f1;font-style:italic}
 .theme-indigo a{color:#4f46e5;text-decoration:none;border-bottom:1px solid rgba(79,70,229,.35)}
@@ -17,7 +17,7 @@
 .theme-indigo ul>li::before{content:'◈';position:absolute;left:-1.2em;color:#6366f1;font-size:.75em;line-height:2.2}
 .theme-indigo ol{margin:.8em 0;padding-left:1.8em}
 .theme-indigo li{margin:.4em 0;line-height:1.8;color:#252550}
-.theme-indigo hr{border:none;height:2px;background:linear-gradient(90deg,transparent,#4f46e5,transparent);margin:2em 0}
+.theme-indigo hr{border:none;height:2px;background:#4f46e5;margin:2em 0}
 .theme-indigo table{border-collapse:collapse;width:100%;margin:1.5em 0}
 .theme-indigo th{border:1px solid rgba(79,70,229,.25);padding:9px 13px;background:rgba(79,70,229,.08);color:#3730a3;font-weight:600}
 .theme-indigo td{border:1px solid rgba(79,70,229,.12);padding:9px 13px;color:#252550}

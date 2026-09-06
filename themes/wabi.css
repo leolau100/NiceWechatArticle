@@ -6,10 +6,10 @@
 .theme-wabi h2{margin:1.8em 0 .8em;font-weight:700;font-size:1.3em;color:#3a2a18;padding-bottom:.4em;border-bottom:1px solid #c8b898;letter-spacing:.06em}
 .theme-wabi h3{margin:1.5em 0 .6em;font-weight:600;font-size:1.1em;color:#4a3a28;letter-spacing:.05em}
 .theme-wabi h4,h5,h6{margin:1.2em 0 .5em;font-weight:600;color:#4a3a28}
-.theme-wabi blockquote{margin:1.8em 1.5em;padding:14px 20px;background:rgba(160,144,112,.08);border:1px solid rgba(160,144,112,.25);color:#4a3a28;font-style:italic;line-height:2}
+.theme-wabi blockquote{margin:1.8em 1.5em;padding:3px 20px;background:rgba(160,144,112,.08);border:1px solid rgba(160,144,112,.25);color:#4a3a28;font-style:italic;line-height:2}
 .theme-wabi code{background:rgba(160,144,112,.12);padding:2px 6px;border-radius:2px;font-family:Consolas,Monaco,monospace;font-size:13px;color:#6a5a40;border:1px solid rgba(160,144,112,.22)}
-.theme-wabi pre{background:#1a1408;padding:16px;border-radius:4px;overflow-x:auto;margin:1.5em 0;font-family:Consolas,Monaco,monospace;font-size:13px;color:#d4c090}
-.theme-wabi pre code{background:none;padding:0;border:none;color:inherit}
+.theme-wabi .code-block{background:#1a1408;padding:16px;border-radius:4px;overflow-x:auto;margin:1.5em 0;font-family:Consolas,Monaco,monospace;font-size:13px;color:#d4c090 white-space:pre-wrap;
+.theme-wabi .code-block code{background:none;padding:0;border:none;color:inherit}
 .theme-wabi strong{font-weight:700;color:#2a1a08}
 .theme-wabi em{color:#5a4a30;font-style:italic}
 .theme-wabi a{color:#6a5040;text-decoration:none;border-bottom:1px dotted rgba(106,80,64,.5)}
@@ -18,7 +18,7 @@
 .theme-wabi ul>li::before{content:'·';position:absolute;left:-1em;color:#a09070;font-size:1.5em;line-height:1.3}
 .theme-wabi ol{margin:1em 0;padding-left:2em}
 .theme-wabi li{margin:.6em 0;line-height:1.9;color:#3a3028}
-.theme-wabi hr{border:none;height:1px;background:linear-gradient(90deg,transparent,#a09070,transparent);margin:3em auto;width:50%}
+.theme-wabi hr{border:none;height:1px;background:#a09070;margin:3em auto;width:50%}
 .theme-wabi table{border-collapse:collapse;width:100%;margin:1.5em 0}
 .theme-wabi th{border:1px solid rgba(160,144,112,.3);padding:9px 13px;background:rgba(160,144,112,.1);color:#2a1a08;font-weight:600}
 .theme-wabi td{border:1px solid rgba(160,144,112,.2);padding:9px 13px;color:#3a3028}

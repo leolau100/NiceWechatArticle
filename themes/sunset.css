@@ -1,16 +1,16 @@
 /* 主题：夕阳晚霞 */
 .theme-sunset { font-family:'PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif;background:#fff8f3;color:#2a1508; }
 .theme-sunset p { margin:0.9em 0;line-height:1.85;color:#3a2010;font-size:15px; }
-.theme-sunset h1 { margin:1.8em 0 0.8em;font-weight:800;font-size:1.8em;color:#fff;text-align:center;padding:14px 20px;background:linear-gradient(135deg,#ff6b35,#f7931e,#ffcd3c);border-radius:10px;text-shadow:0 1px 4px rgba(0,0,0,0.2); }
-.theme-sunset h2 { margin:1.5em 0 0.7em;font-weight:700;font-size:1.35em;color:#c0392b;padding:7px 14px;background:linear-gradient(135deg,rgba(255,107,53,0.12),rgba(247,147,30,0.08));border-left:4px solid #f7931e;border-radius:0 8px 8px 0; }
+.theme-sunset h1 { margin:1.8em 0 0.8em;font-weight:800;font-size:1.8em;color:#fff;text-align:center;padding:14px 20px;background:#f7931e;border-radius:10px;text-shadow:0 1px 4px rgba(0,0,0,0.2); }
+.theme-sunset h2 { margin:1.5em 0 0.7em;font-weight:700;font-size:1.35em;color:#c0392b;padding:7px 14px;background:rgba(247,147,30,0.08)135deg,rgba(255,107,53,0.12),rgba(247,147,30,0.08));border-left:4px solid #f7931e;border-radius:0 8px 8px 0; }
 .theme-sunset h3 { margin:1.3em 0 0.5em;font-weight:600;font-size:1.15em;color:#d4510e;padding-left:0.8em;border-left:2px solid #ffcd3c; }
 .theme-sunset h4 { margin:1.1em 0 0.4em;font-weight:600;font-size:1.05em;color:#d4510e; }
 .theme-sunset h5 { margin:0.9em 0 0.3em;font-weight:600;font-size:1em;color:#d4510e; }
 .theme-sunset h6 { margin:0.8em 0 0.3em;font-weight:600;font-size:0.95em;color:#d4510e; }
-.theme-sunset blockquote { margin:1.4em 0;padding:14px 18px;background:linear-gradient(135deg,rgba(255,107,53,0.08),rgba(255,205,60,0.06));border-left:4px solid #f7931e;border-radius:0 8px 8px 0;color:#8c3a10;font-style:italic; }
+.theme-sunset blockquote { margin:1.4em 0;padding:3px 18px;background:rgba(255,205,60,0.06)135deg,rgba(255,107,53,0.08),rgba(255,205,60,0.06));border-left:4px solid #f7931e;border-radius:0 8px 8px 0;color:#8c3a10;font-style:italic; }
 .theme-sunset code { background:rgba(247,147,30,0.12);padding:2px 7px;border-radius:4px;font-family:Consolas,Monaco,monospace;font-size:13px;color:#c0392b;border:1px solid rgba(247,147,30,0.25); }
-.theme-sunset pre { background:#1a0a05;padding:16px;border-radius:8px;overflow-x:auto;margin:1.5em 0;font-family:Consolas,Monaco,monospace;font-size:13px;color:#ffcd3c; }
-.theme-sunset pre code { background:none;padding:0;border:none;color:inherit;font-size:inherit; }
+.theme-sunset .code-block {background:#1a0a05;padding:16px;border-radius:8px;overflow-x:auto;margin:1.5em 0;font-family:Consolas,Monaco,monospace;font-size:13px;color:#ffcd3c; white-space:pre-wrap;
+.theme-sunset .code-block code { background:none;padding:0;border:none;color:inherit;font-size:inherit; }
 .theme-sunset strong { font-weight:700;color:#c0392b; }
 .theme-sunset em { color:#f7931e;font-style:italic; }
 .theme-sunset a { color:#e05c1a;text-decoration:none;border-bottom:1px solid rgba(224,92,26,0.4); }
@@ -19,7 +19,7 @@
 .theme-sunset ul > li::before { content:'◆';position:absolute;left:-1.2em;color:#f7931e;font-size:0.6em;line-height:2.6; }
 .theme-sunset ol { margin:0.8em 0;padding-left:1.8em; }
 .theme-sunset li { margin:0.4em 0;line-height:1.8;color:#3a2010; }
-.theme-sunset hr { border:none;height:2px;background:linear-gradient(90deg,transparent,#ff6b35,#f7931e,#ffcd3c,transparent);margin:2em 0; }
+.theme-sunset hr { border:none;height:2px;background:#f7931e;margin:2em 0; }
 .theme-sunset table { border-collapse:collapse;width:100%;margin:1.5em 0; }
 .theme-sunset th { border:1px solid rgba(247,147,30,0.3);padding:9px 13px;text-align:left;background:rgba(255,107,53,0.1);color:#c0392b;font-weight:600; }
 .theme-sunset td { border:1px solid rgba(247,147,30,0.15);padding:9px 13px;color:#3a2010; }

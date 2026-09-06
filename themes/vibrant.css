@@ -1,26 +1,25 @@
 /* 主题：活力彩虹 */
 .theme-vibrant { font-family:'PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif;background:#ffffff;color:#1a1a1a; }
 .theme-vibrant p { margin:0.9em 0;line-height:1.85;color:#333;font-size:15px; }
-.theme-vibrant h1 { margin:1.8em 0 0.8em;font-weight:800;font-size:1.8em;color:#fff;text-align:center;padding:14px 20px;background:linear-gradient(135deg,#667eea,#764ba2);border-radius:12px;letter-spacing:0.02em; }
-.theme-vibrant h2 { margin:1.5em 0 0.7em;font-weight:700;font-size:1.35em;color:#fff;padding:8px 16px;background:linear-gradient(135deg,#f093fb,#f5576c);border-radius:8px; }
+.theme-vibrant h1 { margin:1.8em 0 0.8em;font-weight:800;font-size:1.8em;color:#fff;text-align:center;padding:14px 20px;background:#667eea;border-radius:12px;letter-spacing:0.02em; }
+.theme-vibrant h2 { margin:1.5em 0 0.7em;font-weight:700;font-size:1.35em;color:#fff;padding:8px 16px;background:#f093fb;border-radius:8px; }
 .theme-vibrant h3 { margin:1.3em 0 0.5em;font-weight:600;font-size:1.15em;color:#0ea5e9;padding-left:0.8em;border-left:3px solid #38bdf8; }
 .theme-vibrant h4 { margin:1.1em 0 0.4em;font-weight:600;font-size:1.05em;color:#10b981; }
 .theme-vibrant h5 { margin:0.9em 0 0.3em;font-weight:600;font-size:1em;color:#f59e0b; }
 .theme-vibrant h6 { margin:0.8em 0 0.3em;font-weight:600;font-size:0.95em;color:#ef4444; }
-.theme-vibrant blockquote { margin:1.4em 0;padding:14px 18px;background:linear-gradient(135deg,rgba(102,126,234,0.08),rgba(118,75,162,0.06));border-left:4px solid #667eea;border-radius:0 10px 10px 0;color:#4a3a7a; }
+.theme-vibrant blockquote { margin:1.4em 0;padding:3px 18px;background:rgba(118,75,162,0.06)135deg,rgba(102,126,234,0.08),rgba(118,75,162,0.06));border-left:4px solid #667eea;border-radius:0 10px 10px 0;color:#4a3a7a; }
 .theme-vibrant code { background:rgba(102,126,234,0.1);padding:2px 7px;border-radius:5px;font-family:Consolas,Monaco,monospace;font-size:13px;color:#667eea;border:1px solid rgba(102,126,234,0.2); }
-.theme-vibrant pre { background:#0f0f1a;padding:16px;border-radius:10px;overflow-x:auto;margin:1.5em 0;font-family:Consolas,Monaco,monospace;font-size:13px;color:#e0e0ff; }
-.theme-vibrant pre code { background:none;padding:0;border:none;color:inherit;font-size:inherit; }
+.theme-vibrant .code-block {background:#0f0f1a;padding:16px;border-radius:10px;overflow-x:auto;margin:1.5em 0;font-family:Consolas,Monaco,monospace;font-size:13px;color:#e0e0ff; white-space:pre-wrap;
+.theme-vibrant .code-block code { background:none;padding:0;border:none;color:inherit;font-size:inherit; }
 .theme-vibrant strong { font-weight:700;color:#f5576c; }
 .theme-vibrant em { color:#764ba2;font-style:italic; }
 .theme-vibrant a { color:#667eea;text-decoration:none;border-bottom:2px solid rgba(102,126,234,0.3); }
 .theme-vibrant ul { margin:0.8em 0;padding-left:1.6em;list-style:none; }
-.theme-vibrant ul > li { position:relative;margin:0.4em 0;padding-left:0.4em;line-height:1.8;color:#333; }
-.theme-vibrant ul > li::before { content:'◐';position:absolute;left:-1.2em;background:linear-gradient(135deg,#667eea,#f5576c);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;font-size:0.9em;line-height:1.9; }
+.theme-vibrant ul > li { position:relative;margin:0.4em 0;padding-left:0.4em;line-height:1.8;color:#333; }.theme-vibrant ul > li::before{content:'◐';position:absolute;left:-1.2em;font-size:0.9em;line-height:1.9; color:#667eea;}
 .theme-vibrant ol { margin:0.8em 0;padding-left:1.8em; }
 .theme-vibrant li { margin:0.4em 0;line-height:1.8;color:#333; }
-.theme-vibrant hr { border:none;height:3px;background:linear-gradient(90deg,#667eea,#f093fb,#f5576c,#ffa31a,#10b981);border-radius:2px;margin:2em 0; }
+.theme-vibrant hr { border:none;height:3px;background:#f5576c;border-radius:2px;margin:2em 0; }
 .theme-vibrant table { border-collapse:collapse;width:100%;margin:1.5em 0; }
-.theme-vibrant th { border:none;padding:10px 14px;text-align:left;background:linear-gradient(135deg,#667eea,#764ba2);color:#fff;font-weight:600; }
+.theme-vibrant th { border:none;padding:10px 14px;text-align:left;background:#667eea;color:#fff;font-weight:600; }
 .theme-vibrant td { border:1px solid #e5e7eb;padding:10px 14px;color:#333; }
 .theme-vibrant img { max-width:100%;height:auto;border-radius:10px;margin:1em 0;box-shadow:0 6px 24px rgba(102,126,234,0.2); }

@@ -2,16 +2,16 @@
 .theme-autumn { font-family:'PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif;background:#fdf6ee;color:#2a1a08; }
 .theme-autumn p { margin:0.9em 0;line-height:1.85;color:#3a2510;font-size:15px; }
 .theme-autumn h1 { margin:1.8em 0 0.8em;font-weight:800;font-size:1.8em;color:#7a3010;text-align:center;position:relative;padding-bottom:0.6em; }
-.theme-autumn h1::after { content:'';position:absolute;bottom:0;left:50%;transform:translateX(-50%);width:60px;height:3px;background:linear-gradient(90deg,#d4720a,#e8a020,#d4720a);border-radius:2px; }
-.theme-autumn h2 { margin:1.5em 0 0.7em;font-weight:700;font-size:1.35em;color:#7a3010;padding:7px 14px;background:linear-gradient(135deg,rgba(212,114,10,0.12),rgba(232,160,32,0.08));border-left:4px solid #d4720a;border-radius:0 8px 8px 0; }
+.theme-autumn h1::after { content:'';position:absolute;bottom:0;left:50%;transform:translateX(-50%);width:60px;height:3px;background:#e8a020;border-radius:2px; }
+.theme-autumn h2 { margin:1.5em 0 0.7em;font-weight:700;font-size:1.35em;color:#7a3010;padding:7px 14px;background:rgba(232,160,32,0.08)135deg,rgba(212,114,10,0.12),rgba(232,160,32,0.08));border-left:4px solid #d4720a;border-radius:0 8px 8px 0; }
 .theme-autumn h3 { margin:1.3em 0 0.5em;font-weight:600;font-size:1.15em;color:#a04820;padding-left:0.8em;border-left:2px solid #e8a020; }
 .theme-autumn h4 { margin:1.1em 0 0.4em;font-weight:600;font-size:1.05em;color:#a04820; }
 .theme-autumn h5 { margin:0.9em 0 0.3em;font-weight:600;font-size:1em;color:#a04820; }
 .theme-autumn h6 { margin:0.8em 0 0.3em;font-weight:600;font-size:0.95em;color:#a04820; }
-.theme-autumn blockquote { margin:1.4em 0;padding:14px 18px;background:rgba(212,114,10,0.07);border-left:4px solid #d4720a;border-radius:0 8px 8px 0;color:#5a2a08;font-style:italic; }
+.theme-autumn blockquote { margin:1.4em 0;padding:3px 18px;background:rgba(212,114,10,0.07);border-left:4px solid #d4720a;border-radius:0 8px 8px 0;color:#5a2a08;font-style:italic; }
 .theme-autumn code { background:rgba(212,114,10,0.1);padding:2px 7px;border-radius:4px;font-family:Consolas,Monaco,monospace;font-size:13px;color:#a04820;border:1px solid rgba(212,114,10,0.2); }
-.theme-autumn pre { background:#1a0d05;padding:16px;border-radius:8px;overflow-x:auto;margin:1.5em 0;font-family:Consolas,Monaco,monospace;font-size:13px;color:#e8c090; }
-.theme-autumn pre code { background:none;padding:0;border:none;color:inherit;font-size:inherit; }
+.theme-autumn .code-block {background:#1a0d05;padding:16px;border-radius:8px;overflow-x:auto;margin:1.5em 0;font-family:Consolas,Monaco,monospace;font-size:13px;color:#e8c090; white-space:pre-wrap;
+.theme-autumn .code-block code { background:none;padding:0;border:none;color:inherit;font-size:inherit; }
 .theme-autumn strong { font-weight:700;color:#a04820; }
 .theme-autumn em { color:#c05a18;font-style:italic; }
 .theme-autumn a { color:#a04820;text-decoration:none;border-bottom:1px solid rgba(160,72,32,0.4); }
@@ -20,7 +20,7 @@
 .theme-autumn ul > li::before { content:'🍂';position:absolute;left:-1.5em;font-size:0.75em;line-height:2; }
 .theme-autumn ol { margin:0.8em 0;padding-left:1.8em; }
 .theme-autumn li { margin:0.4em 0;line-height:1.8;color:#3a2510; }
-.theme-autumn hr { border:none;height:2px;background:linear-gradient(90deg,transparent,#d4720a,#e8a020,#d4720a,transparent);margin:2em 0; }
+.theme-autumn hr { border:none;height:2px;background:#e8a020;margin:2em 0; }
 .theme-autumn table { border-collapse:collapse;width:100%;margin:1.5em 0; }
 .theme-autumn th { border:1px solid rgba(212,114,10,0.3);padding:9px 13px;text-align:left;background:rgba(212,114,10,0.1);color:#7a3010;font-weight:600; }
 .theme-autumn td { border:1px solid rgba(212,114,10,0.15);padding:9px 13px;color:#3a2510; }

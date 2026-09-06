@@ -1,14 +1,14 @@
 /* Coral · 珊瑚海岸 */
 .theme-coral{font-family:'PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif;background:#fff9f7;color:#2a1510}
 .theme-coral p{margin:.9em 0;line-height:1.85;color:#2a1510;font-size:15px}
-.theme-coral h1{margin:1.8em 0 .8em;font-weight:800;font-size:1.8em;color:#fff;text-align:center;padding:14px 20px;background:linear-gradient(135deg,#ff6b6b,#ee5a24);border-radius:12px}
+.theme-coral h1{margin:1.8em 0 .8em;font-weight:800;font-size:1.8em;color:#fff;text-align:center;padding:14px 20px;background:#ff6b6b;border-radius:12px}
 .theme-coral h2{margin:1.5em 0 .7em;font-weight:700;font-size:1.35em;color:#c0392b;padding:7px 14px;background:rgba(255,107,107,.09);border-left:4px solid #ff6b6b;border-radius:0 8px 8px 0}
 .theme-coral h3{margin:1.3em 0 .5em;font-weight:600;font-size:1.15em;color:#d4452a;padding-left:.8em;border-left:2px solid #ffaaaa}
 .theme-coral h4,h5,h6{margin:1em 0 .4em;font-weight:600;color:#c0392b}
-.theme-coral blockquote{margin:1.4em 0;padding:14px 18px;background:rgba(255,107,107,.07);border-left:4px solid #ff6b6b;border-radius:0 10px 10px 0;color:#8a2515;font-style:italic}
+.theme-coral blockquote{margin:1.4em 0;padding:3px 18px;background:rgba(255,107,107,.07);border-left:4px solid #ff6b6b;border-radius:0 10px 10px 0;color:#8a2515;font-style:italic}
 .theme-coral code{background:rgba(255,107,107,.1);padding:2px 7px;border-radius:5px;font-family:Consolas,Monaco,monospace;font-size:13px;color:#c0392b;border:1px solid rgba(255,107,107,.22)}
-.theme-coral pre{background:#1a0805;padding:16px;border-radius:10px;overflow-x:auto;margin:1.5em 0;font-family:Consolas,Monaco,monospace;font-size:13px;color:#ffcccc}
-.theme-coral pre code{background:none;padding:0;border:none;color:inherit}
+.theme-coral .code-block{background:#1a0805;padding:16px;border-radius:10px;overflow-x:auto;margin:1.5em 0;font-family:Consolas,Monaco,monospace;font-size:13px;color:#ffcccc white-space:pre-wrap;
+.theme-coral .code-block code{background:none;padding:0;border:none;color:inherit}
 .theme-coral strong{font-weight:700;color:#c0392b}
 .theme-coral em{color:#d4452a;font-style:italic}
 .theme-coral a{color:#c0392b;text-decoration:none;border-bottom:1px solid rgba(192,57,43,.4)}
@@ -17,7 +17,7 @@
 .theme-coral ul>li::before{content:'🪸';position:absolute;left:-1.5em;font-size:.72em;line-height:2.1}
 .theme-coral ol{margin:.8em 0;padding-left:1.8em}
 .theme-coral li{margin:.4em 0;line-height:1.8;color:#2a1510}
-.theme-coral hr{border:none;height:2px;background:linear-gradient(90deg,transparent,#ff6b6b,transparent);margin:2em 0}
+.theme-coral hr{border:none;height:2px;background:#ff6b6b;margin:2em 0}
 .theme-coral table{border-collapse:collapse;width:100%;margin:1.5em 0}
 .theme-coral th{border:1px solid rgba(255,107,107,.28);padding:9px 13px;background:rgba(255,107,107,.1);color:#8a2515;font-weight:600}
 .theme-coral td{border:1px solid rgba(255,107,107,.14);padding:9px 13px;color:#2a1510}

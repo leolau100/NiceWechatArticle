@@ -5,10 +5,10 @@
 .theme-nordic-dark h2{margin:1.5em 0 .7em;font-weight:700;font-size:1.35em;color:#88c0d0;padding:8px 14px;background:rgba(136,192,208,.07);border-left:3px solid #88c0d0;border-radius:0 6px 6px 0}
 .theme-nordic-dark h3{margin:1.3em 0 .5em;font-weight:600;font-size:1.15em;color:#81a1c1;padding-left:.8em;border-left:2px solid rgba(94,129,172,.5)}
 .theme-nordic-dark h4,h5,h6{margin:1em 0 .4em;font-weight:600;color:#81a1c1}
-.theme-nordic-dark blockquote{margin:1.4em 0;padding:14px 18px;background:rgba(76,86,106,.4);border-left:4px solid #5e81ac;border-radius:0 6px 6px 0;color:#b0bec5}
+.theme-nordic-dark blockquote{margin:1.4em 0;padding:3px 18px;background:rgba(76,86,106,.4);border-left:4px solid #5e81ac;border-radius:0 6px 6px 0;color:#b0bec5}
 .theme-nordic-dark code{background:rgba(76,86,106,.5);padding:2px 7px;border-radius:4px;font-family:'JetBrains Mono',Consolas,monospace;font-size:13px;color:#88c0d0;border:1px solid rgba(94,129,172,.3)}
-.theme-nordic-dark pre{background:#242933;padding:16px;border-radius:8px;overflow-x:auto;margin:1.5em 0;font-family:'JetBrains Mono',Consolas,monospace;font-size:13px;color:#d8dee9;border:1px solid rgba(76,86,106,.6)}
-.theme-nordic-dark pre code{background:none;padding:0;border:none;color:inherit}
+.theme-nordic-dark .code-block{background:#242933;padding:16px;border-radius:8px;overflow-x:auto;margin:1.5em 0;font-family:'JetBrains Mono',Consolas,monospace;font-size:13px;color:#d8dee9;border:1px solid rgba(76,86,106,.6) white-space:pre-wrap;
+.theme-nordic-dark .code-block code{background:none;padding:0;border:none;color:inherit}
 .theme-nordic-dark strong{font-weight:700;color:#eceff4}
 .theme-nordic-dark em{color:#a3be8c;font-style:italic}
 .theme-nordic-dark a{color:#88c0d0;text-decoration:none;border-bottom:1px solid rgba(136,192,208,.35)}

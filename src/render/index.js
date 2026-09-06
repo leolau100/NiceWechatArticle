@@ -24,6 +24,20 @@ import { marked } from 'marked'
 // 硬换行保留为 <br>，与编辑器保持一致
 marked.setOptions({ breaks: true, gfm: true })
 
+// 代码块不使用 <pre> 标签（微信对 pre 支持差，且用户不希望使用 pre），
+// 改为 <div class="code-block"><code>...</code></div>
+function escapeHtmlForCode(s) {
+  return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+}
+marked.use({
+  renderer: {
+    code(token) {
+      const text = (token && token.text) || ''
+      return `<div class="code-block"><code>${escapeHtmlForCode(text)}</code></div>\n`
+    }
+  }
+})
+
 // ── 主题文件映射（与 Editor.vue 中的 themeFileMap 一致）──────────────────────
 export const THEME_FILE_MAP = {
   'aurora':'themes/aurora.css','autumn':'themes/autumn.css','blue':'themes/blue.css',
@@ -206,8 +220,8 @@ function applyThemeRulesToDom(container, rules, doc) {
     const afterRules = findPseudoRules(tag, '::after')
 
     container.querySelectorAll(tag).forEach(el => {
-      if (tag === 'code' && el.closest('pre')) {
-        const preCodeRules = rules['pre code']
+      if (tag === 'code' && el.closest('.code-block')) {
+        const preCodeRules = rules['.code-block code']
         if (preCodeRules) applyProps(el, preCodeRules)
         return
       }
@@ -519,7 +533,7 @@ export async function renderWechatFragment(options = {}) {
 
   const rawHtml = `<section style="margin:0;padding:0;width:100%;box-sizing:border-box;">` +
     `<div data-tpl="header" class="tpl-header-box">${headerHtml}</div>` +
-    `<div data-tpl="body" class="theme-${theme}" style="padding:0 15px;word-break:break-all;overflow-wrap:break-word;">${bodyHtml}</div>` +
+    `<div data-tpl="body" class="theme-${theme}" style="padding:0 15px;overflow-wrap:break-word;">${bodyHtml}</div>` +
     `<div data-tpl="footer" class="tpl-footer-box">${footerHtml}</div>` +
     `</section>`
 

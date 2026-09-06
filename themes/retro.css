@@ -8,10 +8,10 @@
 .theme-retro h4 { margin:1.1em 0 0.4em;font-weight:700;font-size:1.05em;color:#2a2018; }
 .theme-retro h5 { margin:0.9em 0 0.3em;font-weight:700;font-size:1em;color:#2a2018; }
 .theme-retro h6 { margin:0.8em 0 0.3em;font-weight:700;font-size:0.95em;color:#2a2018; }
-.theme-retro blockquote { margin:1.4em 2em;padding:12px 16px;background:rgba(160,128,96,0.08);border-left:4px solid #a08060;color:#4a3828;font-style:italic; }
+.theme-retro blockquote { margin:1.4em 2em;padding:3px 16px;background:rgba(160,128,96,0.08);border-left:4px solid #a08060;color:#4a3828;font-style:italic; }
 .theme-retro code { background:rgba(160,128,96,0.15);padding:2px 6px;border-radius:2px;font-family:inherit;font-size:0.9em;color:#4a2800;border:1px dashed #a08060; }
-.theme-retro pre { background:#1c1408;padding:16px;border-radius:4px;overflow-x:auto;margin:1.5em 0;font-family:inherit;font-size:13px;color:#d4c090;border:2px solid #a08060; }
-.theme-retro pre code { background:none;padding:0;border:none;color:inherit;font-size:inherit; }
+.theme-retro .code-block {background:#1c1408;padding:16px;border-radius:4px;overflow-x:auto;margin:1.5em 0;font-family:inherit;font-size:13px;color:#d4c090;border:2px solid #a08060; white-space:pre-wrap;
+.theme-retro .code-block code { background:none;padding:0;border:none;color:inherit;font-size:inherit; }
 .theme-retro strong { font-weight:700;color:#2a2018;text-decoration:underline; }
 .theme-retro em { color:#4a3828;font-style:italic; }
 .theme-retro a { color:#6a3810;text-decoration:underline; }

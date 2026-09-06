@@ -1,17 +1,17 @@
 /* 主题：森林深绿 */
 .theme-forest { font-family:'PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif;background:#f0f7f2;color:#1a2e20; }
 .theme-forest p { margin:0.9em 0;line-height:1.85;color:#1a2e20;font-size:15px; }
-.theme-forest h1 { margin:1.8em 0 0.8em;font-weight:800;font-size:1.8em;color:#0f2218;padding:12px 18px;background:linear-gradient(135deg,#1a4a2a,#2d7a4a);color:#f0f7f2;border-radius:8px; }
+.theme-forest h1 { margin:1.8em 0 0.8em;font-weight:800;font-size:1.8em;color:#0f2218;padding:12px 18px;background:#1a4a2a;color:#f0f7f2;border-radius:8px; }
 .theme-forest h2 { margin:1.5em 0 0.7em;font-weight:700;font-size:1.35em;color:#1a4a2a;padding:7px 14px;background:rgba(45,122,74,0.1);border-left:4px solid #2d7a4a;border-radius:0 6px 6px 0; }
 .theme-forest h3 { margin:1.3em 0 0.5em;font-weight:600;font-size:1.15em;color:#2d5a38;padding-left:0.8em;position:relative; }
 .theme-forest h3::before { content:'🌿';position:absolute;left:-1.4em;font-size:0.9em; }
 .theme-forest h4 { margin:1.1em 0 0.4em;font-weight:600;font-size:1.05em;color:#2d5a38; }
 .theme-forest h5 { margin:0.9em 0 0.3em;font-weight:600;font-size:1em;color:#2d5a38; }
 .theme-forest h6 { margin:0.8em 0 0.3em;font-weight:600;font-size:0.95em;color:#2d5a38; }
-.theme-forest blockquote { margin:1.4em 0;padding:14px 18px;background:rgba(45,122,74,0.08);border-left:4px solid #4a9e6a;border-radius:0 8px 8px 0;color:#1a4a2a;font-style:italic; }
+.theme-forest blockquote { margin:1.4em 0;padding:3px 18px;background:rgba(45,122,74,0.08);border-left:4px solid #4a9e6a;border-radius:0 8px 8px 0;color:#1a4a2a;font-style:italic; }
 .theme-forest code { background:rgba(45,122,74,0.1);padding:2px 7px;border-radius:4px;font-family:Consolas,Monaco,monospace;font-size:13px;color:#1a6a38;border:1px solid rgba(45,122,74,0.2); }
-.theme-forest pre { background:#0a1a0f;padding:16px;border-radius:8px;overflow-x:auto;margin:1.5em 0;font-family:Consolas,Monaco,monospace;font-size:13px;color:#a8d8b8; }
-.theme-forest pre code { background:none;padding:0;border:none;color:inherit;font-size:inherit; }
+.theme-forest .code-block {background:#0a1a0f;padding:16px;border-radius:8px;overflow-x:auto;margin:1.5em 0;font-family:Consolas,Monaco,monospace;font-size:13px;color:#a8d8b8; white-space:pre-wrap;
+.theme-forest .code-block code { background:none;padding:0;border:none;color:inherit;font-size:inherit; }
 .theme-forest strong { font-weight:700;color:#1a6a38; }
 .theme-forest em { color:#2d7a4a;font-style:italic; }
 .theme-forest a { color:#2d7a4a;text-decoration:none;border-bottom:1px solid rgba(45,122,74,0.4); }
@@ -20,7 +20,7 @@
 .theme-forest ul > li::before { content:'▸';position:absolute;left:-1.1em;color:#4a9e6a;font-size:0.9em;line-height:1.9; }
 .theme-forest ol { margin:0.8em 0;padding-left:1.8em; }
 .theme-forest li { margin:0.4em 0;line-height:1.8;color:#1a2e20; }
-.theme-forest hr { border:none;height:2px;background:linear-gradient(90deg,transparent,#4a9e6a,transparent);margin:2em 0; }
+.theme-forest hr { border:none;height:2px;background:#4a9e6a;margin:2em 0; }
 .theme-forest table { border-collapse:collapse;width:100%;margin:1.5em 0; }
 .theme-forest th { border:1px solid rgba(45,122,74,0.3);padding:9px 13px;text-align:left;background:rgba(45,122,74,0.12);color:#1a4a2a;font-weight:600; }
 .theme-forest td { border:1px solid rgba(45,122,74,0.15);padding:9px 13px;color:#1a2e20; }

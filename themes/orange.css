@@ -6,10 +6,10 @@
 .theme-orange h4 { margin:1.2em 0 0.5em;font-weight:600;color:#c2410c;font-size:1.1em; }
 .theme-orange h5 { margin:1em 0 0.4em;font-weight:600;color:#c2410c;font-size:1em; }
 .theme-orange h6 { margin:0.8em 0 0.3em;font-weight:600;color:#c2410c;font-size:0.95em; }
-.theme-orange blockquote { border-radius:8px;padding:18px 24px;margin:1.5em 0;color:#9a3412;background:#ffedd5;border-left:4px solid #fb923c;font-style:normal; }
+.theme-orange blockquote { border-radius:8px;padding:3px 24px;margin:1.5em 0;color:#9a3412;background:#ffedd5;border-left:4px solid #fb923c;font-style:normal; }
 .theme-orange code { background:#ffedd5;padding:3px 8px;border-radius:4px;font-family:Consolas,Monaco,monospace;font-size:14px;color:#ea580c; }
-.theme-orange pre { background:#431407;padding:16px;border-radius:8px;overflow-x:auto;margin:1.5em 0;font-family:Consolas,Monaco,monospace;font-size:14px;color:#fed7aa; }
-.theme-orange pre code { background:none;padding:0;border-radius:0;color:inherit; }
+.theme-orange .code-block {background:#431407;padding:16px;border-radius:8px;overflow-x:auto;margin:1.5em 0;font-family:Consolas,Monaco,monospace;font-size:14px;color:#fed7aa; white-space:pre-wrap;
+.theme-orange .code-block code { background:none;padding:0;border-radius:0;color:inherit; }
 .theme-orange strong { font-weight:700;color:#ea580c; }
 .theme-orange a { color:#fb923c;text-decoration:none;border-bottom:1px solid #fdba74; }
 .theme-orange ul { margin:1.2em 0;padding-left:1.8em; }

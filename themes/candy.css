@@ -1,16 +1,15 @@
 /* 主题：糖果马卡龙 */
 .theme-candy { font-family:'PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif;background:#fef9ff;color:#2a1a2e; }
-.theme-candy p { margin:0.9em 0;line-height:1.85;color:#3a2840;font-size:15px; }
-.theme-candy h1 { margin:1.8em 0 0.8em;font-weight:800;font-size:1.8em;text-align:center;padding:12px 20px;background:linear-gradient(135deg,#ff9de2,#a78bfa,#67e8f9);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text; }
-.theme-candy h2 { margin:1.5em 0 0.7em;font-weight:700;font-size:1.35em;color:#7c3aed;padding:7px 14px;background:linear-gradient(135deg,rgba(255,157,226,0.15),rgba(167,139,250,0.12));border-left:4px solid #a78bfa;border-radius:0 10px 10px 0; }
+.theme-candy p { margin:0.9em 0;line-height:1.85;color:#3a2840;font-size:15px; }.theme-candy h1{margin:1.8em 0 0.8em;font-weight:800;font-size:1.8em;text-align:center;padding:12px 20px; color:#a78bfa;}
+.theme-candy h2 { margin:1.5em 0 0.7em;font-weight:700;font-size:1.35em;color:#7c3aed;padding:7px 14px;background:rgba(167,139,250,0.12)135deg,rgba(255,157,226,0.15),rgba(167,139,250,0.12));border-left:4px solid #a78bfa;border-radius:0 10px 10px 0; }
 .theme-candy h3 { margin:1.3em 0 0.5em;font-weight:600;font-size:1.15em;color:#db2777;padding-left:0.8em;border-left:3px solid #fbcfe8; }
 .theme-candy h4 { margin:1.1em 0 0.4em;font-weight:600;font-size:1.05em;color:#0ea5e9; }
 .theme-candy h5 { margin:0.9em 0 0.3em;font-weight:600;font-size:1em;color:#0ea5e9; }
 .theme-candy h6 { margin:0.8em 0 0.3em;font-weight:600;font-size:0.95em;color:#0ea5e9; }
-.theme-candy blockquote { margin:1.4em 0;padding:14px 18px;background:linear-gradient(135deg,rgba(255,157,226,0.12),rgba(167,139,250,0.1));border-left:4px solid #f472b6;border-radius:0 10px 10px 0;color:#6b21a8; }
+.theme-candy blockquote { margin:1.4em 0;padding:3px 18px;background:rgba(167,139,250,0.1)135deg,rgba(255,157,226,0.12),rgba(167,139,250,0.1));border-left:4px solid #f472b6;border-radius:0 10px 10px 0;color:#6b21a8; }
 .theme-candy code { background:rgba(167,139,250,0.12);padding:2px 7px;border-radius:6px;font-family:Consolas,Monaco,monospace;font-size:13px;color:#7c3aed;border:1px solid rgba(167,139,250,0.25); }
-.theme-candy pre { background:#1a0a2e;padding:16px;border-radius:12px;overflow-x:auto;margin:1.5em 0;font-family:Consolas,Monaco,monospace;font-size:13px;color:#e9d5ff; }
-.theme-candy pre code { background:none;padding:0;border:none;color:inherit;font-size:inherit; }
+.theme-candy .code-block {background:#1a0a2e;padding:16px;border-radius:12px;overflow-x:auto;margin:1.5em 0;font-family:Consolas,Monaco,monospace;font-size:13px;color:#e9d5ff; white-space:pre-wrap;
+.theme-candy .code-block code { background:none;padding:0;border:none;color:inherit;font-size:inherit; }
 .theme-candy strong { font-weight:700;color:#db2777; }
 .theme-candy em { color:#7c3aed;font-style:italic; }
 .theme-candy a { color:#0ea5e9;text-decoration:none;border-bottom:2px solid rgba(14,165,233,0.3);border-radius:1px; }
@@ -19,7 +18,7 @@
 .theme-candy ul > li::before { content:'🍬';position:absolute;left:-1.5em;font-size:0.75em;line-height:2; }
 .theme-candy ol { margin:0.8em 0;padding-left:1.8em; }
 .theme-candy li { margin:0.4em 0;line-height:1.8;color:#3a2840; }
-.theme-candy hr { border:none;height:3px;background:linear-gradient(90deg,#ff9de2,#a78bfa,#67e8f9,#a78bfa,#ff9de2);border-radius:2px;margin:2em 0; }
+.theme-candy hr { border:none;height:3px;background:#67e8f9;border-radius:2px;margin:2em 0; }
 .theme-candy table { border-collapse:collapse;width:100%;margin:1.5em 0; }
 .theme-candy th { border:1px solid rgba(167,139,250,0.3);padding:9px 13px;text-align:left;background:rgba(255,157,226,0.12);color:#7c3aed;font-weight:600; }
 .theme-candy td { border:1px solid rgba(167,139,250,0.15);padding:9px 13px;color:#3a2840; }

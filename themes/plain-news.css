@@ -7,10 +7,10 @@
 .theme-plain-news h4 { margin:1em 0 0.4em;font-weight:700;font-size:1.1em;color:#000; }
 .theme-plain-news h5 { margin:1em 0 0.4em;font-weight:700;font-size:1em;color:#000; }
 .theme-plain-news h6 { margin:1em 0 0.3em;font-weight:700;font-size:0.95em;color:#333; }
-.theme-plain-news blockquote { margin:1.2em 0;padding:0.5em 1em;color:#444;border-left:4px solid #333;font-style:italic; }
+.theme-plain-news blockquote { margin:1.2em 0;padding:3px 1em;color:#444;border-left:4px solid #333;font-style:italic; }
 .theme-plain-news code { background:#f2f2f2;padding:2px 6px;font-family:Consolas,Monaco,monospace;font-size:13px;color:#900; }
-.theme-plain-news pre { background:#f2f2f2;padding:14px;overflow-x:auto;margin:1.4em 0;font-family:Consolas,Monaco,monospace;font-size:13px;color:#1a1a1a; }
-.theme-plain-news pre code { background:none;padding:0;color:inherit; }
+.theme-plain-news .code-block {background:#f2f2f2;padding:14px;overflow-x:auto;margin:1.4em 0;font-family:Consolas,Monaco,monospace;font-size:13px;color:#1a1a1a; white-space:pre-wrap;
+.theme-plain-news .code-block code { background:none;padding:0;color:inherit; }
 .theme-plain-news strong { font-weight:800;color:#000; }
 .theme-plain-news em { font-style:italic;color:#333; }
 .theme-plain-news a { color:#1a5fb4;text-decoration:underline; }

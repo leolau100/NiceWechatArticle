@@ -1,14 +1,14 @@
 /* Mint · 薄荷清凉 */
 .theme-mint{font-family:'PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif;background:#f0fdf6;color:#0a2a18}
 .theme-mint p{margin:.9em 0;line-height:1.85;color:#0a2a18;font-size:15px}
-.theme-mint h1{margin:1.8em 0 .8em;font-weight:800;font-size:1.8em;color:#fff;text-align:center;padding:14px 20px;background:linear-gradient(135deg,#00c9a7,#48d1cc);border-radius:12px}
+.theme-mint h1{margin:1.8em 0 .8em;font-weight:800;font-size:1.8em;color:#fff;text-align:center;padding:14px 20px;background:#00c9a7;border-radius:12px}
 .theme-mint h2{margin:1.5em 0 .7em;font-weight:700;font-size:1.35em;color:#00897b;padding:7px 14px;background:rgba(0,201,167,.09);border-left:4px solid #00c9a7;border-radius:0 8px 8px 0}
 .theme-mint h3{margin:1.3em 0 .5em;font-weight:600;font-size:1.15em;color:#00a896;padding-left:.8em;border-left:2px solid #80e8d8}
 .theme-mint h4,h5,h6{margin:1em 0 .4em;font-weight:600;color:#00897b}
-.theme-mint blockquote{margin:1.4em 0;padding:14px 18px;background:rgba(0,201,167,.07);border-left:4px solid #00c9a7;border-radius:0 10px 10px 0;color:#004a40;font-style:italic}
+.theme-mint blockquote{margin:1.4em 0;padding:3px 18px;background:rgba(0,201,167,.07);border-left:4px solid #00c9a7;border-radius:0 10px 10px 0;color:#004a40;font-style:italic}
 .theme-mint code{background:rgba(0,201,167,.1);padding:2px 7px;border-radius:5px;font-family:Consolas,Monaco,monospace;font-size:13px;color:#007a6a;border:1px solid rgba(0,201,167,.22)}
-.theme-mint pre{background:#061a12;padding:16px;border-radius:10px;overflow-x:auto;margin:1.5em 0;font-family:Consolas,Monaco,monospace;font-size:13px;color:#80e8d8}
-.theme-mint pre code{background:none;padding:0;border:none;color:inherit}
+.theme-mint .code-block{background:#061a12;padding:16px;border-radius:10px;overflow-x:auto;margin:1.5em 0;font-family:Consolas,Monaco,monospace;font-size:13px;color:#80e8d8 white-space:pre-wrap;
+.theme-mint .code-block code{background:none;padding:0;border:none;color:inherit}
 .theme-mint strong{font-weight:700;color:#00897b}
 .theme-mint em{color:#00a896;font-style:italic}
 .theme-mint a{color:#00897b;text-decoration:none;border-bottom:1px solid rgba(0,137,123,.4)}
@@ -17,7 +17,7 @@
 .theme-mint ul>li::before{content:'🌿';position:absolute;left:-1.5em;font-size:.72em;line-height:2.1}
 .theme-mint ol{margin:.8em 0;padding-left:1.8em}
 .theme-mint li{margin:.4em 0;line-height:1.8;color:#0a2a18}
-.theme-mint hr{border:none;height:2px;background:linear-gradient(90deg,transparent,#00c9a7,transparent);margin:2em 0}
+.theme-mint hr{border:none;height:2px;background:#00c9a7;margin:2em 0}
 .theme-mint table{border-collapse:collapse;width:100%;margin:1.5em 0}
 .theme-mint th{border:1px solid rgba(0,201,167,.28);padding:9px 13px;background:rgba(0,201,167,.1);color:#004a40;font-weight:600}
 .theme-mint td{border:1px solid rgba(0,201,167,.14);padding:9px 13px;color:#0a2a18}

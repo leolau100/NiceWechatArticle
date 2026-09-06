@@ -7,10 +7,10 @@
 .theme-github-light h4 { margin:1em 0 0.4em;font-weight:600;font-size:1em;color:#1f2328; }
 .theme-github-light h5 { margin:0.9em 0 0.3em;font-weight:600;font-size:0.95em;color:#1f2328; }
 .theme-github-light h6 { margin:0.8em 0 0.3em;font-weight:600;font-size:0.9em;color:#656d76; }
-.theme-github-light blockquote { margin:1em 0;padding:0 1em;color:#636c76;border-left:4px solid #d1d9e0; }
+.theme-github-light blockquote { margin:1em 0;padding:3px 1em;color:#636c76;border-left:4px solid #d1d9e0; }
 .theme-github-light code { background:rgba(175,184,193,0.2);padding:0.2em 0.4em;border-radius:6px;font-family:'SFMono-Regular','Consolas','Liberation Mono','Menlo',monospace;font-size:85%;color:#1f2328; }
-.theme-github-light pre { background:#f6f8fa;padding:16px;border-radius:6px;overflow-x:auto;margin:1em 0;font-family:'SFMono-Regular','Consolas','Liberation Mono','Menlo',monospace;font-size:85%;line-height:1.45;border:1px solid #d1d9e0; }
-.theme-github-light pre code { background:none;padding:0;border-radius:0;font-size:100%;color:#1f2328; }
+.theme-github-light .code-block {background:#f6f8fa;padding:16px;border-radius:6px;overflow-x:auto;margin:1em 0;font-family:'SFMono-Regular','Consolas','Liberation Mono','Menlo',monospace;font-size:85%;line-height:1.45;border:1px solid #d1d9e0; white-space:pre-wrap;
+.theme-github-light .code-block code { background:none;padding:0;border-radius:0;font-size:100%;color:#1f2328; }
 .theme-github-light strong { font-weight:600;color:#1f2328; }
 .theme-github-light em { color:#1f2328;font-style:italic; }
 .theme-github-light a { color:#0969da;text-decoration:none; }

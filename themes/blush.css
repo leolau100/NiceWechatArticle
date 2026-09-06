@@ -1,14 +1,14 @@
 /* Blush · 腮红少女 */
 .theme-blush{font-family:'PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif;background:#fff7fb;color:#2a1020}
 .theme-blush p{margin:.9em 0;line-height:1.85;color:#3a1a28;font-size:15px}
-.theme-blush h1{margin:1.8em 0 .8em;font-weight:800;font-size:1.8em;text-align:center;padding:14px 20px;background:linear-gradient(135deg,#f48fb1,#f06292);color:#fff;border-radius:16px;text-shadow:0 1px 3px rgba(0,0,0,.12)}
+.theme-blush h1{margin:1.8em 0 .8em;font-weight:800;font-size:1.8em;text-align:center;padding:14px 20px;background:#f48fb1;color:#fff;border-radius:16px;text-shadow:0 1px 3px rgba(0,0,0,.12)}
 .theme-blush h2{margin:1.5em 0 .7em;font-weight:700;font-size:1.35em;color:#c2185b;padding:7px 14px;background:rgba(244,143,177,.1);border-left:4px solid #f48fb1;border-radius:0 10px 10px 0}
 .theme-blush h3{margin:1.3em 0 .5em;font-weight:600;font-size:1.15em;color:#e91e8c;padding-left:.8em;border-left:2px solid #f8bbd0}
 .theme-blush h4,h5,h6{margin:1em 0 .4em;font-weight:600;color:#c2185b}
-.theme-blush blockquote{margin:1.4em 0;padding:14px 18px;background:rgba(244,143,177,.09);border-left:4px solid #f48fb1;border-radius:0 12px 12px 0;color:#8a1040;font-style:italic}
+.theme-blush blockquote{margin:1.4em 0;padding:3px 18px;background:rgba(244,143,177,.09);border-left:4px solid #f48fb1;border-radius:0 12px 12px 0;color:#8a1040;font-style:italic}
 .theme-blush code{background:rgba(240,98,146,.1);padding:2px 7px;border-radius:5px;font-family:Consolas,Monaco,monospace;font-size:13px;color:#c2185b;border:1px solid rgba(240,98,146,.2)}
-.theme-blush pre{background:#1a0510;padding:16px;border-radius:12px;overflow-x:auto;margin:1.5em 0;font-family:Consolas,Monaco,monospace;font-size:13px;color:#fce4ec}
-.theme-blush pre code{background:none;padding:0;border:none;color:inherit}
+.theme-blush .code-block{background:#1a0510;padding:16px;border-radius:12px;overflow-x:auto;margin:1.5em 0;font-family:Consolas,Monaco,monospace;font-size:13px;color:#fce4ec white-space:pre-wrap;
+.theme-blush .code-block code{background:none;padding:0;border:none;color:inherit}
 .theme-blush strong{font-weight:700;color:#c2185b}
 .theme-blush em{color:#e91e8c;font-style:italic}
 .theme-blush a{color:#c2185b;text-decoration:none;border-bottom:1px solid rgba(194,24,91,.35)}
@@ -17,7 +17,7 @@
 .theme-blush ul>li::before{content:'💕';position:absolute;left:-1.5em;font-size:.72em;line-height:2.1}
 .theme-blush ol{margin:.8em 0;padding-left:1.8em}
 .theme-blush li{margin:.4em 0;line-height:1.8;color:#3a1a28}
-.theme-blush hr{border:none;height:1px;background:linear-gradient(90deg,transparent,#f48fb1,transparent);margin:2em 0}
+.theme-blush hr{border:none;height:1px;background:#f48fb1;margin:2em 0}
 .theme-blush table{border-collapse:collapse;width:100%;margin:1.5em 0}
 .theme-blush th{border:1px solid rgba(244,143,177,.28);padding:9px 13px;background:rgba(244,143,177,.12);color:#8a1040;font-weight:600}
 .theme-blush td{border:1px solid rgba(244,143,177,.14);padding:9px 13px;color:#3a1a28}

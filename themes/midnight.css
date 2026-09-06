@@ -1,16 +1,15 @@
 /* 主题：午夜星空 */
 .theme-midnight { font-family:'PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif;background:#0d0d1a;color:#e8e8f0; }
-.theme-midnight p { margin:0.9em 0;line-height:1.85;color:#c8c8d8;font-size:15px; }
-.theme-midnight h1 { margin:1.8em 0 0.8em;font-weight:800;font-size:1.8em;background:linear-gradient(135deg,#a78bfa,#60a5fa,#34d399);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;letter-spacing:-0.02em; }
+.theme-midnight p { margin:0.9em 0;line-height:1.85;color:#c8c8d8;font-size:15px; }.theme-midnight h1{margin:1.8em 0 0.8em;font-weight:800;font-size:1.8em;letter-spacing:-0.02em; color:#60a5fa;}
 .theme-midnight h2 { margin:1.5em 0 0.7em;font-weight:700;font-size:1.35em;color:#a78bfa;padding:8px 14px;background:rgba(167,139,250,0.08);border-left:3px solid #a78bfa;border-radius:0 6px 6px 0; }
 .theme-midnight h3 { margin:1.3em 0 0.5em;font-weight:600;font-size:1.15em;color:#60a5fa;padding-left:0.8em;border-left:2px solid rgba(96,165,250,0.5); }
 .theme-midnight h4 { margin:1.1em 0 0.4em;font-weight:600;font-size:1.05em;color:#34d399; }
 .theme-midnight h5 { margin:0.9em 0 0.3em;font-weight:600;font-size:1em;color:#34d399; }
 .theme-midnight h6 { margin:0.8em 0 0.3em;font-weight:600;font-size:0.95em;color:#34d399; }
-.theme-midnight blockquote { margin:1.4em 0;padding:14px 18px;background:rgba(167,139,250,0.06);border-left:4px solid #7c3aed;border-radius:0 8px 8px 0;color:#a8a8c0;font-style:italic; }
+.theme-midnight blockquote { margin:1.4em 0;padding:3px 18px;background:rgba(167,139,250,0.06);border-left:4px solid #7c3aed;border-radius:0 8px 8px 0;color:#a8a8c0;font-style:italic; }
 .theme-midnight code { background:rgba(167,139,250,0.1);padding:2px 7px;border-radius:4px;font-family:'JetBrains Mono',Consolas,Monaco,monospace;font-size:13px;color:#a78bfa;border:1px solid rgba(167,139,250,0.2); }
-.theme-midnight pre { background:#06060f;padding:16px;border-radius:10px;overflow-x:auto;margin:1.5em 0;font-family:'JetBrains Mono',Consolas,Monaco,monospace;font-size:13px;color:#e8e8f0;border:1px solid rgba(167,139,250,0.15);box-shadow:0 0 20px rgba(167,139,250,0.05); }
-.theme-midnight pre code { background:none;padding:0;border:none;color:inherit;font-size:inherit; }
+.theme-midnight .code-block {background:#06060f;padding:16px;border-radius:10px;overflow-x:auto;margin:1.5em 0;font-family:'JetBrains Mono',Consolas,Monaco,monospace;font-size:13px;color:#e8e8f0;border:1px solid rgba(167,139,250,0.15);box-shadow:0 0 20px rgba(167,139,250,0.05); white-space:pre-wrap;
+.theme-midnight .code-block code { background:none;padding:0;border:none;color:inherit;font-size:inherit; }
 .theme-midnight strong { font-weight:700;color:#f472b6; }
 .theme-midnight em { color:#fbbf24;font-style:italic; }
 .theme-midnight a { color:#60a5fa;text-decoration:none;border-bottom:1px solid rgba(96,165,250,0.3); }
@@ -19,7 +18,7 @@
 .theme-midnight ul > li::before { content:'✦';position:absolute;left:-1.3em;color:#a78bfa;font-size:0.65em;line-height:2.5; }
 .theme-midnight ol { margin:0.8em 0;padding-left:1.8em; }
 .theme-midnight li { margin:0.4em 0;line-height:1.8;color:#c8c8d8; }
-.theme-midnight hr { border:none;height:1px;background:linear-gradient(90deg,transparent,rgba(167,139,250,0.5),rgba(96,165,250,0.5),transparent);margin:2em 0; }
+.theme-midnight hr { border:none;height:1px;background:rgba(96,165,250,0.5)90deg,transparent,rgba(167,139,250,0.5),rgba(96,165,250,0.5),transparent);margin:2em 0; }
 .theme-midnight table { border-collapse:collapse;width:100%;margin:1.5em 0; }
 .theme-midnight th { border:1px solid rgba(167,139,250,0.2);padding:9px 13px;text-align:left;background:rgba(167,139,250,0.08);color:#a78bfa;font-weight:600; }
 .theme-midnight td { border:1px solid rgba(96,165,250,0.1);padding:9px 13px;color:#c8c8d8; }

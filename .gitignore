@@ -3,3 +3,9 @@ dist/
 .vite/
 .DS_Store
 *.log
+
+# 渲染临时产物（publish.py 流程生成，非源码）
+wf.html
+wf.meta.json
+_combined_footer.html
+_tmp_*.md

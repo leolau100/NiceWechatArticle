@@ -25,3 +25,5 @@
 .theme-business td { border:1px solid #e5e7eb;padding:10px 14px;color:#374151; }
 .theme-business tr:nth-child(even) td { background:#f9fafb; }
 .theme-business img { max-width:100%;height:auto;border-radius:4px;margin:1em 0;box-shadow:0 2px 10px rgba(0,0,0,0.12); }
+
+.theme-business blockquote p { margin-top:0; font-style:normal; }

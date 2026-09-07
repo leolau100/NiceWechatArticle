@@ -27,3 +27,5 @@
 .theme-tech-dark th { border:1px solid rgba(0,255,65,0.25);padding:8px 12px;text-align:left;background:rgba(0,255,65,0.07);color:#00ff41;font-weight:600; }
 .theme-tech-dark td { border:1px solid rgba(0,255,65,0.12);padding:8px 12px;color:#c0d8c0; }
 .theme-tech-dark img { max-width:100%;height:auto;border-radius:4px;margin:1em 0;border:1px solid rgba(0,255,65,0.2);filter:saturate(0.8) brightness(0.9); }
+
+.theme-tech-dark blockquote p { margin-top:0; font-style:normal; }

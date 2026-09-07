@@ -7,7 +7,7 @@
 .theme-plain-serif h4 { margin:1em 0 0.4em;font-weight:700;font-size:1.05em;color:#111; }
 .theme-plain-serif h5 { margin:1em 0 0.4em;font-weight:700;font-size:1em;color:#111; }
 .theme-plain-serif h6 { margin:1em 0 0.3em;font-weight:700;font-size:0.95em;color:#333; }
-.theme-plain-serif blockquote { margin:1.3em 0;padding:3px 1em;color:#555;border-left:4px solid #999;font-style:italic; }
+.theme-plain-serif blockquote { margin:1.3em 0;padding:3px 1em;color:#555;border-left:4px solid #999;font-style:normal; }
 .theme-plain-serif code { background:#f5f5f5;padding:2px 6px;border-radius:3px;font-family:Consolas,Monaco,monospace;font-size:13px;color:#b00; }
 .theme-plain-serif .code-block {background:#f5f5f5;padding:14px;border-radius:4px;overflow-x:auto;margin:1.4em 0;font-family:Consolas,Monaco,monospace;font-size:13px;color:#222; white-space:pre-wrap;
 .theme-plain-serif .code-block code { background:none;padding:0;border-radius:0;color:inherit; }
@@ -22,3 +22,5 @@
 .theme-plain-serif th { border:1px solid #ccc;padding:8px 12px;text-align:left;background:#fafafa;font-weight:700;color:#111; }
 .theme-plain-serif td { border:1px solid #ccc;padding:8px 12px;text-align:left;color:#222; }
 .theme-plain-serif img { max-width:100%;height:auto;margin:1em 0; }
+
+.theme-plain-serif blockquote p { margin-top:0; font-style:normal; }

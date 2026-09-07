@@ -24,3 +24,5 @@
 .theme-minimal-blue th { border:1px solid #e5e7eb;padding:8px 12px;text-align:left;background:#f0f4ff;color:#1a6dfc;font-weight:600; }
 .theme-minimal-blue td { border:1px solid #e5e7eb;padding:8px 12px;text-align:left;color:#4c4c4c; }
 .theme-minimal-blue img { max-width:100%;height:auto;border-radius:4px;margin:1em 0; }
+
+.theme-minimal-blue blockquote p { margin-top:0; font-style:normal; }

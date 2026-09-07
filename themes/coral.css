@@ -5,7 +5,7 @@
 .theme-coral h2{margin:1.5em 0 .7em;font-weight:700;font-size:1.35em;color:#c0392b;padding:7px 14px;background:rgba(255,107,107,.09);border-left:4px solid #ff6b6b;border-radius:0 8px 8px 0}
 .theme-coral h3{margin:1.3em 0 .5em;font-weight:600;font-size:1.15em;color:#d4452a;padding-left:.8em;border-left:2px solid #ffaaaa}
 .theme-coral h4,h5,h6{margin:1em 0 .4em;font-weight:600;color:#c0392b}
-.theme-coral blockquote{margin:1.4em 0;padding:3px 18px;background:rgba(255,107,107,.07);border-left:4px solid #ff6b6b;border-radius:0 10px 10px 0;color:#8a2515;font-style:italic}
+.theme-coral blockquote{margin:1.4em 0;padding:3px 18px;background:rgba(255,107,107,.07);border-left:4px solid #ff6b6b;border-radius:0 10px 10px 0;color:#8a2515;font-style:normal}
 .theme-coral code{background:rgba(255,107,107,.1);padding:2px 7px;border-radius:5px;font-family:Consolas,Monaco,monospace;font-size:13px;color:#c0392b;border:1px solid rgba(255,107,107,.22)}
 .theme-coral .code-block{background:#1a0805;padding:16px;border-radius:10px;overflow-x:auto;margin:1.5em 0;font-family:Consolas,Monaco,monospace;font-size:13px;color:#ffcccc white-space:pre-wrap;
 .theme-coral .code-block code{background:none;padding:0;border:none;color:inherit}
@@ -22,3 +22,5 @@
 .theme-coral th{border:1px solid rgba(255,107,107,.28);padding:9px 13px;background:rgba(255,107,107,.1);color:#8a2515;font-weight:600}
 .theme-coral td{border:1px solid rgba(255,107,107,.14);padding:9px 13px;color:#2a1510}
 .theme-coral img{max-width:100%;height:auto;border-radius:10px;margin:1em 0;box-shadow:0 4px 18px rgba(255,107,107,.22)}
+
+.theme-coral blockquote p { margin-top:0; font-style:normal; }

@@ -22,3 +22,5 @@
 .theme-green th { border:1px solid #86efac;padding:10px 14px;text-align:left;background:#f0fdf4;color:#15803d;font-weight:600; }
 .theme-green td { border:1px solid #86efac;padding:10px 14px;text-align:left;color:#14532d; }
 .theme-green img { max-width:100%;height:auto;border-radius:4px;margin:1em 0; }
+
+.theme-green blockquote p { margin-top:0; font-style:normal; }

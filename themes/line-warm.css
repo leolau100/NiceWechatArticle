@@ -1,0 +1,25 @@
+/* 主题：暖色竖线（白底 / 无衬线 / 柔和暖调 / 无背景色） */
+.theme-line-warm { background:#ffffff; color:#2b2620; font-family:-apple-system,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif; }
+.theme-line-warm p { margin:1em 0;line-height:1.8;font-size:16px;color:#3a342c; }
+.theme-line-warm h1 { margin:1.6em 0 0.8em;font-weight:800;font-size:1.8em;color:#1f1a14;padding-left:0.5em;border-left:6px solid #d97706;line-height:1.3; }
+.theme-line-warm h2 { margin:1.4em 0 0.6em;font-weight:700;font-size:1.45em;color:#1f1a14;padding-left:0.5em;border-left:4px solid #ea9a3b;line-height:1.3; }
+.theme-line-warm h3 { margin:1.2em 0 0.5em;font-weight:600;font-size:1.2em;color:#241e16;padding-left:0.4em;border-left:3px solid #f0b35a; }
+.theme-line-warm h4 { margin:1.1em 0 0.4em;font-weight:600;font-size:1.1em;color:#241e16;padding-left:0.4em;border-left:3px solid #f5c886; }
+.theme-line-warm h5 { margin:1em 0 0.4em;font-weight:600;font-size:1em;color:#3a342c;padding-left:0.3em;border-left:2px solid #f8d9a8; }
+.theme-line-warm h6 { margin:1em 0 0.3em;font-weight:600;font-size:0.95em;color:#5a5040;padding-left:0.3em;border-left:2px solid #fbe7c8; }
+.theme-line-warm blockquote { margin:1.2em 0;padding:3px 1em;color:#6b5d4a;border-left:4px solid #d97706;font-style:normal; }
+.theme-line-warm blockquote p { margin-top:0; font-style:normal; }
+.theme-line-warm code { background:#fdf4e7;padding:2px 6px;border-radius:4px;font-family:Consolas,Monaco,monospace;font-size:13px;color:#b45309; }
+.theme-line-warm .code-block { background:#fdf8f1;padding:14px;border-radius:6px;overflow-x:auto;margin:1.4em 0;font-family:Consolas,Monaco,monospace;font-size:13px;color:#2b2620;border:1px solid #f0e0c8; white-space:pre-wrap; }
+.theme-line-warm .code-block code { background:none;padding:0;border-radius:0;color:inherit; }
+.theme-line-warm strong { font-weight:700;color:#1f1a14; }
+.theme-line-warm em { color:#3a342c;font-style:italic; }
+.theme-line-warm a { color:#c2620a;text-decoration:none;border-bottom:1px solid #f0c98a; }
+.theme-line-warm ul { margin:1em 0;padding-left:1.6em;list-style:disc; }
+.theme-line-warm ol { margin:1em 0;padding-left:1.6em;list-style:decimal; }
+.theme-line-warm li { margin:0.4em 0;line-height:1.7;color:#3a342c; }
+.theme-line-warm hr { border:none;border-top:1px solid #ecdcc2;margin:2em 0; }
+.theme-line-warm table { border-collapse:collapse;width:100%;margin:1.4em 0; }
+.theme-line-warm th { border:1px solid #ecdcc2;padding:8px 12px;text-align:left;background:#fdf8f1;color:#1f1a14;font-weight:600; }
+.theme-line-warm td { border:1px solid #ecdcc2;padding:8px 12px;text-align:left;color:#2b2620; }
+.theme-line-warm img { max-width:100%;height:auto;margin:1em 0; }

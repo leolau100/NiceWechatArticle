@@ -23,3 +23,5 @@
 .theme-classic-yellow th { border:1px solid #f9c725;padding:8px 12px;text-align:left;background:rgba(249,199,37,0.15);color:#000000;font-weight:700; }
 .theme-classic-yellow td { border:1px solid #f9c725;padding:8px 12px;text-align:left; }
 .theme-classic-yellow img { max-width:100%;height:auto;margin:1em 0; }
+
+.theme-classic-yellow blockquote p { margin-top:0; font-style:normal; }

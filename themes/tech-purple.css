@@ -22,3 +22,5 @@
 .theme-tech-purple th { border:1px solid #ddd6fe;padding:10px 14px;text-align:left;background:#faf5ff;color:#4c1d95;font-weight:600; }
 .theme-tech-purple td { border:1px solid #ddd6fe;padding:10px 14px;text-align:left;color:#595959; }
 .theme-tech-purple img { max-width:100%;height:auto; }
+
+.theme-tech-purple blockquote p { margin-top:0; font-style:normal; }

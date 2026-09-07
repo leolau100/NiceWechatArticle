@@ -285,6 +285,8 @@ const themeFileMap = {
   'vapor':'themes/vapor.css','vibrant':'themes/vibrant.css','wabi':'themes/wabi.css',
   'warm-orange':'themes/warm-orange.css','wechat-classic':'themes/wechat-classic.css',
   'plain':'themes/plain.css','plain-doc':'themes/plain-doc.css','plain-minimal':'themes/plain-minimal.css','plain-news':'themes/plain-news.css','plain-serif':'themes/plain-serif.css',
+  'line':'themes/line.css','line-serif':'themes/line-serif.css','line-warm':'themes/line-warm.css',
+  'deepsea':'themes/deepsea.css',
 }
 
 // Theme CSS Cache

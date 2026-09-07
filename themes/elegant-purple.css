@@ -7,7 +7,7 @@
 .theme-elegant-purple h4 { margin:1rem 0 0.5rem;font-weight:600;color:#7c3aed;font-size:1.1em; }
 .theme-elegant-purple h5 { margin:0.8rem 0 0.4rem;font-weight:600;color:#7c3aed;font-size:1em; }
 .theme-elegant-purple h6 { margin:0.6rem 0 0.3rem;font-weight:600;color:#7c3aed;font-size:0.95em; }
-.theme-elegant-purple blockquote { margin:1.25rem 0;padding:3px 1.5rem;background:rgba(167,139,250,0.08)135deg,rgba(139,92,246,0.1) 0%,rgba(167,139,250,0.08) 100%);border-left:4px solid #8b5cf6;border-top-right-radius:8px;border-bottom-right-radius:8px;box-shadow:0 2px 8px rgba(139,92,246,0.1);font-style:italic;color:#4b5563; }
+.theme-elegant-purple blockquote { margin:1.25rem 0;padding:3px 1.5rem;background:rgba(167,139,250,0.08)135deg,rgba(139,92,246,0.1) 0%,rgba(167,139,250,0.08) 100%);border-left:4px solid #8b5cf6;border-top-right-radius:8px;border-bottom-right-radius:8px;box-shadow:0 2px 8px rgba(139,92,246,0.1);font-style:normal;color:#4b5563; }
 .theme-elegant-purple code { display:inline-block;margin:0 0.25rem;padding:0.1rem 0.4rem;color:#7c3aed;font-weight:500;font-size:0.75rem;font-family:'SF Mono','Monaco','Cascadia Code','Roboto Mono',monospace;line-height:1.5;background:rgba(167,139,250,0.12)135deg,rgba(139,92,246,0.15) 0%,rgba(167,139,250,0.12) 100%);border-radius:4px; }
 .theme-elegant-purple .code-block {background:#1e1b4b;padding:16px;border-radius:8px;overflow-x:auto;margin:1.5em 0;font-family:'SF Mono',Monaco,monospace;font-size:14px;color:#c4b5fd; white-space:pre-wrap;
 .theme-elegant-purple .code-block code { background:none;padding:0;border-radius:0;color:inherit;font-size:inherit; }
@@ -24,3 +24,5 @@
 .theme-elegant-purple th { border:1px solid #ddd6fe;padding:10px 14px;text-align:left;background:rgba(139,92,246,0.08)90deg,rgba(139,92,246,0.08) 0%,transparent 100%);color:#6b46c1;font-weight:600; }
 .theme-elegant-purple td { border:1px solid #ddd6fe;padding:10px 14px;text-align:left;color:#374151; }
 .theme-elegant-purple img { max-width:100%;height:auto;border-radius:4px;margin:1em 0; }
+
+.theme-elegant-purple blockquote p { margin-top:0; font-style:normal; }

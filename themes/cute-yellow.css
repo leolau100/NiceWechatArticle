@@ -22,3 +22,5 @@
 .theme-cute-yellow th { border:1px solid #fbbf24;padding:10px 14px;text-align:left;background:#fef3c7;color:#595959;font-weight:600; }
 .theme-cute-yellow td { border:1px solid #fbbf24;padding:10px 14px;text-align:left;color:#595959; }
 .theme-cute-yellow img { max-width:100%;height:auto; }
+
+.theme-cute-yellow blockquote p { margin-top:0; font-style:normal; }

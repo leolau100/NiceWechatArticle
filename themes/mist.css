@@ -6,7 +6,7 @@
 .theme-mist h2{margin:1.6em 0 .7em;font-weight:700;font-size:1.35em;color:#4a7a8a;padding:7px 14px;background:rgba(106,154,170,.08);border-left:3px solid #6a9aaa;border-radius:0 6px 6px 0}
 .theme-mist h3{margin:1.4em 0 .6em;font-weight:600;font-size:1.15em;color:#4a7a8a;padding-left:.8em;border-left:2px solid rgba(106,154,170,.4)}
 .theme-mist h4,h5,h6{margin:1em 0 .4em;font-weight:600;color:#4a7a8a}
-.theme-mist blockquote{margin:1.6em 1em;padding:3px 20px;background:rgba(106,154,170,.07);border-left:3px solid #6a9aaa;color:#3a6070;font-style:italic;position:relative}
+.theme-mist blockquote{margin:1.6em 1em;padding:3px 20px;background:rgba(106,154,170,.07);border-left:3px solid #6a9aaa;color:#3a6070;font-style:normal;position:relative}
 .theme-mist blockquote::before{content:'"';position:absolute;top:-.2em;left:.6em;color:rgba(106,154,170,.3);font-size:3em;font-family:Georgia,serif;line-height:1}
 .theme-mist code{background:rgba(106,154,170,.1);padding:2px 6px;border-radius:3px;font-family:Consolas,Monaco,monospace;font-size:13px;color:#4a7a8a;border:1px solid rgba(106,154,170,.2)}
 .theme-mist .code-block{background:#1a2530;padding:16px;border-radius:8px;overflow-x:auto;margin:1.5em 0;font-family:Consolas,Monaco,monospace;font-size:13px;color:#a8c8d8 white-space:pre-wrap;
@@ -24,3 +24,5 @@
 .theme-mist th{border:1px solid rgba(106,154,170,.3);padding:9px 13px;background:rgba(106,154,170,.08);color:#2a4555;font-weight:600}
 .theme-mist td{border:1px solid rgba(106,154,170,.15);padding:9px 13px;color:#3a4550}
 .theme-mist img{max-width:100%;height:auto;border-radius:4px;margin:1em 0;box-shadow:0 2px 12px rgba(26,37,48,.12);filter:saturate(.9)}
+
+.theme-mist blockquote p { margin-top:0; font-style:normal; }

@@ -24,3 +24,5 @@
 .theme-geek-tech th { border:1px solid #d0d7de;padding:8px 12px;text-align:left;background:#f6f8fa;color:#1f2328;font-weight:600;font-family:'SF Mono','Monaco','Consolas',monospace; }
 .theme-geek-tech td { border:1px solid #d0d7de;padding:8px 12px;text-align:left;color:#24292f; }
 .theme-geek-tech img { max-width:100%;height:auto;border-radius:4px;margin:1em 0; }
+
+.theme-geek-tech blockquote p { margin-top:0; font-style:normal; }

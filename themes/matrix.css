@@ -23,3 +23,5 @@
 .theme-matrix th{border:1px solid rgba(0,204,68,.25);padding:8px 12px;background:rgba(0,204,68,.07);color:#00ff55;font-weight:700}
 .theme-matrix td{border:1px solid rgba(0,204,68,.12);padding:8px 12px;color:#00bb3a}
 .theme-matrix img{max-width:100%;height:auto;margin:1em 0;border:1px solid rgba(0,204,68,.2);filter:saturate(.5) hue-rotate(90deg) brightness(.8)}
+
+.theme-matrix blockquote p { margin-top:0; font-style:normal; }

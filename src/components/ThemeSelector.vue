@@ -179,6 +179,17 @@ const allThemes = {
     { id:'nordic-dark',   name:'北欧暗夜',  desc:'克制冷峻，北境风格',     emoji:'🌑', accent:'#88c0d0', accentText:'#2e3440', previewBg:'linear-gradient(135deg,#2e3440,#3b4252)', quoteText:'#b0bec5', lineColor:'rgba(136,192,208,.25)', cardBg:'#3b4252' },
     { id:'sky',           name:'晴空万里',  desc:'轻盈通透，天高气爽',     emoji:'☀️', accent:'#0284c7', previewBg:'linear-gradient(135deg,#f0f9ff,#dbeefe)', quoteText:'#034a6e', lineColor:'rgba(2,132,199,.18)' },
   ],
+  plain: [
+    { id:'plain',         name:'朴素现代',   desc:'白底无背景，现代无衬线', emoji:'📝', accent:'#0969da', previewBg:'#ffffff', quoteText:'#57606a', lineColor:'rgba(36,41,47,.15)' },
+    { id:'plain-doc',     name:'朴素文档',   desc:'白底长文，宽松行高',     emoji:'📄', accent:'#475569', previewBg:'#ffffff', quoteText:'#64748b', lineColor:'rgba(71,85,105,.15)' },
+    { id:'plain-serif',   name:'朴素衬线',   desc:'白底宋体，沉静阅读',     emoji:'📖', accent:'#7c2d12', previewBg:'#ffffff', quoteText:'#57534e', lineColor:'rgba(120,113,108,.15)' },
+    { id:'plain-news',    name:'朴素报纸',   desc:'白底报纸风，标题居中',   emoji:'🗞️', accent:'#000000', previewBg:'#ffffff', quoteText:'#444444', lineColor:'rgba(0,0,0,.18)' },
+    { id:'plain-minimal', name:'极简灰阶',   desc:'完全无背景，仅留边框',   emoji:'⚪️', accent:'#666666', previewBg:'#ffffff', quoteText:'#555555', lineColor:'rgba(0,0,0,.12)' },
+    { id:'line',          name:'蓝竖线',     desc:'白底无背景，标题左竖线', emoji:'🔵', accent:'#2563eb', previewBg:'#ffffff', quoteText:'#57606a', lineColor:'rgba(37,99,235,.18)' },
+    { id:'line-serif',    name:'衬线竖线',   desc:'白底宋体，标题左竖线',   emoji:'📕', accent:'#333333', previewBg:'#ffffff', quoteText:'#444444', lineColor:'rgba(51,51,51,.18)' },
+    { id:'line-warm',     name:'暖橙竖线',   desc:'白底暖调，标题左竖线',   emoji:'🟠', accent:'#d97706', previewBg:'#ffffff', quoteText:'#6b5d4a', lineColor:'rgba(217,119,6,.18)' },
+    { id:'deepsea',       name:'静海蓝调',   desc:'白底无背景，深海蓝竖线', emoji:'🌊', accent:'#0a4d8c', previewBg:'#ffffff', quoteText:'#46586e', lineColor:'rgba(10,77,140,.18)' },
+  ],
 }
 
 const categories = [
@@ -188,6 +199,7 @@ const categories = [
   { id:'business', icon:'💼', name:'商务专业', themes: allThemes.business },
   { id:'creative', icon:'🎨', name:'个性创意', themes: allThemes.creative },
   { id:'special',  icon:'🏮', name:'特色风格', themes: allThemes.special  },
+  { id:'plain',    icon:'⚪️', name:'极简白底', themes: allThemes.plain    },
 ]
 
 const totalCount = computed(() =>

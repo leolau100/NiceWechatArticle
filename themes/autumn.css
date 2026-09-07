@@ -8,7 +8,7 @@
 .theme-autumn h4 { margin:1.1em 0 0.4em;font-weight:600;font-size:1.05em;color:#a04820; }
 .theme-autumn h5 { margin:0.9em 0 0.3em;font-weight:600;font-size:1em;color:#a04820; }
 .theme-autumn h6 { margin:0.8em 0 0.3em;font-weight:600;font-size:0.95em;color:#a04820; }
-.theme-autumn blockquote { margin:1.4em 0;padding:3px 18px;background:rgba(212,114,10,0.07);border-left:4px solid #d4720a;border-radius:0 8px 8px 0;color:#5a2a08;font-style:italic; }
+.theme-autumn blockquote { margin:1.4em 0;padding:3px 18px;background:rgba(212,114,10,0.07);border-left:4px solid #d4720a;border-radius:0 8px 8px 0;color:#5a2a08;font-style:normal; }
 .theme-autumn code { background:rgba(212,114,10,0.1);padding:2px 7px;border-radius:4px;font-family:Consolas,Monaco,monospace;font-size:13px;color:#a04820;border:1px solid rgba(212,114,10,0.2); }
 .theme-autumn .code-block {background:#1a0d05;padding:16px;border-radius:8px;overflow-x:auto;margin:1.5em 0;font-family:Consolas,Monaco,monospace;font-size:13px;color:#e8c090; white-space:pre-wrap;
 .theme-autumn .code-block code { background:none;padding:0;border:none;color:inherit;font-size:inherit; }
@@ -25,3 +25,5 @@
 .theme-autumn th { border:1px solid rgba(212,114,10,0.3);padding:9px 13px;text-align:left;background:rgba(212,114,10,0.1);color:#7a3010;font-weight:600; }
 .theme-autumn td { border:1px solid rgba(212,114,10,0.15);padding:9px 13px;color:#3a2510; }
 .theme-autumn img { max-width:100%;height:auto;border-radius:8px;margin:1em 0;box-shadow:0 4px 16px rgba(160,72,32,0.2); }
+
+.theme-autumn blockquote p { margin-top:0; font-style:normal; }

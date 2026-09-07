@@ -22,3 +22,5 @@
 .theme-lemon th{border:1px solid rgba(200,192,0,.35);padding:9px 13px;background:rgba(230,214,0,.15);color:#5a5a00;font-weight:600}
 .theme-lemon td{border:1px solid rgba(200,192,0,.18);padding:9px 13px;color:#2a2a10}
 .theme-lemon img{max-width:100%;height:auto;border-radius:8px;margin:1em 0;box-shadow:0 4px 16px rgba(200,192,0,.25)}
+
+.theme-lemon blockquote p { margin-top:0; font-style:normal; }

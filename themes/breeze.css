@@ -5,7 +5,7 @@
 .theme-breeze h2{margin:1.5em 0 .7em;font-weight:700;font-size:1.35em;color:#1a6080;padding:7px 14px;background:rgba(41,128,185,.09);border-left:4px solid #2980b9;border-radius:0 8px 8px 0}
 .theme-breeze h3{margin:1.3em 0 .5em;font-weight:600;font-size:1.15em;color:#2185a0;padding-left:.8em;border-left:2px solid #6dd5fa}
 .theme-breeze h4,h5,h6{margin:1em 0 .4em;font-weight:600;color:#1a6080}
-.theme-breeze blockquote{margin:1.4em 0;padding:3px 18px;background:rgba(109,213,250,.1);border-left:4px solid #2980b9;border-radius:0 10px 10px 0;color:#0d3a58;font-style:italic}
+.theme-breeze blockquote{margin:1.4em 0;padding:3px 18px;background:rgba(109,213,250,.1);border-left:4px solid #2980b9;border-radius:0 10px 10px 0;color:#0d3a58;font-style:normal}
 .theme-breeze code{background:rgba(41,128,185,.1);padding:2px 7px;border-radius:4px;font-family:Consolas,Monaco,monospace;font-size:13px;color:#1a6080;border:1px solid rgba(41,128,185,.22)}
 .theme-breeze .code-block{background:#0d2535;padding:16px;border-radius:10px;overflow-x:auto;margin:1.5em 0;font-family:Consolas,Monaco,monospace;font-size:13px;color:#a0d8ef white-space:pre-wrap;
 .theme-breeze .code-block code{background:none;padding:0;border:none;color:inherit}
@@ -22,3 +22,5 @@
 .theme-breeze th{border:1px solid rgba(41,128,185,.28);padding:9px 13px;background:rgba(41,128,185,.1);color:#0d3a58;font-weight:600}
 .theme-breeze td{border:1px solid rgba(41,128,185,.14);padding:9px 13px;color:#253545}
 .theme-breeze img{max-width:100%;height:auto;border-radius:10px;margin:1em 0;box-shadow:0 4px 18px rgba(41,128,185,.2)}
+
+.theme-breeze blockquote p { margin-top:0; font-style:normal; }

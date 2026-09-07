@@ -22,3 +22,5 @@
 .theme-plain-doc th { border:1px solid #e5e7eb;padding:9px 13px;text-align:left;background:#f9fafb;font-weight:600;color:#111827; }
 .theme-plain-doc td { border:1px solid #e5e7eb;padding:9px 13px;text-align:left;color:#1f2937; }
 .theme-plain-doc img { max-width:100%;height:auto;margin:1em 0; }
+
+.theme-plain-doc blockquote p { margin-top:0; font-style:normal; }

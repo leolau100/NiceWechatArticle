@@ -5,7 +5,7 @@
 .theme-earth h2{margin:1.5em 0 .7em;font-weight:700;font-size:1.35em;color:#6b4c1e;padding:7px 14px;background:rgba(107,76,30,.09);border-left:4px solid #a0713a;border-radius:0 6px 6px 0}
 .theme-earth h3{margin:1.3em 0 .5em;font-weight:600;font-size:1.15em;color:#8a6030;padding-left:.8em;border-left:2px solid #c8a870}
 .theme-earth h4,h5,h6{margin:1em 0 .4em;font-weight:600;color:#6b4c1e}
-.theme-earth blockquote{margin:1.4em 0;padding:3px 18px;background:rgba(160,113,58,.08);border-left:4px solid #a0713a;border-radius:0 6px 6px 0;color:#4a3018;font-style:italic}
+.theme-earth blockquote{margin:1.4em 0;padding:3px 18px;background:rgba(160,113,58,.08);border-left:4px solid #a0713a;border-radius:0 6px 6px 0;color:#4a3018;font-style:normal}
 .theme-earth code{background:rgba(160,113,58,.1);padding:2px 7px;border-radius:4px;font-family:Consolas,Monaco,monospace;font-size:13px;color:#8a6030;border:1px solid rgba(160,113,58,.22)}
 .theme-earth .code-block{background:#1a1208;padding:16px;border-radius:8px;overflow-x:auto;margin:1.5em 0;font-family:Consolas,Monaco,monospace;font-size:13px;color:#ddc8a0 white-space:pre-wrap;
 .theme-earth .code-block code{background:none;padding:0;border:none;color:inherit}
@@ -22,3 +22,5 @@
 .theme-earth th{border:1px solid rgba(160,113,58,.3);padding:9px 13px;background:rgba(160,113,58,.1);color:#4a2808;font-weight:600}
 .theme-earth td{border:1px solid rgba(160,113,58,.16);padding:9px 13px;color:#3a3028}
 .theme-earth img{max-width:100%;height:auto;border-radius:6px;margin:1em 0;box-shadow:0 3px 14px rgba(107,76,30,.18)}
+
+.theme-earth blockquote p { margin-top:0; font-style:normal; }

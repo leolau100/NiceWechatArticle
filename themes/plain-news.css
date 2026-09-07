@@ -7,7 +7,7 @@
 .theme-plain-news h4 { margin:1em 0 0.4em;font-weight:700;font-size:1.1em;color:#000; }
 .theme-plain-news h5 { margin:1em 0 0.4em;font-weight:700;font-size:1em;color:#000; }
 .theme-plain-news h6 { margin:1em 0 0.3em;font-weight:700;font-size:0.95em;color:#333; }
-.theme-plain-news blockquote { margin:1.2em 0;padding:3px 1em;color:#444;border-left:4px solid #333;font-style:italic; }
+.theme-plain-news blockquote { margin:1.2em 0;padding:3px 1em;color:#444;border-left:4px solid #333;font-style:normal; }
 .theme-plain-news code { background:#f2f2f2;padding:2px 6px;font-family:Consolas,Monaco,monospace;font-size:13px;color:#900; }
 .theme-plain-news .code-block {background:#f2f2f2;padding:14px;overflow-x:auto;margin:1.4em 0;font-family:Consolas,Monaco,monospace;font-size:13px;color:#1a1a1a; white-space:pre-wrap;
 .theme-plain-news .code-block code { background:none;padding:0;color:inherit; }
@@ -22,3 +22,5 @@
 .theme-plain-news th { border:1px solid #999;padding:8px 12px;text-align:left;background:#f2f2f2;font-weight:700;color:#000; }
 .theme-plain-news td { border:1px solid #999;padding:8px 12px;text-align:left;color:#1a1a1a; }
 .theme-plain-news img { max-width:100%;height:auto;margin:1em 0; }
+
+.theme-plain-news blockquote p { margin-top:0; font-style:normal; }

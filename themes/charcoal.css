@@ -22,3 +22,5 @@
 .theme-charcoal th{border:1px solid #3a3a3c;padding:9px 13px;background:#2c2c2e;color:#e5e5ea;font-weight:600}
 .theme-charcoal td{border:1px solid #2c2c2e;padding:9px 13px;color:#d1d1d6}
 .theme-charcoal img{max-width:100%;height:auto;border-radius:8px;margin:1em 0;box-shadow:0 4px 20px rgba(0,0,0,.5)}
+
+.theme-charcoal blockquote p { margin-top:0; font-style:normal; }

@@ -23,3 +23,5 @@
 .theme-bw-minimal th { border:2px solid #000000;padding:8px 12px;text-align:left;background:#000000;color:#ffffff;font-weight:700; }
 .theme-bw-minimal td { border:1px solid #000000;padding:8px 12px;text-align:left; }
 .theme-bw-minimal img { max-width:100%;height:auto;border:1px solid #000000;margin:1em 0; }
+
+.theme-bw-minimal blockquote p { margin-top:0; font-style:normal; }

@@ -23,3 +23,5 @@
 .theme-warm-orange th { border:1px solid #fdba74;padding:10px 14px;text-align:left;background:#fff7ed;color:#c2410c;font-weight:600; }
 .theme-warm-orange td { border:1px solid #fdba74;padding:10px 14px;text-align:left;color:#374151; }
 .theme-warm-orange img { max-width:100%;height:auto; }
+
+.theme-warm-orange blockquote p { margin-top:0; font-style:normal; }

@@ -24,3 +24,5 @@
 .theme-wechat-classic th { border:1px solid rgba(7,193,96,0.25);padding:10px 14px;text-align:left;background:rgba(7,193,96,0.08);color:#07a050;font-weight:600; }
 .theme-wechat-classic td { border:1px solid rgba(7,193,96,0.12);padding:10px 14px;color:#1a1a1a; }
 .theme-wechat-classic img { max-width:100%;height:auto;border-radius:8px;margin:1em 0;box-shadow:0 2px 12px rgba(7,193,96,0.15); }
+
+.theme-wechat-classic blockquote p { margin-top:0; font-style:normal; }

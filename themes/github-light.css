@@ -23,3 +23,5 @@
 .theme-github-light th { border:1px solid #d1d9e0;padding:8px 12px;text-align:left;background:#f6f8fa;font-weight:600;color:#1f2328; }
 .theme-github-light td { border:1px solid #d1d9e0;padding:8px 12px;color:#1f2328; }
 .theme-github-light img { max-width:100%;height:auto;border-radius:6px;margin:1em 0; }
+
+.theme-github-light blockquote p { margin-top:0; font-style:normal; }

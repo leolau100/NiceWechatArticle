@@ -20,7 +20,7 @@
  */
 
 import { marked } from 'marked'
-import { applyHeadingStyle } from '../config/headingStyle.js'
+import { applyHeadingStyle, applyHeadingNumber } from '../config/headingStyle.js'
 
 // 硬换行保留为 <br>，与编辑器保持一致
 marked.setOptions({ breaks: true, gfm: true })
@@ -70,6 +70,7 @@ export const THEME_FILE_MAP = {
   'deepsea':'themes/deepsea.css',
   'qbitai':'themes/qbitai.css',
   'jiqizhixin':'themes/jiqizhixin.css',
+  'wavy':'themes/wavy.css','wavy-serif':'themes/wavy-serif.css',
 }
 
 // 主题 CSS 缓存（模块级，避免重复请求）
@@ -511,6 +512,25 @@ export function wechatifyDoc(doc) {
 }
 
 /**
+ * 引用块垂直居中
+ *
+ * 引用块内首元素去掉 margin-top、末元素去掉 margin-bottom，
+ * 使内容在引用块（含背景/边框/竖线）内上下居中，而不是「上紧下松」。
+ * 用内联样式实现，微信端可保留（伪元素 :first-child/:last-child 会在移除 class 后失效，故不能用）。
+ *
+ * @param {Document} doc
+ */
+export function normalizeBlockquoteSpacing(doc) {
+  if (!doc || typeof doc.querySelectorAll !== 'function') return
+  doc.querySelectorAll('blockquote').forEach(bq => {
+    const children = Array.from(bq.children)
+    if (!children.length) return
+    children[0].style.setProperty('margin-top', '0')
+    children[children.length - 1].style.setProperty('margin-bottom', '0')
+  })
+}
+
+/**
  * 核心渲染：把 markdown + 模板 + 主题 渲染为微信兼容的 HTML 片段
  *
  * @param {Object} options
@@ -556,6 +576,12 @@ export async function renderWechatFragment(options = {}) {
 
   // 应用标题（h1–h6）字号 / 字重：主题级配置 > 系统默认配置
   applyHeadingStyle(outDoc, theme)
+
+  // 引用块内容垂直居中（首尾元素上下外边距清零）
+  normalizeBlockquoteSpacing(outDoc)
+
+  // 标题自动序号（仅对启用序号的主题生效）
+  applyHeadingNumber(outDoc, theme)
 
   return wechatifyDoc(outDoc)
 }

@@ -5,7 +5,7 @@
 .theme-peach h2{margin:1.5em 0 .7em;font-weight:700;font-size:1.35em;color:#bf4f30;padding:7px 14px;background:rgba(255,138,101,.1);border-left:4px solid #ff8a65;border-radius:0 10px 10px 0}
 .theme-peach h3{margin:1.3em 0 .5em;font-weight:600;font-size:1.15em;color:#d4622a;padding-left:.8em;border-left:2px solid #ffccbc}
 .theme-peach h4,h5,h6{margin:1em 0 .4em;font-weight:600;color:#bf4f30}
-.theme-peach blockquote{margin:1.4em 0;padding:3px 18px;background:rgba(255,138,101,.08);border-left:4px solid #ff8a65;border-radius:0 10px 10px 0;color:#7a3520;font-style:normal}
+.theme-peach blockquote{font-size:13px;margin:1.4em 0;padding:3px 18px;background:rgba(255,138,101,.08);border-left:4px solid #ff8a65;border-radius:0 10px 10px 0;color:#7a3520;font-style:normal;}
 .theme-peach code{background:rgba(255,138,101,.1);padding:2px 7px;border-radius:5px;font-family:Consolas,Monaco,monospace;font-size:13px;color:#bf4f30;border:1px solid rgba(255,138,101,.22)}
 .theme-peach .code-block{background:#1a0a05;padding:16px;border-radius:10px;overflow-x:auto;margin:1.5em 0;font-family:Consolas,Monaco,monospace;font-size:13px;color:#ffccbc white-space:pre-wrap;
 .theme-peach .code-block code{background:none;padding:0;border:none;color:inherit}

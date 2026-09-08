@@ -5,7 +5,7 @@
 .theme-blush h2{margin:1.5em 0 .7em;font-weight:700;font-size:1.35em;color:#c2185b;padding:7px 14px;background:rgba(244,143,177,.1);border-left:4px solid #f48fb1;border-radius:0 10px 10px 0}
 .theme-blush h3{margin:1.3em 0 .5em;font-weight:600;font-size:1.15em;color:#e91e8c;padding-left:.8em;border-left:2px solid #f8bbd0}
 .theme-blush h4,h5,h6{margin:1em 0 .4em;font-weight:600;color:#c2185b}
-.theme-blush blockquote{margin:1.4em 0;padding:3px 18px;background:rgba(244,143,177,.09);border-left:4px solid #f48fb1;border-radius:0 12px 12px 0;color:#8a1040;font-style:normal}
+.theme-blush blockquote{font-size:13px;margin:1.4em 0;padding:3px 18px;background:rgba(244,143,177,.09);border-left:4px solid #f48fb1;border-radius:0 12px 12px 0;color:#8a1040;font-style:normal;}
 .theme-blush code{background:rgba(240,98,146,.1);padding:2px 7px;border-radius:5px;font-family:Consolas,Monaco,monospace;font-size:13px;color:#c2185b;border:1px solid rgba(240,98,146,.2)}
 .theme-blush .code-block{background:#1a0510;padding:16px;border-radius:12px;overflow-x:auto;margin:1.5em 0;font-family:Consolas,Monaco,monospace;font-size:13px;color:#fce4ec white-space:pre-wrap;
 .theme-blush .code-block code{background:none;padding:0;border:none;color:inherit}

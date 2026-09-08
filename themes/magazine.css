@@ -8,7 +8,7 @@
 .theme-magazine h4 { margin:1.2em 0 0.4em;font-weight:700;font-size:1em;color:#e63946; }
 .theme-magazine h5 { margin:1em 0 0.3em;font-weight:600;font-size:0.95em;color:#555; }
 .theme-magazine h6 { margin:0.8em 0 0.3em;font-weight:600;font-size:0.9em;color:#777; }
-.theme-magazine blockquote { margin:2em 0;padding:3px 24px;background:#f9f9f9;border-top:3px solid #e63946;border-bottom:1px solid #e5e5e5;color:#333;font-size:1.05em;font-style:normal;line-height:1.8; }
+.theme-magazine blockquote {margin:2em 0;padding:3px 24px;background:#f9f9f9;border-top:3px solid #e63946;border-bottom:1px solid #e5e5e5;color:#333;font-size:0.95em;font-style:normal;line-height:1.8;}
 .theme-magazine code { background:#f4f4f4;padding:2px 7px;border-radius:3px;font-family:Consolas,Monaco,monospace;font-size:13px;color:#e63946; }
 .theme-magazine .code-block {background:#1a1a1a;padding:20px;border-radius:0;overflow-x:auto;margin:1.5em 0;font-family:Consolas,Monaco,monospace;font-size:13px;color:#e5e5e5;border-left:4px solid #e63946; white-space:pre-wrap;
 .theme-magazine .code-block code { background:none;padding:0;border:none;color:inherit;font-size:inherit; }

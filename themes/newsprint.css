@@ -5,7 +5,7 @@
 .theme-newsprint h2{margin:1.5em 0 .5em;font-weight:800;font-size:1.5em;color:#000;padding-top:.6em;border-top:3px solid #000}
 .theme-newsprint h3{margin:1.3em 0 .4em;font-weight:700;font-size:1.2em;color:#1a1a1a;font-style:italic}
 .theme-newsprint h4,h5,h6{margin:1em 0 .4em;font-weight:700;color:#1a1a1a}
-.theme-newsprint blockquote{margin:1.5em 1em;padding:3px 16px;border-left:4px solid #333;color:#333;font-style:normal;font-size:1.05em;line-height:1.85}
+.theme-newsprint blockquote{margin:1.5em 1em;padding:3px 16px;border-left:4px solid #333;color:#333;font-style:normal;font-size:0.95em;line-height:1.85;}
 .theme-newsprint code{background:#ede8e0;padding:2px 6px;font-family:'Courier New',monospace;font-size:13px;color:#222;border:1px solid #ccc}
 .theme-newsprint .code-block{background:#1a1a1a;padding:16px;overflow-x:auto;margin:1.5em 0;font-family:'Courier New',monospace;font-size:13px;color:#ddd;border-left:4px solid #555 white-space:pre-wrap;
 .theme-newsprint .code-block code{background:none;padding:0;border:none;color:inherit}

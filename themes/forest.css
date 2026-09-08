@@ -8,7 +8,7 @@
 .theme-forest h4 { margin:1.1em 0 0.4em;font-weight:600;font-size:1.05em;color:#2d5a38; }
 .theme-forest h5 { margin:0.9em 0 0.3em;font-weight:600;font-size:1em;color:#2d5a38; }
 .theme-forest h6 { margin:0.8em 0 0.3em;font-weight:600;font-size:0.95em;color:#2d5a38; }
-.theme-forest blockquote { margin:1.4em 0;padding:3px 18px;background:rgba(45,122,74,0.08);border-left:4px solid #4a9e6a;border-radius:0 8px 8px 0;color:#1a4a2a;font-style:normal; }
+.theme-forest blockquote {font-size:13px;margin:1.4em 0;padding:3px 18px;background:rgba(45,122,74,0.08);border-left:4px solid #4a9e6a;border-radius:0 8px 8px 0;color:#1a4a2a;font-style:normal;}
 .theme-forest code { background:rgba(45,122,74,0.1);padding:2px 7px;border-radius:4px;font-family:Consolas,Monaco,monospace;font-size:13px;color:#1a6a38;border:1px solid rgba(45,122,74,0.2); }
 .theme-forest .code-block {background:#0a1a0f;padding:16px;border-radius:8px;overflow-x:auto;margin:1.5em 0;font-family:Consolas,Monaco,monospace;font-size:13px;color:#a8d8b8; white-space:pre-wrap;
 .theme-forest .code-block code { background:none;padding:0;border:none;color:inherit;font-size:inherit; }

@@ -1,0 +1,25 @@
+/* 主题：量子位（复刻公众号「量子位」排版 / 青绿竖线标题 / 宽松行高） */
+.theme-qbitai { background:#ffffff; color:#222222; font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue','PingFang SC','Microsoft YaHei',sans-serif; }
+.theme-qbitai p { margin:20px 0;line-height:2;letter-spacing:1px;font-size:16px;font-weight:400;color:#222222;text-align:left; }
+.theme-qbitai h1 { margin:40px 0 20px;padding-left:15px;border-left:6px solid #00997f;font-size:20px;font-weight:700;color:#222222;line-height:1.5;letter-spacing:1px; }
+.theme-qbitai h2 { margin:40px 0 20px;padding-left:15px;border-left:6px solid #00997f;font-size:20px;font-weight:700;color:#222222;line-height:1.5;letter-spacing:1px; }
+.theme-qbitai h3 { margin:30px 0 16px;padding-left:12px;border-left:5px solid #00997f;font-size:18px;font-weight:700;color:#222222;line-height:1.5;letter-spacing:1px; }
+.theme-qbitai h4 { margin:26px 0 14px;padding-left:10px;border-left:4px solid #00997f;font-size:17px;font-weight:700;color:#222222;line-height:1.6;letter-spacing:1px; }
+.theme-qbitai h5 { margin:10px 0 30px;padding:10px;background:#f8f8f8;border-radius:3px;font-size:14px;font-weight:300;color:#333333;line-height:2;letter-spacing:1px; }
+.theme-qbitai h6 { margin:24px 0 12px;font-size:15px;font-weight:700;color:#8f8f8f;line-height:1.6;letter-spacing:1px; }
+.theme-qbitai blockquote {margin:10px 0;padding:2px 6px 2px 10px;border-left:10px solid rgba(128,128,128,.075);background:rgba(128,128,128,.05);color:#222222;font-size:12px;line-height:2;letter-spacing:1px;font-style:normal;}
+.theme-qbitai blockquote p { margin-top:0;font-style:normal; }
+.theme-qbitai strong { font-weight:700;color:#00997f; }
+.theme-qbitai em { font-style:normal;color:#8f8f8f; }
+.theme-qbitai a { color:#00997f;text-decoration:none; }
+.theme-qbitai code { background:#f8f8f8;padding:2px 6px;border-radius:3px;font-family:Consolas,Monaco,monospace;font-size:14px;color:#00997f; }
+.theme-qbitai .code-block { background:#f8f8f8;padding:10px;border-radius:3px;overflow-x:auto;margin:20px 0;font-family:Consolas,Monaco,monospace;font-size:14px;color:#333333;line-height:1.7; white-space:pre-wrap; }
+.theme-qbitai .code-block code { background:none;padding:0;border-radius:0;color:inherit; }
+.theme-qbitai ul { margin:20px 0;padding-left:1.8em;list-style:disc; }
+.theme-qbitai ol { margin:20px 0;padding-left:1.8em;list-style:decimal; }
+.theme-qbitai li { margin:8px 0;line-height:2;letter-spacing:1px;font-size:16px;color:#222222; }
+.theme-qbitai hr { border:none;border-top:1px solid rgba(128,128,128,.15);margin:30px 0; }
+.theme-qbitai table { border-collapse:collapse;width:100%;margin:20px 0; }
+.theme-qbitai th { border:1px solid rgba(128,128,128,.2);padding:8px 10px;text-align:left;background:#f8f8f8;color:#222222;font-weight:700;letter-spacing:1px; }
+.theme-qbitai td { border:1px solid rgba(128,128,128,.2);padding:8px 10px;text-align:left;color:#222222;font-size:15px; }
+.theme-qbitai img { max-width:100%;height:auto;margin:20px auto;display:block; }

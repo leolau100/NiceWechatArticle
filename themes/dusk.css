@@ -4,7 +4,7 @@
 .theme-dusk h2{margin:1.5em 0 .7em;font-weight:700;font-size:1.35em;color:#e8a0c8;padding:8px 14px;background:rgba(232,160,200,.08);border-left:3px solid #e8a0c8;border-radius:0 6px 6px 0}
 .theme-dusk h3{margin:1.3em 0 .5em;font-weight:600;font-size:1.15em;color:#c880b0;padding-left:.8em;border-left:2px solid rgba(200,128,176,.4)}
 .theme-dusk h4,h5,h6{margin:1em 0 .4em;font-weight:600;color:#b870a0}
-.theme-dusk blockquote{margin:1.4em 0;padding:3px 18px;background:rgba(161,140,209,.07);border-left:4px solid #a18cd1;border-radius:0 8px 8px 0;color:#b898d0;font-style:normal}
+.theme-dusk blockquote{font-size:13px;margin:1.4em 0;padding:3px 18px;background:rgba(161,140,209,.07);border-left:4px solid #a18cd1;border-radius:0 8px 8px 0;color:#b898d0;font-style:normal;}
 .theme-dusk code{background:rgba(232,160,200,.1);padding:2px 7px;border-radius:4px;font-family:Consolas,Monaco,monospace;font-size:13px;color:#e8a0c8;border:1px solid rgba(232,160,200,.2)}
 .theme-dusk .code-block{background:#0a0818;padding:16px;border-radius:10px;overflow-x:auto;margin:1.5em 0;font-family:Consolas,Monaco,monospace;font-size:13px;color:#d0b8e8;border:1px solid rgba(161,140,209,.15) white-space:pre-wrap;
 .theme-dusk .code-block code{background:none;padding:0;border:none;color:inherit}

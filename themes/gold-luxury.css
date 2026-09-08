@@ -7,7 +7,7 @@
 .theme-gold-luxury h4 { margin:1.1em 0 0.4em;font-weight:600;font-size:1.05em;color:#c8960a; }
 .theme-gold-luxury h5 { margin:0.9em 0 0.3em;font-weight:600;font-size:1em;color:#c8960a; }
 .theme-gold-luxury h6 { margin:0.8em 0 0.3em;font-weight:600;font-size:0.95em;color:#c8960a; }
-.theme-gold-luxury blockquote { margin:1.4em 0;padding:3px 18px;background:rgba(200,150,10,0.06);border-left:3px solid #c8960a;border-radius:0 6px 6px 0;color:#a88050;font-style:normal; }
+.theme-gold-luxury blockquote {font-size:13px;margin:1.4em 0;padding:3px 18px;background:rgba(200,150,10,0.06);border-left:3px solid #c8960a;border-radius:0 6px 6px 0;color:#a88050;font-style:normal;}
 .theme-gold-luxury code { background:rgba(240,192,48,0.08);padding:2px 7px;border-radius:4px;font-family:Consolas,Monaco,monospace;font-size:13px;color:#f0c030;border:1px solid rgba(240,192,48,0.2); }
 .theme-gold-luxury .code-block {background:#060402;padding:16px;border-radius:8px;overflow-x:auto;margin:1.5em 0;font-family:Consolas,Monaco,monospace;font-size:13px;color:#c8a87a;border:1px solid rgba(200,150,10,0.25); white-space:pre-wrap;
 .theme-gold-luxury .code-block code { background:none;padding:0;border:none;color:inherit;font-size:inherit; }

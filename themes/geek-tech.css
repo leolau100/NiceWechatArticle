@@ -10,7 +10,7 @@
 .theme-geek-tech h4 { margin:1.5em 0 0.8em;font-weight:600;color:#1f2328;font-size:1.1rem;font-family:'SF Mono','Monaco','Consolas',monospace; }
 .theme-geek-tech h5 { margin:1.2em 0 0.6em;font-weight:600;color:#1f2328;font-size:1rem;font-family:'SF Mono','Monaco','Consolas',monospace; }
 .theme-geek-tech h6 { margin:1em 0 0.5em;font-weight:600;color:#57606a;font-size:0.95rem;font-family:'SF Mono','Monaco','Consolas',monospace; }
-.theme-geek-tech blockquote { margin:1.5em 0;padding:3px 16px;color:#57606a;background-color:#f6f8fa;border-left:4px solid #0969da;border-radius:0 4px 4px 0; }
+.theme-geek-tech blockquote {font-size:13px;margin:1.5em 0;padding:3px 16px;color:#57606a;background-color:#f6f8fa;border-left:4px solid #0969da;border-radius:0 4px 4px 0;}
 .theme-geek-tech code { margin:0;padding:0.2em 0.4em;color:#24292f;font-size:85%;font-family:'SF Mono','Monaco',monospace;background-color:rgba(175,184,193,0.2);border-radius:6px; }
 .theme-geek-tech .code-block {background:#0d1117;padding:16px;border-radius:6px;overflow-x:auto;margin:1.5em 0;font-family:'SF Mono','Monaco',monospace;font-size:14px;color:#e6edf3; white-space:pre-wrap;
 .theme-geek-tech .code-block code { background:none;padding:0;border-radius:0;color:inherit;font-size:inherit; }

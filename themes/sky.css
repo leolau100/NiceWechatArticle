@@ -5,7 +5,7 @@
 .theme-sky h2{margin:1.5em 0 .7em;font-weight:700;font-size:1.35em;color:#0369a1;padding:7px 14px;background:rgba(56,189,248,.09);border-left:4px solid #38bdf8;border-radius:0 8px 8px 0}
 .theme-sky h3{margin:1.3em 0 .5em;font-weight:600;font-size:1.15em;color:#0284c7;padding-left:.8em;border-left:2px solid #bae6fd}
 .theme-sky h4,h5,h6{margin:1em 0 .4em;font-weight:600;color:#0369a1}
-.theme-sky blockquote{margin:1.4em 0;padding:3px 18px;background:rgba(56,189,248,.08);border-left:4px solid #38bdf8;border-radius:0 10px 10px 0;color:#034a6e;font-style:normal}
+.theme-sky blockquote{font-size:13px;margin:1.4em 0;padding:3px 18px;background:rgba(56,189,248,.08);border-left:4px solid #38bdf8;border-radius:0 10px 10px 0;color:#034a6e;font-style:normal;}
 .theme-sky code{background:rgba(14,165,233,.1);padding:2px 7px;border-radius:4px;font-family:Consolas,Monaco,monospace;font-size:13px;color:#0284c7;border:1px solid rgba(14,165,233,.22)}
 .theme-sky .code-block{background:#082030;padding:16px;border-radius:10px;overflow-x:auto;margin:1.5em 0;font-family:Consolas,Monaco,monospace;font-size:13px;color:#bae6fd white-space:pre-wrap;
 .theme-sky .code-block code{background:none;padding:0;border:none;color:inherit}

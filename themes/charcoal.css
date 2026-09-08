@@ -5,7 +5,7 @@
 .theme-charcoal h2{margin:1.5em 0 .7em;font-weight:700;font-size:1.35em;color:#aeaeb2;padding:8px 14px;background:rgba(255,255,255,.05);border-left:3px solid #636366;border-radius:0 6px 6px 0}
 .theme-charcoal h3{margin:1.3em 0 .5em;font-weight:600;font-size:1.15em;color:#c7c7cc;padding-left:.8em;border-left:2px solid #3a3a3c}
 .theme-charcoal h4,h5,h6{margin:1em 0 .4em;font-weight:600;color:#aeaeb2}
-.theme-charcoal blockquote{margin:1.4em 0;padding:3px 18px;background:rgba(255,255,255,.04);border-left:4px solid #636366;border-radius:0 6px 6px 0;color:#aeaeb2}
+.theme-charcoal blockquote{font-size:13px;margin:1.4em 0;padding:3px 18px;background:rgba(255,255,255,.04);border-left:4px solid #636366;border-radius:0 6px 6px 0;color:#aeaeb2;}
 .theme-charcoal code{background:rgba(255,255,255,.07);padding:2px 7px;border-radius:4px;font-family:'JetBrains Mono',Consolas,monospace;font-size:13px;color:#c7c7cc;border:1px solid rgba(255,255,255,.1)}
 .theme-charcoal .code-block{background:#111113;padding:16px;border-radius:8px;overflow-x:auto;margin:1.5em 0;font-family:'JetBrains Mono',Consolas,monospace;font-size:13px;color:#e5e5ea;border:1px solid #2c2c2e white-space:pre-wrap;
 .theme-charcoal .code-block code{background:none;padding:0;border:none;color:inherit}

@@ -5,7 +5,7 @@
 .theme-spring h2{margin:1.5em 0 .7em;font-weight:700;font-size:1.35em;color:#2d7a18;padding:7px 14px;background:rgba(86,171,47,.1);border-left:4px solid #56ab2f;border-radius:0 8px 8px 0}
 .theme-spring h3{margin:1.3em 0 .5em;font-weight:600;font-size:1.15em;color:#3d8a20;padding-left:.8em;border-left:2px solid #a8e063}
 .theme-spring h4,h5,h6{margin:1em 0 .4em;font-weight:600;color:#2d7a18}
-.theme-spring blockquote{margin:1.4em 0;padding:3px 18px;background:rgba(86,171,47,.08);border-left:4px solid #56ab2f;border-radius:0 10px 10px 0;color:#1a4a08;font-style:normal}
+.theme-spring blockquote{font-size:13px;margin:1.4em 0;padding:3px 18px;background:rgba(86,171,47,.08);border-left:4px solid #56ab2f;border-radius:0 10px 10px 0;color:#1a4a08;font-style:normal;}
 .theme-spring code{background:rgba(86,171,47,.1);padding:2px 7px;border-radius:5px;font-family:Consolas,Monaco,monospace;font-size:13px;color:#2d7a18;border:1px solid rgba(86,171,47,.22)}
 .theme-spring .code-block{background:#0a1a05;padding:16px;border-radius:10px;overflow-x:auto;margin:1.5em 0;font-family:Consolas,Monaco,monospace;font-size:13px;color:#c8f0a0 white-space:pre-wrap;
 .theme-spring .code-block code{background:none;padding:0;border:none;color:inherit}

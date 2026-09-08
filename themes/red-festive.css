@@ -9,7 +9,7 @@
 .theme-red-festive h4 { margin:1.1em 0 0.4em;font-weight:600;font-size:1.05em;color:#b71c1c; }
 .theme-red-festive h5 { margin:0.9em 0 0.3em;font-weight:600;font-size:1em;color:#b71c1c; }
 .theme-red-festive h6 { margin:0.8em 0 0.3em;font-weight:600;font-size:0.95em;color:#b71c1c; }
-.theme-red-festive blockquote { margin:1.4em 0;padding:3px 18px;background:rgba(198,42,42,0.05);border-left:4px solid #e53935;border-radius:0 6px 6px 0;color:#7a1a1a;font-style:normal; }
+.theme-red-festive blockquote {font-size:13px;margin:1.4em 0;padding:3px 18px;background:rgba(198,42,42,0.05);border-left:4px solid #e53935;border-radius:0 6px 6px 0;color:#7a1a1a;font-style:normal;}
 .theme-red-festive code { background:rgba(198,42,42,0.08);padding:2px 7px;border-radius:4px;font-family:Consolas,Monaco,monospace;font-size:13px;color:#c62a2a;border:1px solid rgba(198,42,42,0.2); }
 .theme-red-festive .code-block {background:#1a0505;padding:16px;border-radius:8px;overflow-x:auto;margin:1.5em 0;font-family:Consolas,Monaco,monospace;font-size:13px;color:#ffb3b3; white-space:pre-wrap;
 .theme-red-festive .code-block code { background:none;padding:0;border:none;color:inherit;font-size:inherit; }

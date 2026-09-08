@@ -107,6 +107,7 @@
 <script setup>
 import { ref, computed, watch, nextTick, onBeforeUnmount } from 'vue'
 import { marked } from 'marked'
+import { applyHeadingStyle } from '@/config/headingStyle'
 // 硬换行保留为 <br>，让每一行 > 引用都成为独立的新行
 marked.setOptions({ breaks: true, gfm: true })
 import { EditorView, keymap, lineNumbers, highlightActiveLine } from '@codemirror/view'
@@ -282,6 +283,9 @@ async function updatePreview() {
         doc.open()
         doc.write(`<!DOCTYPE html><html><head><meta charset="UTF-8"><style>body{margin:0;padding:12px;overflow-x:hidden;word-break:break-word;box-sizing:border-box;}img{max-width:100%;}</style></head><body>${inlined}</body></html>`)
         doc.close()
+
+        // 应用标题（h1–h6）字号 / 字重：主题级配置 > 系统默认配置
+        applyHeadingStyle(doc, props.currentTheme)
       } else {
         console.warn('[TemplateModal] inlineTheme prop missing')
       }

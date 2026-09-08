@@ -7,7 +7,7 @@
 .theme-deepsea h4 { margin:1.1em 0 0.4em;font-weight:600;font-size:1.1em;color:#103a63;padding-left:0.4em;border-left:3px solid #5a9bd8; }
 .theme-deepsea h5 { margin:1em 0 0.4em;font-weight:600;font-size:1em;color:#274463;padding-left:0.3em;border-left:2px solid #8fbce6; }
 .theme-deepsea h6 { margin:1em 0 0.3em;font-weight:600;font-size:0.95em;color:#46586e;padding-left:0.3em;border-left:2px solid #bcdcf2; }
-.theme-deepsea blockquote { margin:1.2em 0;padding:3px 1em;color:#46586e;border-left:4px solid #0a4d8c;font-style:normal; }
+.theme-deepsea blockquote {font-size:13px;margin:1.2em 0;padding:3px 1em;color:#46586e;border-left:4px solid #0a4d8c;font-style:normal;}
 .theme-deepsea blockquote p { margin-top:0; font-style:normal; }
 .theme-deepsea code { background:none;padding:1px 4px;border-radius:4px;font-family:Consolas,Monaco,monospace;font-size:13px;color:#0a4d8c; }
 .theme-deepsea .code-block { background:none;padding:14px;border:1px solid #cfe0f0;border-radius:6px;overflow-x:auto;margin:1.4em 0;font-family:Consolas,Monaco,monospace;font-size:13px;color:#1c2b3a; white-space:pre-wrap; }

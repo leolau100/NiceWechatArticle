@@ -6,7 +6,7 @@
 .theme-obsidian h2{margin:1.5em 0 .7em;font-weight:700;font-size:1.35em;color:#a8a8e8;padding:8px 14px;background:rgba(108,99,255,.07);border-left:3px solid #6c63ff;border-radius:0 6px 6px 0}
 .theme-obsidian h3{margin:1.3em 0 .5em;font-weight:600;font-size:1.15em;color:#8888cc;padding-left:.8em;border-left:2px solid rgba(108,99,255,.35)}
 .theme-obsidian h4,h5,h6{margin:1em 0 .4em;font-weight:600;color:#7878b8}
-.theme-obsidian blockquote{margin:1.4em 0;padding:3px 18px;background:rgba(108,99,255,.06);border-left:4px solid #4444aa;border-radius:0 8px 8px 0;color:#9898c8;font-style:normal}
+.theme-obsidian blockquote{font-size:13px;margin:1.4em 0;padding:3px 18px;background:rgba(108,99,255,.06);border-left:4px solid #4444aa;border-radius:0 8px 8px 0;color:#9898c8;font-style:normal;}
 .theme-obsidian code{background:rgba(108,99,255,.1);padding:2px 7px;border-radius:4px;font-family:'JetBrains Mono',Consolas,monospace;font-size:13px;color:#a8a8f8;border:1px solid rgba(108,99,255,.2)}
 .theme-obsidian .code-block{background:#0a0a12;padding:16px;border-radius:10px;overflow-x:auto;margin:1.5em 0;font-family:'JetBrains Mono',Consolas,monospace;font-size:13px;color:#c8c8e8;border:1px solid rgba(108,99,255,.12) white-space:pre-wrap;
 .theme-obsidian .code-block code{background:none;padding:0;border:none;color:inherit}

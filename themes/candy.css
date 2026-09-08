@@ -6,7 +6,7 @@
 .theme-candy h4 { margin:1.1em 0 0.4em;font-weight:600;font-size:1.05em;color:#0ea5e9; }
 .theme-candy h5 { margin:0.9em 0 0.3em;font-weight:600;font-size:1em;color:#0ea5e9; }
 .theme-candy h6 { margin:0.8em 0 0.3em;font-weight:600;font-size:0.95em;color:#0ea5e9; }
-.theme-candy blockquote { margin:1.4em 0;padding:3px 18px;background:rgba(167,139,250,0.1)135deg,rgba(255,157,226,0.12),rgba(167,139,250,0.1));border-left:4px solid #f472b6;border-radius:0 10px 10px 0;color:#6b21a8; }
+.theme-candy blockquote {font-size:13px;margin:1.4em 0;padding:3px 18px;background:rgba(167,139,250,0.1)135deg,rgba(255,157,226,0.12),rgba(167,139,250,0.1));border-left:4px solid #f472b6;border-radius:0 10px 10px 0;color:#6b21a8;}
 .theme-candy code { background:rgba(167,139,250,0.12);padding:2px 7px;border-radius:6px;font-family:Consolas,Monaco,monospace;font-size:13px;color:#7c3aed;border:1px solid rgba(167,139,250,0.25); }
 .theme-candy .code-block {background:#1a0a2e;padding:16px;border-radius:12px;overflow-x:auto;margin:1.5em 0;font-family:Consolas,Monaco,monospace;font-size:13px;color:#e9d5ff; white-space:pre-wrap;
 .theme-candy .code-block code { background:none;padding:0;border:none;color:inherit;font-size:inherit; }

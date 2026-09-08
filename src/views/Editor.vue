@@ -19,6 +19,7 @@
         </a>
         <button class="btn btn-ghost" @click="showSvgEffectsModal = true">✦ SVG动效</button>
         <button class="btn btn-ghost" @click="showThemeModal = true">🎨 主题</button>
+        <button class="btn btn-ghost" @click="showHeadingModal = true" title="全局标题字号 / 颜色 / 字重设置">⚙ 标题</button>
         <button class="btn btn-ghost" @click="handleReset" title="重置所有缓存">↺</button>
         <button class="btn btn-primary" @click="handleCopy">📋 一键复制</button>
       </div>
@@ -130,6 +131,14 @@
       :current-theme="currentTheme"
       @close="showThemeModal = false"
       @select="handleThemeChange"
+      @settings-saved="updatePreview"
+    />
+
+    <!-- 全局标题设置（系统默认） -->
+    <HeadingSettingsModal
+      v-model:open="showHeadingModal"
+      scope="global"
+      @saved="updatePreview"
     />
 
     <!-- Header Template Modal -->
@@ -200,7 +209,11 @@ import SvgEffectsModal from '../components/SvgEffectsModal.vue'
 import DonateModal from '../components/DonateModal.vue'
 // 与「一键复制」/接口共用同一套渲染逻辑，保证预览与输出同源
 // 仅引入 wechatifyDoc（本文件已有的 inlineThemeToSection / getThemeCss 同源复用，避免重名）
-import { wechatifyDoc } from '@/render'
+import { wechatifyDoc, normalizeBlockquoteSpacing } from '@/render'
+import { applyHeadingStyle, applyHeadingNumber } from '@/config/headingStyle'
+import HeadingSettingsModal from '../components/HeadingSettingsModal.vue'
+
+const showHeadingModal = ref(false)
 
 // Storage Keys
 const STORAGE_KEYS = {
@@ -287,6 +300,9 @@ const themeFileMap = {
   'plain':'themes/plain.css','plain-doc':'themes/plain-doc.css','plain-minimal':'themes/plain-minimal.css','plain-news':'themes/plain-news.css','plain-serif':'themes/plain-serif.css',
   'line':'themes/line.css','line-serif':'themes/line-serif.css','line-warm':'themes/line-warm.css',
   'deepsea':'themes/deepsea.css',
+  'qbitai':'themes/qbitai.css',
+  'jiqizhixin':'themes/jiqizhixin.css',
+  'wavy':'themes/wavy.css','wavy-serif':'themes/wavy-serif.css',
 }
 
 // Theme CSS Cache
@@ -772,6 +788,15 @@ async function updatePreview() {
   doc.open()
   doc.write(finalHtml)
   doc.close()
+
+  // 应用标题（h1–h6）字号 / 字重：主题级配置 > 系统默认配置
+  applyHeadingStyle(doc, currentTheme.value)
+
+  // 引用块内容垂直居中（首尾元素上下外边距清零）
+  normalizeBlockquoteSpacing(doc)
+
+  // 标题自动序号（仅对启用序号的主题生效）
+  applyHeadingNumber(doc, currentTheme.value)
 
   // 用 ResizeObserver 持续监听 iframe body 高度变化，确保完全撑开
   const iframe = previewIframeRef.value

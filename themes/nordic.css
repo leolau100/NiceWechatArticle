@@ -7,7 +7,7 @@
 .theme-nordic h4 { margin:1.2em 0 0.5em;font-weight:600;font-size:1.05em;color:#2c6e9e; }
 .theme-nordic h5 { margin:1em 0 0.4em;font-weight:600;font-size:1em;color:#2c6e9e; }
 .theme-nordic h6 { margin:0.8em 0 0.3em;font-weight:600;font-size:0.95em;color:#2c6e9e; }
-.theme-nordic blockquote { margin:1.5em 0;padding:3px 20px;background:#ede8e0;border-left:4px solid #2c6e9e;border-radius:0 4px 4px 0;color:#3c3c3c; }
+.theme-nordic blockquote {font-size:13px;margin:1.5em 0;padding:3px 20px;background:#ede8e0;border-left:4px solid #2c6e9e;border-radius:0 4px 4px 0;color:#3c3c3c;}
 .theme-nordic code { background:#ede8e0;padding:2px 7px;border-radius:3px;font-family:Consolas,Monaco,monospace;font-size:13px;color:#2c6e9e;border:1px solid #d8d0c8; }
 .theme-nordic .code-block {background:#1e1e1e;padding:16px;border-radius:6px;overflow-x:auto;margin:1.5em 0;font-family:Consolas,Monaco,monospace;font-size:13px;color:#d4d4d4; white-space:pre-wrap;
 .theme-nordic .code-block code { background:none;padding:0;border:none;color:inherit;font-size:inherit; }

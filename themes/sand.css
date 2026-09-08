@@ -6,7 +6,7 @@
 .theme-sand h2{margin:1.5em 0 .7em;font-weight:700;font-size:1.35em;color:#7a4a2a;padding:7px 14px;background:rgba(196,149,106,.1);border-left:4px solid #c4956a;border-radius:0 8px 8px 0}
 .theme-sand h3{margin:1.3em 0 .5em;font-weight:600;font-size:1.15em;color:#9a6040;padding-left:.8em;border-left:2px solid #dbb894}
 .theme-sand h4,h5,h6{margin:1em 0 .4em;font-weight:600;color:#7a4a2a}
-.theme-sand blockquote{margin:1.4em 0;padding:3px 20px;background:rgba(196,149,106,.08);border-left:4px solid #c4956a;border-radius:0 8px 8px 0;color:#5a3a1a;font-style:normal}
+.theme-sand blockquote{font-size:13px;margin:1.4em 0;padding:3px 20px;background:rgba(196,149,106,.08);border-left:4px solid #c4956a;border-radius:0 8px 8px 0;color:#5a3a1a;font-style:normal;}
 .theme-sand code{background:rgba(196,149,106,.1);padding:2px 7px;border-radius:4px;font-family:Consolas,Monaco,monospace;font-size:13px;color:#9a6040;border:1px solid rgba(196,149,106,.25)}
 .theme-sand .code-block{background:#1a0e08;padding:16px;border-radius:8px;overflow-x:auto;margin:1.5em 0;font-family:Consolas,Monaco,monospace;font-size:13px;color:#ddb894 white-space:pre-wrap;
 .theme-sand .code-block code{background:none;padding:0;border:none;color:inherit}

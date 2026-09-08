@@ -6,7 +6,7 @@
 .theme-cyber h2{margin:1.5em 0 .7em;font-weight:700;font-size:1.35em;color:#00f0ff;padding:8px 14px;background:rgba(0,240,255,.06);border:1px solid rgba(0,240,255,.2);border-left-width:4px}
 .theme-cyber h3{margin:1.3em 0 .5em;font-weight:700;font-size:1.15em;color:#ff0090;letter-spacing:.04em}
 .theme-cyber h4,h5,h6{margin:1em 0 .4em;font-weight:600;color:#ffe600}
-.theme-cyber blockquote{margin:1.4em 0;padding:3px 18px;background:rgba(255,0,144,.05);border-left:4px solid #ff0090;border-radius:0 6px 6px 0;color:#d0b0e0;font-style:normal}
+.theme-cyber blockquote{font-size:13px;margin:1.4em 0;padding:3px 18px;background:rgba(255,0,144,.05);border-left:4px solid #ff0090;border-radius:0 6px 6px 0;color:#d0b0e0;font-style:normal;}
 .theme-cyber code{background:rgba(0,240,255,.08);padding:2px 7px;border-radius:3px;font-family:'JetBrains Mono',Consolas,monospace;font-size:13px;color:#00f0ff;border:1px solid rgba(0,240,255,.25)}
 .theme-cyber .code-block{background:#050010;padding:16px;border-radius:6px;overflow-x:auto;margin:1.5em 0;font-family:'JetBrains Mono',Consolas,monospace;font-size:13px;color:#ffe600;border:1px solid rgba(255,230,0,.2);box-shadow:0 0 20px rgba(255,230,0,.05) white-space:pre-wrap;
 .theme-cyber .code-block code{background:none;padding:0;border:none;color:inherit}

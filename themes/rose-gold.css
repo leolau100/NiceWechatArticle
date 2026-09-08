@@ -8,7 +8,7 @@
 .theme-rose-gold h4 { margin:1.1em 0 0.4em;font-weight:600;font-size:1.05em;color:#a03060; }
 .theme-rose-gold h5 { margin:0.9em 0 0.3em;font-weight:600;font-size:1em;color:#a03060; }
 .theme-rose-gold h6 { margin:0.8em 0 0.3em;font-weight:600;font-size:0.95em;color:#a03060; }
-.theme-rose-gold blockquote { margin:1.4em 0;padding:3px 18px;background:rgba(255,240,244,0.8)135deg,rgba(232,164,164,0.15),rgba(255,240,244,0.8));border-left:4px solid #c8748c;border-radius:0 8px 8px 0;color:#6b2040;font-style:normal; }
+.theme-rose-gold blockquote {font-size:13px;margin:1.4em 0;padding:3px 18px;background:rgba(255,240,244,0.8)135deg,rgba(232,164,164,0.15),rgba(255,240,244,0.8));border-left:4px solid #c8748c;border-radius:0 8px 8px 0;color:#6b2040;font-style:normal;}
 .theme-rose-gold code { background:rgba(200,116,140,0.1);padding:2px 7px;border-radius:4px;font-family:Consolas,Monaco,monospace;font-size:13px;color:#c8748c;border:1px solid rgba(200,116,140,0.2); }
 .theme-rose-gold .code-block {background:#1a0a10;padding:16px;border-radius:8px;overflow-x:auto;margin:1.5em 0;font-family:Consolas,Monaco,monospace;font-size:13px;color:#f4c2c2; white-space:pre-wrap;
 .theme-rose-gold .code-block code { background:none;padding:0;border:none;color:inherit;font-size:inherit; }

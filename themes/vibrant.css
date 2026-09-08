@@ -7,7 +7,7 @@
 .theme-vibrant h4 { margin:1.1em 0 0.4em;font-weight:600;font-size:1.05em;color:#10b981; }
 .theme-vibrant h5 { margin:0.9em 0 0.3em;font-weight:600;font-size:1em;color:#f59e0b; }
 .theme-vibrant h6 { margin:0.8em 0 0.3em;font-weight:600;font-size:0.95em;color:#ef4444; }
-.theme-vibrant blockquote { margin:1.4em 0;padding:3px 18px;background:rgba(118,75,162,0.06)135deg,rgba(102,126,234,0.08),rgba(118,75,162,0.06));border-left:4px solid #667eea;border-radius:0 10px 10px 0;color:#4a3a7a; }
+.theme-vibrant blockquote {font-size:13px;margin:1.4em 0;padding:3px 18px;background:rgba(118,75,162,0.06)135deg,rgba(102,126,234,0.08),rgba(118,75,162,0.06));border-left:4px solid #667eea;border-radius:0 10px 10px 0;color:#4a3a7a;}
 .theme-vibrant code { background:rgba(102,126,234,0.1);padding:2px 7px;border-radius:5px;font-family:Consolas,Monaco,monospace;font-size:13px;color:#667eea;border:1px solid rgba(102,126,234,0.2); }
 .theme-vibrant .code-block {background:#0f0f1a;padding:16px;border-radius:10px;overflow-x:auto;margin:1.5em 0;font-family:Consolas,Monaco,monospace;font-size:13px;color:#e0e0ff; white-space:pre-wrap;
 .theme-vibrant .code-block code { background:none;padding:0;border:none;color:inherit;font-size:inherit; }

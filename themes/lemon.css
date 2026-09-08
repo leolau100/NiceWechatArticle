@@ -5,7 +5,7 @@
 .theme-lemon h2{margin:1.5em 0 .7em;font-weight:700;font-size:1.35em;color:#6a6a00;padding:7px 14px;background:rgba(230,214,0,.12);border-left:4px solid #c8c000;border-radius:0 8px 8px 0}
 .theme-lemon h3{margin:1.3em 0 .5em;font-weight:600;font-size:1.15em;color:#808000;padding-left:.8em;border-left:2px solid #e8e840}
 .theme-lemon h4,h5,h6{margin:1em 0 .4em;font-weight:600;color:#6a6a00}
-.theme-lemon blockquote{margin:1.4em 0;padding:3px 18px;background:rgba(230,214,0,.1);border-left:4px solid #c8c000;border-radius:0 8px 8px 0;color:#4a4a00}
+.theme-lemon blockquote{font-size:13px;margin:1.4em 0;padding:3px 18px;background:rgba(230,214,0,.1);border-left:4px solid #c8c000;border-radius:0 8px 8px 0;color:#4a4a00;}
 .theme-lemon code{background:rgba(200,192,0,.12);padding:2px 7px;border-radius:4px;font-family:Consolas,Monaco,monospace;font-size:13px;color:#7a7a00;border:1px solid rgba(200,192,0,.3)}
 .theme-lemon .code-block{background:#1a1a05;padding:16px;border-radius:8px;overflow-x:auto;margin:1.5em 0;font-family:Consolas,Monaco,monospace;font-size:13px;color:#eeee80 white-space:pre-wrap;
 .theme-lemon .code-block code{background:none;padding:0;border:none;color:inherit}

@@ -6,7 +6,7 @@
 .theme-blue h4 { margin:1.2em 0 0.5em;font-weight:600;color:#4338ca;font-size:1.1em; }
 .theme-blue h5 { margin:1em 0 0.4em;font-weight:600;color:#4338ca;font-size:1em; }
 .theme-blue h6 { margin:0.8em 0 0.3em;font-weight:600;color:#4338ca;font-size:0.95em; }
-.theme-blue blockquote { border-radius:8px;padding:3px 24px;margin:1.5em 0;color:#4338ca;background:#e0e7ff;border-left:4px solid #6366f1;font-style:normal; }
+.theme-blue blockquote {font-size:13px;border-radius:8px;padding:3px 24px;margin:1.5em 0;color:#4338ca;background:#e0e7ff;border-left:4px solid #6366f1;font-style:normal;}
 .theme-blue code { background:#e0e7ff;padding:3px 8px;border-radius:4px;font-family:Consolas,Monaco,monospace;font-size:14px;color:#4f46e5; }
 .theme-blue .code-block {background:#1e1b4b;padding:16px;border-radius:8px;overflow-x:auto;margin:1.5em 0;font-family:Consolas,Monaco,monospace;font-size:14px;color:#a5b4fc; white-space:pre-wrap;
 .theme-blue .code-block code { background:none;padding:0;border-radius:0;color:inherit; }

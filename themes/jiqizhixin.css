@@ -1,0 +1,25 @@
+/* 主题：机器之心（复刻公众号「机器之心」排版 / 深蓝强调 / 15px 行高1.75） */
+.theme-jiqizhixin { background:#ffffff; color:#3f3f3f; font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue','PingFang SC','Microsoft YaHei',sans-serif; }
+.theme-jiqizhixin p { margin:1em 0;line-height:1.75;font-size:15px;color:#3f3f3f; }
+.theme-jiqizhixin h1 { margin:1.6em 0 0.8em;font-weight:700;font-size:19px;color:#00427b;line-height:1.5; }
+.theme-jiqizhixin h2 { margin:1.5em 0 0.7em;font-weight:700;font-size:17px;color:#00427b;line-height:1.5; }
+.theme-jiqizhixin h3 { margin:1.4em 0 0.6em;font-weight:700;font-size:16px;color:#00427b;line-height:1.5; }
+.theme-jiqizhixin h4 { margin:1.3em 0 0.5em;font-weight:700;font-size:15px;color:#00427b;line-height:1.6; }
+.theme-jiqizhixin h5 { margin:1.2em 0 0.5em;font-weight:700;font-size:15px;color:#00427b;line-height:1.6; }
+.theme-jiqizhixin h6 { margin:1.2em 0 0.4em;font-weight:700;font-size:14px;color:#888888;line-height:1.6; }
+.theme-jiqizhixin blockquote {margin:1em 0;padding:8px 12px;background:#f7f8fa;border-left:3px solid #00427b;color:#5a5a5a;font-size:13px;line-height:1.75;font-style:normal;}
+.theme-jiqizhixin blockquote p { margin-top:0;font-style:normal; }
+.theme-jiqizhixin strong { font-weight:700;color:#00427b; }
+.theme-jiqizhixin em { color:#888888;font-style:italic; }
+.theme-jiqizhixin a { color:#00427b;text-decoration:underline; }
+.theme-jiqizhixin code { background:#f2f4f7;padding:2px 5px;border-radius:3px;font-family:Consolas,Monaco,monospace;font-size:13px;color:#00427b; }
+.theme-jiqizhixin .code-block { background:#f7f8fa;padding:12px;border-radius:4px;overflow-x:auto;margin:1.2em 0;font-family:Consolas,Monaco,monospace;font-size:13px;color:#3f3f3f;line-height:1.7; white-space:pre-wrap; }
+.theme-jiqizhixin .code-block code { background:none;padding:0;border-radius:0;color:inherit; }
+.theme-jiqizhixin ul { margin:1em 0;padding-left:1.6em;list-style:disc; }
+.theme-jiqizhixin ol { margin:1em 0;padding-left:1.6em;list-style:decimal; }
+.theme-jiqizhixin li { margin:0.4em 0;line-height:1.75;font-size:15px;color:#3f3f3f; }
+.theme-jiqizhixin hr { border:none;border-top:1px solid #e5e5e5;margin:1.8em 0; }
+.theme-jiqizhixin table { border-collapse:collapse;width:100%;margin:1.2em 0; }
+.theme-jiqizhixin th { border:1px solid #e5e5e5;padding:8px 10px;text-align:left;background:#f7f8fa;color:#00427b;font-weight:700; }
+.theme-jiqizhixin td { border:1px solid #e5e5e5;padding:8px 10px;text-align:left;color:#3f3f3f;font-size:14px; }
+.theme-jiqizhixin img { max-width:100%;height:auto;margin:1em auto;display:block; }

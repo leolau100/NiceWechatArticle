@@ -63,7 +63,13 @@
                 </div>
                 <div class="sim-quote" :style="{ borderColor: theme.accent, background: alpha(theme.accent, .07), color: theme.quoteText || theme.accent }">引用块示例</div>
               </div>
-              <div v-if="theme.id === currentTheme" class="active-badge" :style="{ background: theme.accent }">✓</div>
+              <div
+              class="card-setting"
+              @click.stop="openSettings(theme)"
+              title="该主题的标题设置"
+              :style="{position:'absolute',top:'6px',left:'6px',width:'22px',height:'22px',borderRadius:'50%',background:'rgba(0,0,0,.35)',color:'#fff',fontSize:'12px',display:'flex',alignItems:'center',justifyContent:'center',zIndex:'2',cursor:'pointer'}"
+            >⚙</div>
+            <div v-if="theme.id === currentTheme" class="active-badge" :style="{ background: theme.accent }">✓</div>
             </div>
             <!-- 卡片信息 -->
             <div class="card-info" :style="{ background: theme.cardBg || '#fff' }">
@@ -84,16 +90,34 @@
       </div><!-- /theme-dialog -->
     </div><!-- /theme-overlay -->
   </transition>
+
+  <!-- 单个主题的标题设置 -->
+  <HeadingSettingsModal
+    v-model:open="settingsOpen"
+    scope="theme"
+    :theme="settingsTheme?.id || ''"
+    :theme-name="settingsTheme?.name || ''"
+    @saved="emit('settings-saved')"
+  />
 </template>
 
 <script setup>
 import { ref, computed } from 'vue'
+import HeadingSettingsModal from './HeadingSettingsModal.vue'
 
 const props = defineProps({
   visible: { type: Boolean, default: false },
   currentTheme: { type: String, default: 'blue' }
 })
-const emit = defineEmits(['close', 'select'])
+const emit = defineEmits(['close', 'select', 'settings-saved'])
+
+// 单个主题的标题设置弹窗
+const settingsOpen = ref(false)
+const settingsTheme = ref(null)
+function openSettings(theme) {
+  settingsTheme.value = theme
+  settingsOpen.value = true
+}
 
 const activeCategory = ref('natural')
 const searchQuery = ref('')
@@ -189,6 +213,10 @@ const allThemes = {
     { id:'line-serif',    name:'衬线竖线',   desc:'白底宋体，标题左竖线',   emoji:'📕', accent:'#333333', previewBg:'#ffffff', quoteText:'#444444', lineColor:'rgba(51,51,51,.18)' },
     { id:'line-warm',     name:'暖橙竖线',   desc:'白底暖调，标题左竖线',   emoji:'🟠', accent:'#d97706', previewBg:'#ffffff', quoteText:'#6b5d4a', lineColor:'rgba(217,119,6,.18)' },
     { id:'deepsea',       name:'静海蓝调',   desc:'白底无背景，深海蓝竖线', emoji:'🌊', accent:'#0a4d8c', previewBg:'#ffffff', quoteText:'#46586e', lineColor:'rgba(10,77,140,.18)' },
+    { id:'qbitai',        name:'量子位',     desc:'青绿竖线，宽松行高，媒体排版', emoji:'🟢', accent:'#00997f', previewBg:'#ffffff', quoteText:'#222222', lineColor:'rgba(0,153,127,.18)' },
+    { id:'jiqizhixin',    name:'机器之心',   desc:'深蓝加粗，15px 行高1.75，媒体排版', emoji:'🤖', accent:'#00427b', previewBg:'#ffffff', quoteText:'#5a5a5a', lineColor:'rgba(0,66,123,.18)' },
+    { id:'wavy',          name:'波纹序号',   desc:'标题居中，自动序号，下方波纹线', emoji:'🌊', accent:'#00997f', previewBg:'#ffffff', quoteText:'#5a5a5a', lineColor:'rgba(0,153,127,.18)' },
+    { id:'wavy-serif',    name:'波纹序号·衬线', desc:'居中序号标题，波纹线，宋体', emoji:'〰️', accent:'#333333', previewBg:'#ffffff', quoteText:'#444444', lineColor:'rgba(51,51,51,.18)' },
   ],
 }
 

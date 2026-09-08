@@ -6,7 +6,7 @@
 .theme-matrix h3{margin:1.3em 0 .5em;font-weight:700;font-size:1.1em;color:#00cc44;letter-spacing:.05em}
 .theme-matrix h3::before{content:'> ';opacity:.6}
 .theme-matrix h4,h5,h6{margin:1em 0 .4em;font-weight:600;color:#00aa33}
-.theme-matrix blockquote{margin:1.4em 0;padding:3px 16px;background:rgba(0,204,68,.04);border-left:3px solid #008822;color:#00aa33}
+.theme-matrix blockquote{font-size:13px;margin:1.4em 0;padding:3px 16px;background:rgba(0,204,68,.04);border-left:3px solid #008822;color:#00aa33;}
 .theme-matrix code{background:rgba(0,204,68,.07);padding:2px 6px;border-radius:2px;font-family:inherit;font-size:.9em;color:#00ff55;border:1px solid rgba(0,204,68,.2)}
 .theme-matrix .code-block{background:#000800;padding:16px;border-radius:4px;overflow-x:auto;margin:1.5em 0;font-family:inherit;font-size:13px;color:#00cc44;border:1px solid rgba(0,204,68,.2);box-shadow:0 0 15px rgba(0,204,68,.05) white-space:pre-wrap;
 .theme-matrix .code-block code{background:none;padding:0;border:none;color:inherit}

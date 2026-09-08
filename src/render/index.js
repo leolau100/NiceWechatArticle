@@ -20,6 +20,7 @@
  */
 
 import { marked } from 'marked'
+import { applyHeadingStyle } from '../config/headingStyle.js'
 
 // 硬换行保留为 <br>，与编辑器保持一致
 marked.setOptions({ breaks: true, gfm: true })
@@ -67,6 +68,8 @@ export const THEME_FILE_MAP = {
   'plain':'themes/plain.css','plain-doc':'themes/plain-doc.css','plain-minimal':'themes/plain-minimal.css','plain-news':'themes/plain-news.css','plain-serif':'themes/plain-serif.css',
   'line':'themes/line.css','line-serif':'themes/line-serif.css','line-warm':'themes/line-warm.css',
   'deepsea':'themes/deepsea.css',
+  'qbitai':'themes/qbitai.css',
+  'jiqizhixin':'themes/jiqizhixin.css',
 }
 
 // 主题 CSS 缓存（模块级，避免重复请求）
@@ -339,7 +342,8 @@ function normalizeLists(root, doc) {
         while (item.firstChild) block.appendChild(item.firstChild)
         item.appendChild(block)
       } else if (block !== marker) {
-        block.insertBefore(marker, block.firstChild)
+        // marker 可能不存在（无 span[data-bullet] 的列表项），直接 insertBefore(null) 会抛 TypeError
+        if (marker) block.insertBefore(marker, block.firstChild)
         const rest = []
         Array.from(item.childNodes).forEach(n => { if (n !== block && n !== marker) rest.push(n) })
         rest.forEach(n => block.appendChild(n))
@@ -549,6 +553,9 @@ export async function renderWechatFragment(options = {}) {
   outDoc.body.innerHTML = inlined
   const section = outDoc.body.querySelector('section')
   if (!section) return inlined
+
+  // 应用标题（h1–h6）字号 / 字重：主题级配置 > 系统默认配置
+  applyHeadingStyle(outDoc, theme)
 
   return wechatifyDoc(outDoc)
 }

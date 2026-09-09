@@ -192,14 +192,31 @@ import { marked } from 'marked'
 marked.setOptions({ breaks: true, gfm: true })
 
 // 代码块不使用 <pre> 标签，改为 <div class="code-block"><code>...</code></div>
+// ASCII 尖括号替换为全角 ＞＜（U+FF1C / U+FF1E），避免粘进微信时被清洗器吞掉
+// 兼容 marked v4（字符串参数）与较新版本（token 对象）
+function getCodeText(arg) {
+  if (typeof arg === 'string') return arg
+  if (arg && typeof arg.text === 'string') return arg.text
+  return ''
+}
 function escapeHtmlForCode(s) {
-  return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+  return String(s)
+    .replace(/&lt;/g, '＜')
+    .replace(/&gt;/g, '＞')
+    .replace(/&amp;/g, '&')
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '＜')
+    .replace(/>/g, '＞')
 }
 marked.use({
   renderer: {
     code(token) {
-      const text = (token && token.text) || ''
+      const text = getCodeText(token)
       return `<div class="code-block"><code>${escapeHtmlForCode(text)}</code></div>\n`
+    },
+    codespan(token) {
+      const text = getCodeText(token)
+      return `<code>${escapeHtmlForCode(text)}</code>`
     }
   }
 })
@@ -303,6 +320,7 @@ const themeFileMap = {
   'qbitai':'themes/qbitai.css',
   'jiqizhixin':'themes/jiqizhixin.css',
   'wavy':'themes/wavy.css','wavy-serif':'themes/wavy-serif.css',
+  'blue-center':'themes/blue-center.css','ocean-center':'themes/ocean-center.css','rose-gold-center':'themes/rose-gold-center.css','lavender-center':'themes/lavender-center.css','dark-pro-center':'themes/dark-pro-center.css','obsidian-center':'themes/obsidian-center.css','business-center':'themes/business-center.css','github-light-center':'themes/github-light-center.css','warm-orange-center':'themes/warm-orange-center.css','vibrant-center':'themes/vibrant-center.css','wechat-classic-center':'themes/wechat-classic-center.css','ink-wash-center':'themes/ink-wash-center.css','plain-center':'themes/plain-center.css','plain-serif-center':'themes/plain-serif-center.css',
 }
 
 // Theme CSS Cache

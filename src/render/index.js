@@ -27,14 +27,36 @@ marked.setOptions({ breaks: true, gfm: true })
 
 // 代码块不使用 <pre> 标签（微信对 pre 支持差，且用户不希望使用 pre），
 // 改为 <div class="code-block"><code>...</code></div>
+// 注意：将 ASCII 尖括号替换为全角 ＞＜（U+FF1C / U+FF1E），而非 &lt;/&gt;。
+// 原因：粘进微信编辑器时，微信的 HTML 清洗器会把 &lt; 解码回 <，
+// 再按标签白名单剥离，导致 << / >> 这类 C++/Arduino 流操作符被整段吞掉。
+// 全角尖括号不会被微信识别为标签，可原样保留。
+// 兼容性：浏览器侧加载的是 marked v4（字符串参数），Editor 预览/Node 可能是
+// 较新版本（token 对象），故 getCodeText 两种形态都兼容；行内代码在部分版本
+// 里已是 &lt; 预转义，先还原再统一转全角。
+function getCodeText(arg) {
+  if (typeof arg === 'string') return arg
+  if (arg && typeof arg.text === 'string') return arg.text
+  return ''
+}
 function escapeHtmlForCode(s) {
-  return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+  return String(s)
+    .replace(/&lt;/g, '＜')   // U+FF1C
+    .replace(/&gt;/g, '＞')   // U+FF1E
+    .replace(/&amp;/g, '&')
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '＜')
+    .replace(/>/g, '＞')
 }
 marked.use({
   renderer: {
     code(token) {
-      const text = (token && token.text) || ''
+      const text = getCodeText(token)
       return `<div class="code-block"><code>${escapeHtmlForCode(text)}</code></div>\n`
+    },
+    codespan(token) {
+      const text = getCodeText(token)
+      return `<code>${escapeHtmlForCode(text)}</code>`
     }
   }
 })
@@ -71,6 +93,7 @@ export const THEME_FILE_MAP = {
   'qbitai':'themes/qbitai.css',
   'jiqizhixin':'themes/jiqizhixin.css',
   'wavy':'themes/wavy.css','wavy-serif':'themes/wavy-serif.css',
+  'blue-center':'themes/blue-center.css','ocean-center':'themes/ocean-center.css','rose-gold-center':'themes/rose-gold-center.css','lavender-center':'themes/lavender-center.css','dark-pro-center':'themes/dark-pro-center.css','obsidian-center':'themes/obsidian-center.css','business-center':'themes/business-center.css','github-light-center':'themes/github-light-center.css','warm-orange-center':'themes/warm-orange-center.css','vibrant-center':'themes/vibrant-center.css','wechat-classic-center':'themes/wechat-classic-center.css','ink-wash-center':'themes/ink-wash-center.css','plain-center':'themes/plain-center.css','plain-serif-center':'themes/plain-serif-center.css',
 }
 
 // 主题 CSS 缓存（模块级，避免重复请求）

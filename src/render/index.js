@@ -616,6 +616,10 @@ export async function renderWechatFragment(options = {}) {
   // 使英文不再被「撑开」，中文仍保留主题自带的字间距。code/pre 内不处理。
   applyLatinZeroSpacing(outDoc)
 
+  // 版权与侵权声明：正文文字 15px 深灰 #595959（标题仍走主题默认样式）。
+  // 仅作用于「版权与侵权」小节内、下一个标题之前的正文，覆盖主题内联颜色。
+  applyCopyrightNoticeStyle(outDoc)
+
   return wechatifyDoc(outDoc, theme)
 }
 
@@ -671,6 +675,37 @@ export function applyLatinZeroSpacing(doc) {
       node.parentNode.replaceChild(frag, node)
     }
   }
+}
+
+/**
+ * 版权与侵权声明：正文文字统一为 15px、深灰 #595959
+ *
+ * 用户要求（2026-09-13）：版权与侵权说明的「正文文字部分」字号 15、颜色深灰、
+ * 别太黑（不用纯黑）。实现上只对该小节正文生效，标题（## 版权与侵权声明）仍走
+ * 主题默认样式；从命中标题开始，直到下一个 h1–h6 之前的所有 p/li/blockquote/span
+ * 都强制覆盖字号与颜色（descendant 也一并设置，确保压过主题内联的 color）。
+ *
+ * @param {Document} doc
+ */
+export function applyCopyrightNoticeStyle(doc) {
+  if (!doc || typeof doc.querySelectorAll !== 'function') return
+  const headings = doc.querySelectorAll('h1, h2, h3, h4, h5, h6')
+  headings.forEach(h => {
+    if (!h.textContent || !h.textContent.includes('版权与侵权')) return
+    const targets = []
+    let el = h.nextElementSibling
+    while (el && !/^h[1-6]$/i.test(el.tagName)) {
+      targets.push(el)
+      if (el.querySelectorAll) {
+        el.querySelectorAll('p, li, blockquote, span').forEach(n => targets.push(n))
+      }
+      el = el.nextElementSibling
+    }
+    targets.forEach(t => {
+      t.style.fontSize = '15px'
+      t.style.color = '#595959'
+    })
+  })
 }
 
 /**

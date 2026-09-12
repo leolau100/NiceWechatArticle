@@ -220,6 +220,44 @@ const allThemes = {
   ],
 }
 
+// ── 为每个大类生成「标题居中」变体 ──────────────────────────────
+// 源主题 → 生成 id 为 `${src}-center` 的主题，样式文件 themes/${src}-center.css
+// （由源主题复制而来，并给 h1–h6 统一加 text-align:center）
+// 需要增减居中主题，直接改这里即可。
+const CENTER_SOURCE = {
+  natural:  ['blue', 'ocean'],
+  elegant:  ['rose-gold', 'lavender'],
+  tech:     ['dark-pro', 'obsidian'],
+  business: ['business', 'github-light'],
+  creative: ['warm-orange', 'vibrant'],
+  special:  ['wechat-classic', 'ink-wash'],
+  plain:    ['plain', 'plain-serif']
+}
+;(() => {
+  const byId = {}
+  Object.values(allThemes).flat().forEach(t => { byId[t.id] = t })
+  Object.entries(CENTER_SOURCE).forEach(([cat, ids]) => {
+    const list = allThemes[cat]
+    if (!list) return
+    ids.forEach(id => {
+      const src = byId[id]
+      if (!src) return
+      list.push({
+        id: `${id}-center`,
+        name: `${src.name}·居中`,
+        desc: `标题居中的${src.name}`,
+        emoji: src.emoji,
+        accent: src.accent,
+        accentText: src.accentText,
+        previewBg: src.previewBg,
+        quoteText: src.quoteText,
+        lineColor: src.lineColor,
+        cardBg: src.cardBg
+      })
+    })
+  })
+})()
+
 const categories = [
   { id:'natural',  icon:'🌿', name:'自然清新', themes: allThemes.natural  },
   { id:'elegant',  icon:'✨', name:'优雅精致', themes: allThemes.elegant  },

@@ -1,0 +1,33 @@
+/* 主题：水墨丹青（自创）- 中国风水墨风格 */
+.theme-ink-wash-center { font-family:'Noto Serif SC','Source Han Serif CN','STSong','SimSun',Georgia,serif;background-color:#faf8f3;color:#2c2416; }
+.theme-ink-wash-center p { margin:0.8em 0;line-height:2;color:#2c2416;font-size:16px;text-align:justify;letter-spacing:0.05em; }
+.theme-ink-wash-center h1 { margin:0 0 1.2rem;font-weight:700;color:#1a0f00;font-size:1.8rem;line-height:1.4;text-align:center;position:relative;padding-bottom:0.8rem; }
+.theme-ink-wash-center h1::after {text-align:center; content:'';position:absolute;bottom:0;left:50%;transform:translateX(-50%);width:60px;height:3px;background:#8b4513; }
+.theme-ink-wash-center h2 {text-align:center; margin:1.8em 0 0.8em;font-weight:700;color:#5c3317;font-size:1.4rem;line-height:1.4;position:relative; }
+.theme-ink-wash-center h2::before {text-align:center; content:'';position:absolute;left:0;top:0;bottom:0;width:4px;background:#8b4513; }
+.theme-ink-wash-center h3 {text-align:center; margin:1.4em 0 0.6em;font-weight:600;color:#7a4520;font-size:1.2rem;line-height:1.4;position:relative; }
+.theme-ink-wash-center h3::before {text-align:center; content:'◈';position:absolute;left:0;color:#c8860a;font-size:1rem;line-height:1.4; }
+.theme-ink-wash-center h4 {text-align:center; margin:1.2em 0 0.5em;font-weight:600;color:#7a4520;font-size:1.1rem; }
+.theme-ink-wash-center h5 {text-align:center; margin:1em 0 0.4em;font-weight:600;color:#7a4520;font-size:1rem; }
+.theme-ink-wash-center h6 {text-align:center; margin:0.8em 0 0.3em;font-weight:600;color:#7a4520;font-size:0.95rem; }
+.theme-ink-wash-center blockquote {font-size:13px;margin:1.5em 0;padding:3px 1.5rem;background:rgba(139,69,19,0.04)135deg,rgba(200,134,10,0.06) 0%,rgba(139,69,19,0.04) 100%);border-left:4px solid #c8860a;border-radius:0 6px 6px 0;font-style:normal;color:#5c3317;position:relative;}
+.theme-ink-wash-center blockquote::before { content:'"';position:absolute;top:0.3rem;left:0.8rem;color:rgba(200,134,10,0.3);font-size:3rem;font-family:Georgia,serif;line-height:1; }
+.theme-ink-wash-center code { display:inline-block;margin:0 0.2rem;padding:0.1rem 0.4rem;font-size:0.85rem;font-family:'SF Mono',Monaco,Consolas,monospace;background:rgba(139,69,19,0.08);border-radius:3px;color:#8b4513;border:1px solid rgba(139,69,19,0.15); }
+.theme-ink-wash-center .code-block {background:#1a1208;padding:16px;border-radius:6px;overflow-x:auto;margin:1.5em 0;font-family:'SF Mono',Monaco,monospace;font-size:14px;color:#d4a96a;border:1px solid rgba(200,134,10,0.3); white-space:pre-wrap;
+.theme-ink-wash-center .code-block code { background:none;padding:0;border-radius:0;color:inherit;font-size:inherit;border:none; }
+.theme-ink-wash-center strong { font-weight:700;color:#5c3317; }
+.theme-ink-wash-center em { font-style:italic;color:#7a4520; }
+.theme-ink-wash-center a { color:#8b4513;text-decoration:none;border-bottom:1px solid rgba(139,69,19,0.4); }
+.theme-ink-wash-center ul { margin:0.8em 0;padding-left:1.8em;list-style:none; }
+.theme-ink-wash-center ul > li { position:relative;margin:0.4em 0;padding-left:0.5em;line-height:1.9;color:#2c2416; }
+.theme-ink-wash-center ul > li::before { content:'•';position:absolute;left:-1em;color:#c8860a;font-size:1.2em;line-height:1.6; }
+.theme-ink-wash-center ol { margin:0.8em 0;padding-left:1.8em;list-style:none;counter-reset:ink-counter; }
+.theme-ink-wash-center ol > li { position:relative;margin:0.4em 0;padding-left:0.5em;line-height:1.9;color:#2c2416;counter-increment:ink-counter; }
+.theme-ink-wash-center ol > li::before { content:counter(ink-counter)'、';position:absolute;left:-1.8em;color:#8b4513;font-weight:600; }
+.theme-ink-wash-center hr { height:1px;margin:2em 0;background:#8b4513;border:none; }
+.theme-ink-wash-center table { border-collapse:collapse;width:100%;margin:1.5em 0; }
+.theme-ink-wash-center th { border:1px solid rgba(139,69,19,0.3);padding:10px 14px;text-align:left;background:rgba(200,134,10,0.08);color:#5c3317;font-weight:600; }
+.theme-ink-wash-center td { border:1px solid rgba(139,69,19,0.2);padding:10px 14px;text-align:left;color:#2c2416; }
+.theme-ink-wash-center img { max-width:100%;height:auto;border-radius:2px;margin:1em 0;box-shadow:2px 2px 8px rgba(44,36,22,0.15); }
+
+.theme-ink-wash-center blockquote p { margin-top:0; font-style:normal; }

@@ -1,0 +1,26 @@
+/* 主题：朴素白底（现代无衬线 / GitHub 风） */
+.theme-plain-center { background:#ffffff; color:#24292f; font-family:-apple-system,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif; }
+.theme-plain-center p { margin:1em 0;line-height:1.8;color:#24292f;font-size:16px; }
+.theme-plain-center h1 {text-align:center; margin:1.6em 0 0.8em;font-weight:700;font-size:1.7em;color:#1f2328;padding-bottom:0.3em;border-bottom:1px solid #d0d7de; }
+.theme-plain-center h2 {text-align:center; margin:1.4em 0 0.6em;font-weight:700;font-size:1.4em;color:#1f2328;padding-bottom:0.3em;border-bottom:1px solid #d8dee4; }
+.theme-plain-center h3 {text-align:center; margin:1.2em 0 0.5em;font-weight:600;font-size:1.2em;color:#1f2328; }
+.theme-plain-center h4 {text-align:center; margin:1.1em 0 0.4em;font-weight:600;font-size:1.1em;color:#1f2328; }
+.theme-plain-center h5 {text-align:center; margin:1em 0 0.4em;font-weight:600;font-size:1em;color:#1f2328; }
+.theme-plain-center h6 {text-align:center; margin:1em 0 0.3em;font-weight:600;font-size:0.95em;color:#57606a; }
+.theme-plain-center blockquote {font-size:13px;margin:1.2em 0;padding:3px 1em;color:#57606a;border-left:4px solid #d0d7de;}
+.theme-plain-center code { background:#f6f8fa;padding:2px 6px;border-radius:4px;font-family:Consolas,Monaco,monospace;font-size:13px;color:#cf222e; }
+.theme-plain-center .code-block {background:#f6f8fa;padding:14px;border-radius:6px;overflow-x:auto;margin:1.4em 0;font-family:Consolas,Monaco,monospace;font-size:13px;color:#24292f;border:1px solid #d0d7de; white-space:pre-wrap;
+.theme-plain-center .code-block code { background:none;padding:0;border-radius:0;color:inherit; }
+.theme-plain-center strong { font-weight:700;color:#1f2328; }
+.theme-plain-center em { color:#1f2328;font-style:italic; }
+.theme-plain-center a { color:#0969da;text-decoration:none;border-bottom:1px solid #ace1ff; }
+.theme-plain-center ul { margin:1em 0;padding-left:1.6em;list-style:disc; }
+.theme-plain-center ol { margin:1em 0;padding-left:1.6em;list-style:decimal; }
+.theme-plain-center li { margin:0.4em 0;line-height:1.7;color:#24292f; }
+.theme-plain-center hr { border:none;border-top:1px solid #d0d7de;margin:2em 0; }
+.theme-plain-center table { border-collapse:collapse;width:100%;margin:1.4em 0; }
+.theme-plain-center th { border:1px solid #d0d7de;padding:8px 12px;text-align:left;background:#f6f8fa;color:#1f2328;font-weight:600; }
+.theme-plain-center td { border:1px solid #d0d7de;padding:8px 12px;text-align:left;color:#24292f; }
+.theme-plain-center img { max-width:100%;height:auto;margin:1em 0; }
+
+.theme-plain-center blockquote p { margin-top:0; font-style:normal; }

@@ -1,0 +1,26 @@
+/* 主题：紫蓝渐变 */
+.theme-blue-center p { margin:1.2em 0;line-height:1.8;color:#1e293b;font-size:16px; }
+.theme-blue-center h1 {text-align:center; margin:1.8em 0 1em;font-weight:700;color:#1e293b;font-size:1.8em; }
+.theme-blue-center h2 {text-align:center; margin:1.6em 0 0.8em;font-weight:600;color:#4f46e5;font-size:1.4em; }
+.theme-blue-center h3 {text-align:center; margin:1.4em 0 0.6em;font-weight:600;color:#4338ca;font-size:1.2em; }
+.theme-blue-center h4 {text-align:center; margin:1.2em 0 0.5em;font-weight:600;color:#4338ca;font-size:1.1em; }
+.theme-blue-center h5 {text-align:center; margin:1em 0 0.4em;font-weight:600;color:#4338ca;font-size:1em; }
+.theme-blue-center h6 {text-align:center; margin:0.8em 0 0.3em;font-weight:600;color:#4338ca;font-size:0.95em; }
+.theme-blue-center blockquote {font-size:13px;border-radius:8px;padding:3px 24px;margin:1.5em 0;color:#4338ca;background:#e0e7ff;border-left:4px solid #6366f1;font-style:normal;}
+.theme-blue-center code { background:#e0e7ff;padding:3px 8px;border-radius:4px;font-family:Consolas,Monaco,monospace;font-size:14px;color:#4f46e5; }
+.theme-blue-center .code-block {background:#1e1b4b;padding:16px;border-radius:8px;overflow-x:auto;margin:1.5em 0;font-family:Consolas,Monaco,monospace;font-size:14px;color:#a5b4fc; white-space:pre-wrap;
+.theme-blue-center .code-block code { background:none;padding:0;border-radius:0;color:inherit; }
+.theme-blue-center strong { font-weight:700;color:#4f46e5; }
+.theme-blue-center a { color:#6366f1;text-decoration:none;border-bottom:1px solid #c7d2fe; }
+.theme-blue-center ul { margin:1.2em 0;padding-left:1.6em;list-style:none; }
+.theme-blue-center ul > li { position:relative;margin:0.5em 0;line-height:1.7;color:#1e293b;padding-left:0.3em; }
+.theme-blue-center ul > li::before { content:'';position:absolute;left:-0.7em;top:0.7em;width:6px;height:6px;background:#6366f1;border-radius:50%; }
+.theme-blue-center ol { margin:1.2em 0;padding-left:1.8em; }
+.theme-blue-center li { margin:0.5em 0;line-height:1.7;color:#1e293b; }
+.theme-blue-center hr { border:none;border-top:2px solid #c7d2fe;margin:2em 0; }
+.theme-blue-center table { border-collapse:collapse;width:100%;margin:1.5em 0; }
+.theme-blue-center th { border:1px solid #c7d2fe;padding:10px 14px;text-align:left;background:#f0f4ff;color:#4338ca;font-weight:600; }
+.theme-blue-center td { border:1px solid #c7d2fe;padding:10px 14px;text-align:left;color:#1e293b; }
+.theme-blue-center img { max-width:100%;height:auto;border-radius:4px;margin:1em 0; }
+
+.theme-blue-center blockquote p { margin-top:0; font-style:normal; }

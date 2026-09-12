@@ -1,0 +1,26 @@
+/* 主题：朴素衬线（文档阅读风 / 宋体） */
+.theme-plain-serif-center { background:#ffffff; color:#222; font-family:Georgia,'Times New Roman','Songti SC','SimSun',serif; }
+.theme-plain-serif-center p { margin:1.1em 0;line-height:2;color:#222;font-size:16px; }
+.theme-plain-serif-center h1 { margin:1.6em 0 0.8em;font-weight:700;font-size:1.8em;color:#111;text-align:center; }
+.theme-plain-serif-center h2 {text-align:center; margin:1.4em 0 0.6em;font-weight:700;font-size:1.4em;color:#111; }
+.theme-plain-serif-center h3 {text-align:center; margin:1.2em 0 0.5em;font-weight:700;font-size:1.2em;color:#111; }
+.theme-plain-serif-center h4 {text-align:center; margin:1em 0 0.4em;font-weight:700;font-size:1.05em;color:#111; }
+.theme-plain-serif-center h5 {text-align:center; margin:1em 0 0.4em;font-weight:700;font-size:1em;color:#111; }
+.theme-plain-serif-center h6 {text-align:center; margin:1em 0 0.3em;font-weight:700;font-size:0.95em;color:#333; }
+.theme-plain-serif-center blockquote {font-size:13px;margin:1.3em 0;padding:3px 1em;color:#555;border-left:4px solid #999;font-style:normal;}
+.theme-plain-serif-center code { background:#f5f5f5;padding:2px 6px;border-radius:3px;font-family:Consolas,Monaco,monospace;font-size:13px;color:#b00; }
+.theme-plain-serif-center .code-block {background:#f5f5f5;padding:14px;border-radius:4px;overflow-x:auto;margin:1.4em 0;font-family:Consolas,Monaco,monospace;font-size:13px;color:#222; white-space:pre-wrap;
+.theme-plain-serif-center .code-block code { background:none;padding:0;border-radius:0;color:inherit; }
+.theme-plain-serif-center strong { font-weight:700;color:#111; }
+.theme-plain-serif-center em { font-style:italic;color:#333; }
+.theme-plain-serif-center a { color:#1a5fb4;text-decoration:underline; }
+.theme-plain-serif-center ul { margin:1em 0;padding-left:1.8em;list-style:disc; }
+.theme-plain-serif-center ol { margin:1em 0;padding-left:1.8em;list-style:decimal; }
+.theme-plain-serif-center li { margin:0.4em 0;line-height:1.9;color:#222; }
+.theme-plain-serif-center hr { border:none;border-top:1px solid #ccc;margin:2em 0; }
+.theme-plain-serif-center table { border-collapse:collapse;width:100%;margin:1.4em 0; }
+.theme-plain-serif-center th { border:1px solid #ccc;padding:8px 12px;text-align:left;background:#fafafa;font-weight:700;color:#111; }
+.theme-plain-serif-center td { border:1px solid #ccc;padding:8px 12px;text-align:left;color:#222; }
+.theme-plain-serif-center img { max-width:100%;height:auto;margin:1em 0; }
+
+.theme-plain-serif-center blockquote p { margin-top:0; font-style:normal; }

@@ -1,0 +1,27 @@
+/* 主题：GitHub Light */
+.theme-github-light-center { font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans','PingFang SC',Helvetica,Arial,sans-serif;background:#ffffff;color:#1f2328; }
+.theme-github-light-center p { margin:0 0 1em;line-height:1.75;color:#1f2328;font-size:15px; }
+.theme-github-light-center h1 {text-align:center; margin:1.5em 0 0.7em;font-weight:600;font-size:1.8em;color:#1f2328;padding-bottom:0.3em;border-bottom:1px solid #d1d9e0; }
+.theme-github-light-center h2 {text-align:center; margin:1.4em 0 0.6em;font-weight:600;font-size:1.4em;color:#1f2328;padding-bottom:0.3em;border-bottom:1px solid #d1d9e0; }
+.theme-github-light-center h3 {text-align:center; margin:1.2em 0 0.5em;font-weight:600;font-size:1.2em;color:#1f2328; }
+.theme-github-light-center h4 {text-align:center; margin:1em 0 0.4em;font-weight:600;font-size:1em;color:#1f2328; }
+.theme-github-light-center h5 {text-align:center; margin:0.9em 0 0.3em;font-weight:600;font-size:0.95em;color:#1f2328; }
+.theme-github-light-center h6 {text-align:center; margin:0.8em 0 0.3em;font-weight:600;font-size:0.9em;color:#656d76; }
+.theme-github-light-center blockquote {font-size:13px;margin:1em 0;padding:3px 1em;color:#636c76;border-left:4px solid #d1d9e0;}
+.theme-github-light-center code { background:rgba(175,184,193,0.2);padding:0.2em 0.4em;border-radius:6px;font-family:'SFMono-Regular','Consolas','Liberation Mono','Menlo',monospace;font-size:85%;color:#1f2328; }
+.theme-github-light-center .code-block {background:#f6f8fa;padding:16px;border-radius:6px;overflow-x:auto;margin:1em 0;font-family:'SFMono-Regular','Consolas','Liberation Mono','Menlo',monospace;font-size:85%;line-height:1.45;border:1px solid #d1d9e0; white-space:pre-wrap;
+.theme-github-light-center .code-block code { background:none;padding:0;border-radius:0;font-size:100%;color:#1f2328; }
+.theme-github-light-center strong { font-weight:600;color:#1f2328; }
+.theme-github-light-center em { color:#1f2328;font-style:italic; }
+.theme-github-light-center a { color:#0969da;text-decoration:none; }
+.theme-github-light-center a:hover { text-decoration:underline; }
+.theme-github-light-center ul { margin:0 0 1em;padding-left:2em;list-style:disc; }
+.theme-github-light-center ol { margin:0 0 1em;padding-left:2em;list-style:decimal; }
+.theme-github-light-center li { margin:0.25em 0;line-height:1.75;color:#1f2328; }
+.theme-github-light-center hr { border:none;border-top:2px solid #d1d9e0;margin:2em 0; }
+.theme-github-light-center table { border-collapse:collapse;width:100%;margin:1em 0; }
+.theme-github-light-center th { border:1px solid #d1d9e0;padding:8px 12px;text-align:left;background:#f6f8fa;font-weight:600;color:#1f2328; }
+.theme-github-light-center td { border:1px solid #d1d9e0;padding:8px 12px;color:#1f2328; }
+.theme-github-light-center img { max-width:100%;height:auto;border-radius:6px;margin:1em 0; }
+
+.theme-github-light-center blockquote p { margin-top:0; font-style:normal; }

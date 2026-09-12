@@ -1,0 +1,28 @@
+/* 主题：微信经典绿 */
+.theme-wechat-classic-center { font-family:'PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif;background:#ffffff;color:#1a1a1a; }
+.theme-wechat-classic-center p { margin:1em 0;line-height:1.9;color:#1a1a1a;font-size:16px; }
+.theme-wechat-classic-center h1 { margin:1.8em 0 0.8em;font-weight:700;font-size:1.7em;color:#1a1a1a;text-align:center;padding-bottom:0.5em;border-bottom:2px solid #07c160; }
+.theme-wechat-classic-center h2 {text-align:center; margin:1.5em 0 0.7em;font-weight:700;font-size:1.35em;color:#fff;padding:8px 16px;background:#07c160;border-radius:6px; }
+.theme-wechat-classic-center h3 {text-align:center; margin:1.3em 0 0.5em;font-weight:600;font-size:1.15em;color:#07c160; }
+.theme-wechat-classic-center h4 {text-align:center; margin:1.1em 0 0.4em;font-weight:600;font-size:1.05em;color:#07c160; }
+.theme-wechat-classic-center h5 {text-align:center; margin:0.9em 0 0.3em;font-weight:600;font-size:1em;color:#07c160; }
+.theme-wechat-classic-center h6 {text-align:center; margin:0.8em 0 0.3em;font-weight:600;font-size:0.95em;color:#07c160; }
+.theme-wechat-classic-center blockquote {font-size:13px;margin:1.4em 0;padding:3px 18px;background:rgba(7,193,96,0.07);border-left:4px solid #07c160;border-radius:0 6px 6px 0;color:#1a4a2a;}
+.theme-wechat-classic-center code { background:#f0faf4;padding:2px 7px;border-radius:4px;font-family:Consolas,Monaco,monospace;font-size:13px;color:#07a050;border:1px solid rgba(7,193,96,0.2); }
+.theme-wechat-classic-center .code-block {background:#1a2e1a;padding:16px;border-radius:8px;overflow-x:auto;margin:1.5em 0;font-family:Consolas,Monaco,monospace;font-size:13px;color:#a8d8b0; white-space:pre-wrap;
+.theme-wechat-classic-center .code-block code { background:none;padding:0;border:none;color:inherit;font-size:inherit; }
+.theme-wechat-classic-center strong { font-weight:700;color:#07c160; }
+.theme-wechat-classic-center em { color:#059652;font-style:italic; }
+.theme-wechat-classic-center a { color:#07c160;text-decoration:none;border-bottom:1px solid rgba(7,193,96,0.35); }
+.theme-wechat-classic-center ul { margin:0.8em 0;padding-left:1.6em;list-style:none; }
+.theme-wechat-classic-center ul > li { position:relative;margin:0.4em 0;padding-left:0.4em;line-height:1.8;color:#1a1a1a; }
+.theme-wechat-classic-center ul > li::before { content:'';position:absolute;left:-0.9em;top:0.65em;width:6px;height:6px;background:#07c160;border-radius:50%; }
+.theme-wechat-classic-center ol { margin:0.8em 0;padding-left:1.8em; }
+.theme-wechat-classic-center li { margin:0.4em 0;line-height:1.8;color:#1a1a1a; }
+.theme-wechat-classic-center hr { border:none;height:1px;background:#07c160;margin:2em 0; }
+.theme-wechat-classic-center table { border-collapse:collapse;width:100%;margin:1.5em 0; }
+.theme-wechat-classic-center th { border:1px solid rgba(7,193,96,0.25);padding:10px 14px;text-align:left;background:rgba(7,193,96,0.08);color:#07a050;font-weight:600; }
+.theme-wechat-classic-center td { border:1px solid rgba(7,193,96,0.12);padding:10px 14px;color:#1a1a1a; }
+.theme-wechat-classic-center img { max-width:100%;height:auto;border-radius:8px;margin:1em 0;box-shadow:0 2px 12px rgba(7,193,96,0.15); }
+
+.theme-wechat-classic-center blockquote p { margin-top:0; font-style:normal; }

@@ -1,0 +1,29 @@
+/* 主题：商务正式 */
+.theme-business-center { font-family:'PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif;background:#ffffff;color:#1f2937; }
+.theme-business-center p { margin:1em 0;line-height:1.85;color:#374151;font-size:15px; }
+.theme-business-center h1 { margin:2em 0 1em;font-weight:700;font-size:1.7em;color:#111827;text-align:center;padding-bottom:0.5em;border-bottom:3px double #1e3a5f; }
+.theme-business-center h2 {text-align:center; margin:1.6em 0 0.7em;font-weight:700;font-size:1.35em;color:#fff;padding:9px 16px;background:#1e3a5f;border-radius:4px; }
+.theme-business-center h3 {text-align:center; margin:1.4em 0 0.6em;font-weight:600;font-size:1.15em;color:#1e3a5f;padding:5px 12px;background:#f0f4f8; }
+.theme-business-center h4 {text-align:center; margin:1.2em 0 0.5em;font-weight:600;font-size:1.05em;color:#2d4a6a; }
+.theme-business-center h5 {text-align:center; margin:1em 0 0.4em;font-weight:600;font-size:1em;color:#2d4a6a; }
+.theme-business-center h6 {text-align:center; margin:0.8em 0 0.3em;font-weight:600;font-size:0.95em;color:#2d4a6a; }
+.theme-business-center blockquote {font-size:13px;margin:1.5em 0;padding:3px 20px;background:#f8f9fa;border-left:4px solid #1e3a5f;border-radius:0 6px 6px 0;color:#374151;}
+.theme-business-center code { background:#f1f5f9;padding:2px 7px;border-radius:4px;font-family:Consolas,Monaco,monospace;font-size:13px;color:#1e3a5f;border:1px solid #e2e8f0; }
+.theme-business-center .code-block {background:#1e2a3a;padding:16px;border-radius:6px;overflow-x:auto;margin:1.5em 0;font-family:Consolas,Monaco,monospace;font-size:13px;color:#cbd5e1; white-space:pre-wrap;
+.theme-business-center .code-block code { background:none;padding:0;border:none;color:inherit;font-size:inherit; }
+.theme-business-center strong { font-weight:700;color:#1e3a5f; }
+.theme-business-center em { color:#374151;font-style:italic; }
+.theme-business-center a { color:#1e3a5f;text-decoration:none;border-bottom:1px solid rgba(30,58,95,0.35); }
+.theme-business-center ul { margin:0.8em 0;padding-left:1.6em;list-style:none; }
+.theme-business-center ul > li { position:relative;margin:0.5em 0;padding-left:0.4em;line-height:1.8;color:#374151; }
+.theme-business-center ul > li::before { content:'';position:absolute;left:-0.9em;top:0.7em;width:5px;height:5px;background:#1e3a5f;border-radius:1px; }
+.theme-business-center ol { margin:0.8em 0;padding-left:1.8em; }
+.theme-business-center li { margin:0.5em 0;line-height:1.8;color:#374151; }
+.theme-business-center hr { border:none;border-top:2px solid #e5e7eb;margin:2em 0; }
+.theme-business-center table { border-collapse:collapse;width:100%;margin:1.5em 0; }
+.theme-business-center th { border:1px solid #d1d5db;padding:10px 14px;text-align:left;background:#1e3a5f;color:#fff;font-weight:600; }
+.theme-business-center td { border:1px solid #e5e7eb;padding:10px 14px;color:#374151; }
+.theme-business-center tr:nth-child(even) td { background:#f9fafb; }
+.theme-business-center img { max-width:100%;height:auto;border-radius:4px;margin:1em 0;box-shadow:0 2px 10px rgba(0,0,0,0.12); }
+
+.theme-business-center blockquote p { margin-top:0; font-style:normal; }

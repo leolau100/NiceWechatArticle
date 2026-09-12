@@ -322,7 +322,9 @@ function applyThemeRulesToDom(container, rules, doc) {
 
 // 列表归一化：把列表项收敛为单一 <p> 段落（编号 + 内容同处一段），
 // 避免微信编辑器把 marker 与内容拆成两行。
-function normalizeLists(root, doc) {
+// theme 参数用于主题级差异：量子位(qbitai)主题要求「忽略列表缩进」，
+// 即不强制左缩进（padding-left:10px），让列表项与正文左缘对齐。
+function normalizeLists(root, doc, theme) {
   root.querySelectorAll('ul, ol').forEach(listEl => {
     const wrapper = doc.createElement('div')
     Array.from(listEl.attributes).forEach(a => {
@@ -347,8 +349,11 @@ function normalizeLists(root, doc) {
         item.setAttribute(a.name, a.value)
       })
       item.style.position = 'relative'
-      const pl = item.style.paddingLeft
-      if (!pl || parseFloat(pl) < 0.5) item.style.paddingLeft = '10px'
+      // 量子位主题：忽略列表缩进（列表项与正文左缘齐平）
+      if (theme !== 'qbitai') {
+        const pl = item.style.paddingLeft
+        if (!pl || parseFloat(pl) < 0.5) item.style.paddingLeft = '10px'
+      }
       while (li.firstChild) item.appendChild(li.firstChild)
 
       wrapper.appendChild(item)
@@ -379,7 +384,7 @@ function normalizeLists(root, doc) {
 }
 
 // 把主题 CSS 内联到 section（含 header / body / footer）
-export function inlineThemeToSection(doc, themeCssText) {
+export function inlineThemeToSection(doc, themeCssText, theme = '') {
   const section = doc.body.querySelector('section')
   if (!section) return doc.body.innerHTML
 
@@ -407,7 +412,7 @@ export function inlineThemeToSection(doc, themeCssText) {
   clone.style.setProperty('width', '100%')
   clone.style.setProperty('box-sizing', 'border-box')
 
-  normalizeLists(clone, doc)
+  normalizeLists(clone, doc, theme)
 
   const result = clone.outerHTML
   doc.body.removeChild(clone)
@@ -415,12 +420,12 @@ export function inlineThemeToSection(doc, themeCssText) {
 }
 
 // 微信兼容化处理（对应 Editor.vue 中 buildInlinedHtml 的第 1~8 步）
-function wechatifySection(doc, section) {
+function wechatifySection(doc, section, theme = '') {
   // 1. 克隆，删除预览专用元素
   const clone = section.cloneNode(true)
   clone.querySelectorAll('[data-preview-only]').forEach(el => el.remove())
 
-  normalizeLists(clone, doc)
+  normalizeLists(clone, doc, theme)
 
   // 2. 清理内部容器 div（data-tpl 标记的脚手架层）
   clone.querySelectorAll('[data-tpl]').forEach(el => {
@@ -528,10 +533,10 @@ function wechatifySection(doc, section) {
  * @param {Document} doc 已包含 <body><section>...</section></body> 的文档
  * @returns {string} 微信兼容 HTML 片段（<section>...</section>）
  */
-export function wechatifyDoc(doc) {
+export function wechatifyDoc(doc, theme = '') {
   const section = doc.body.querySelector('section')
   if (!section) return doc.body.innerHTML
-  return wechatifySection(doc, section)
+  return wechatifySection(doc, section, theme)
 }
 
 /**
@@ -589,7 +594,7 @@ export async function renderWechatFragment(options = {}) {
   const workDoc = doc || document.implementation.createHTMLDocument('')
   workDoc.body.innerHTML = rawHtml
 
-  const inlined = inlineThemeToSection(workDoc, themeCssText)
+  const inlined = inlineThemeToSection(workDoc, themeCssText, theme)
 
   // 把内联后的结果放回文档，继续做微信兼容化
   const outDoc = document.implementation.createHTMLDocument('')
@@ -606,7 +611,66 @@ export async function renderWechatFragment(options = {}) {
   // 标题自动序号（仅对启用序号的主题生效）
   applyHeadingNumber(outDoc, theme)
 
-  return wechatifyDoc(outDoc)
+  // 英文单词字间距归零：把所有连续的拉丁字母/数字串包进
+  // <span style="letter-spacing:0">，覆盖主题内联的 letter-spacing（如量子位 1px），
+  // 使英文不再被「撑开」，中文仍保留主题自带的字间距。code/pre 内不处理。
+  applyLatinZeroSpacing(outDoc)
+
+  return wechatifyDoc(outDoc, theme)
+}
+
+/**
+ * 英文单词字间距归零
+ *
+ * 主题 CSS 普遍用 letter-spacing:1px（量子位等）来拉开中文字距，但会让
+ * 英文单词的字母也被逐个加间距、显得松散。微信端又无法按语言分别设字距，
+ * 故此处把每个连续拉丁串（含常见连接符/标点）包进内联 span 并强制
+ * letter-spacing:0，单独把英文拉回紧凑排版；中文与空格保持主题原字距。
+ *
+ * @param {Document} doc
+ */
+export function applyLatinZeroSpacing(doc) {
+  if (!doc || typeof doc.createTreeWalker !== 'function') return
+  const SKIP = new Set(['SCRIPT', 'STYLE', 'CODE', 'PRE', 'TEXTAREA'])
+  const re = /[A-Za-z0-9](?:[A-Za-z0-9_.,:;\\/@#%+\-]*[A-Za-z0-9])?/g
+  const walker = doc.createTreeWalker(
+    doc.body || doc.documentElement,
+    NodeFilter.SHOW_TEXT,
+    {
+      acceptNode(n) {
+        const p = n.parentNode
+        if (!p) return NodeFilter.FILTER_REJECT
+        if (SKIP.has(p.tagName)) return NodeFilter.FILTER_REJECT
+        // 也跳过多层包裹在 <code> 里的文本（code 自身已拦截，双重保险）
+        if (p.closest && p.closest('code, pre')) return NodeFilter.FILTER_REJECT
+        return NodeFilter.FILTER_ACCEPT
+      }
+    }
+  )
+  const targets = []
+  let n
+  while ((n = walker.nextNode())) targets.push(n)
+  for (const node of targets) {
+    const text = node.nodeValue
+    if (!text) continue
+    re.lastIndex = 0
+    let m, last = 0, changed = false
+    const frag = doc.createDocumentFragment()
+    while ((m = re.exec(text)) !== null) {
+      const s = m.index, e = m.index + m[0].length
+      if (s > last) frag.appendChild(doc.createTextNode(text.slice(last, s)))
+      const span = doc.createElement('span')
+      span.setAttribute('style', 'letter-spacing:0')
+      span.textContent = m[0]
+      frag.appendChild(span)
+      last = e
+      changed = true
+    }
+    if (changed) {
+      if (last < text.length) frag.appendChild(doc.createTextNode(text.slice(last)))
+      node.parentNode.replaceChild(frag, node)
+    }
+  }
 }
 
 /**

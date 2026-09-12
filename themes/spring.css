@@ -12,11 +12,11 @@
 .theme-spring strong{font-weight:700;color:#2d7a18}
 .theme-spring em{color:#4a9a20;font-style:italic}
 .theme-spring a{color:#2d7a18;text-decoration:none;border-bottom:1px solid rgba(45,122,24,.4)}
-.theme-spring ul{margin:.8em 0;padding-left:1.6em;list-style:none}
-.theme-spring ul>li{position:relative;margin:.4em 0;padding-left:.4em;line-height:1.8;color:#2a2a18}
-.theme-spring ul>li::before{content:'🌱';position:absolute;left:-1.5em;font-size:.72em;line-height:2.1}
-.theme-spring ol{margin:.8em 0;padding-left:1.8em}
-.theme-spring li{margin:.4em 0;line-height:1.8;color:#2a2a18}
+.theme-spring ul{margin:.8em 0;padding-left:0;list-style:disc;list-style-position:inside;}
+.theme-spring ul>li{margin:.4em 0;padding-left:0;line-height:1.8;color:#2a2a18;list-style-position:inside;}
+.theme-spring ul>li::before{content:none;position:absolute;left:-1.5em;font-size:.72em;line-height:2.1;list-style-position:inside;}
+.theme-spring ol{margin:.8em 0;padding-left:0;list-style-position:inside;}
+.theme-spring li{margin:.4em 0;line-height:1.8;color:#2a2a18;list-style-position:inside;}
 .theme-spring hr{border:none;height:2px;background:#56ab2f;margin:2em 0}
 .theme-spring table{border-collapse:collapse;width:100%;margin:1.5em 0}
 .theme-spring th{border:1px solid rgba(86,171,47,.28);padding:9px 13px;background:rgba(86,171,47,.1);color:#1d5a0a;font-weight:600}

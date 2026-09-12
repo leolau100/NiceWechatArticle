@@ -12,11 +12,11 @@
 .theme-lemon strong{font-weight:700;color:#606000}
 .theme-lemon em{color:#808800;font-style:italic}
 .theme-lemon a{color:#606000;text-decoration:none;border-bottom:1px solid rgba(96,96,0,.4)}
-.theme-lemon ul{margin:.8em 0;padding-left:1.6em;list-style:none}
-.theme-lemon ul>li{position:relative;margin:.4em 0;padding-left:.4em;line-height:1.8;color:#2a2a10}
-.theme-lemon ul>li::before{content:'🍋';position:absolute;left:-1.5em;font-size:.72em;line-height:2.1}
-.theme-lemon ol{margin:.8em 0;padding-left:1.8em}
-.theme-lemon li{margin:.4em 0;line-height:1.8;color:#2a2a10}
+.theme-lemon ul{margin:.8em 0;padding-left:0;list-style:disc;list-style-position:inside;}
+.theme-lemon ul>li{margin:.4em 0;padding-left:0;line-height:1.8;color:#2a2a10;list-style-position:inside;}
+.theme-lemon ul>li::before{content:none;position:absolute;left:-1.5em;font-size:.72em;line-height:2.1;list-style-position:inside;}
+.theme-lemon ol{margin:.8em 0;padding-left:0;list-style-position:inside;}
+.theme-lemon li{margin:.4em 0;line-height:1.8;color:#2a2a10;list-style-position:inside;}
 .theme-lemon hr{border:none;height:3px;background:#e8d600;margin:2em 0;border-radius:2px}
 .theme-lemon table{border-collapse:collapse;width:100%;margin:1.5em 0}
 .theme-lemon th{border:1px solid rgba(200,192,0,.35);padding:9px 13px;background:rgba(230,214,0,.15);color:#5a5a00;font-weight:600}

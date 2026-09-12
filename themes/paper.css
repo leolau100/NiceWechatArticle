@@ -15,9 +15,9 @@
 .theme-paper strong { font-weight:700;color:#1a1208; }
 .theme-paper em { color:#6b4c1e;font-style:italic; }
 .theme-paper a { color:#6b4c1e;text-decoration:underline;text-underline-offset:3px; }
-.theme-paper ul { margin:1em 0;padding-left:2em;list-style:disc; }
-.theme-paper ol { margin:1em 0;padding-left:2em;list-style:decimal; }
-.theme-paper li { margin:0.5em 0;line-height:1.85;color:#2c2416; }
+.theme-paper ul { margin:1em 0;padding-left:0;list-style:disc;list-style-position:inside;}
+.theme-paper ol { margin:1em 0;padding-left:0;list-style:decimal;list-style-position:inside;}
+.theme-paper li { margin:0.5em 0;line-height:1.85;color:#2c2416;list-style-position:inside;}
 .theme-paper hr { border:none;border-top:1px solid #c8a87a;margin:2.5em auto;width:60%; }
 .theme-paper table { border-collapse:collapse;width:100%;margin:1.5em 0; }
 .theme-paper th { border:1px solid #c8a87a;padding:9px 13px;text-align:left;background:rgba(200,168,122,0.2);color:#1a1208;font-weight:600; }

@@ -12,11 +12,11 @@
 .theme-mint strong{font-weight:700;color:#00897b}
 .theme-mint em{color:#00a896;font-style:italic}
 .theme-mint a{color:#00897b;text-decoration:none;border-bottom:1px solid rgba(0,137,123,.4)}
-.theme-mint ul{margin:.8em 0;padding-left:1.6em;list-style:none}
-.theme-mint ul>li{position:relative;margin:.4em 0;padding-left:.4em;line-height:1.8;color:#0a2a18}
-.theme-mint ul>li::before{content:'🌿';position:absolute;left:-1.5em;font-size:.72em;line-height:2.1}
-.theme-mint ol{margin:.8em 0;padding-left:1.8em}
-.theme-mint li{margin:.4em 0;line-height:1.8;color:#0a2a18}
+.theme-mint ul{margin:.8em 0;padding-left:0;list-style:disc;list-style-position:inside;}
+.theme-mint ul>li{margin:.4em 0;padding-left:0;line-height:1.8;color:#0a2a18;list-style-position:inside;}
+.theme-mint ul>li::before{content:none;position:absolute;left:-1.5em;font-size:.72em;line-height:2.1;list-style-position:inside;}
+.theme-mint ol{margin:.8em 0;padding-left:0;list-style-position:inside;}
+.theme-mint li{margin:.4em 0;line-height:1.8;color:#0a2a18;list-style-position:inside;}
 .theme-mint hr{border:none;height:2px;background:#00c9a7;margin:2em 0}
 .theme-mint table{border-collapse:collapse;width:100%;margin:1.5em 0}
 .theme-mint th{border:1px solid rgba(0,201,167,.28);padding:9px 13px;background:rgba(0,201,167,.1);color:#004a40;font-weight:600}

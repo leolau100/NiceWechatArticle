@@ -15,9 +15,9 @@
 .theme-wavy-serif code { background:#f2f2f2;padding:2px 5px;font-family:Consolas,Monaco,monospace;font-size:13px;color:#900; }
 .theme-wavy-serif .code-block { background:#f2f2f2;padding:12px;overflow-x:auto;margin:1.2em 0;font-family:Consolas,Monaco,monospace;font-size:13px;color:#1a1a1a;line-height:1.7; white-space:pre-wrap; }
 .theme-wavy-serif .code-block code { background:none;padding:0;color:inherit; }
-.theme-wavy-serif ul { margin:1em 0;padding-left:1.8em;list-style:disc; }
-.theme-wavy-serif ol { margin:1em 0;padding-left:1.8em;list-style:decimal; }
-.theme-wavy-serif li { margin:0.4em 0;line-height:1.9;font-size:16px;color:#1a1a1a; }
+.theme-wavy-serif ul { margin:1em 0;padding-left:0;list-style:disc;list-style-position:inside;}
+.theme-wavy-serif ol { margin:1em 0;padding-left:0;list-style:decimal;list-style-position:inside;}
+.theme-wavy-serif li { margin:0.4em 0;line-height:1.9;font-size:16px;color:#1a1a1a;list-style-position:inside;}
 .theme-wavy-serif hr { border:none;border-top:1px solid #ccc;margin:1.8em 0; }
 .theme-wavy-serif table { border-collapse:collapse;width:100%;margin:1.2em 0; }
 .theme-wavy-serif th { border:1px solid #ccc;padding:8px 10px;text-align:left;background:#f2f2f2;color:#1a1a1a;font-weight:700; }

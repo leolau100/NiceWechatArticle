@@ -14,11 +14,11 @@
 .theme-teal-fresh strong { font-weight:700;color:#0d7377; }
 .theme-teal-fresh em { color:#14a085;font-style:italic; }
 .theme-teal-fresh a { color:#0d7377;text-decoration:none;border-bottom:1px solid rgba(13,115,119,0.35); }
-.theme-teal-fresh ul { margin:0.8em 0;padding-left:1.6em;list-style:none; }
-.theme-teal-fresh ul > li { position:relative;margin:0.4em 0;padding-left:0.4em;line-height:1.8;color:#0d2626; }
-.theme-teal-fresh ul > li::before { content:'◈';position:absolute;left:-1.2em;color:#14a085;font-size:0.75em;line-height:2.2; }
-.theme-teal-fresh ol { margin:0.8em 0;padding-left:1.8em; }
-.theme-teal-fresh li { margin:0.4em 0;line-height:1.8;color:#0d2626; }
+.theme-teal-fresh ul { margin:0.8em 0;padding-left:0;list-style:disc;list-style-position:inside;}
+.theme-teal-fresh ul > li { margin:0.4em 0;padding-left:0;line-height:1.8;color:#0d2626;list-style-position:inside;}
+.theme-teal-fresh ul > li::before { content:none;position:absolute;left:-1.2em;color:#14a085;font-size:0.75em;line-height:2.2;list-style-position:inside;}
+.theme-teal-fresh ol { margin:0.8em 0;padding-left:0;list-style-position:inside;}
+.theme-teal-fresh li { margin:0.4em 0;line-height:1.8;color:#0d2626;list-style-position:inside;}
 .theme-teal-fresh hr { border:none;height:2px;background:#0d7377;margin:2em 0; }
 .theme-teal-fresh table { border-collapse:collapse;width:100%;margin:1.5em 0; }
 .theme-teal-fresh th { border:1px solid rgba(13,115,119,0.28);padding:9px 13px;text-align:left;background:rgba(13,115,119,0.1);color:#0d7377;font-weight:600; }

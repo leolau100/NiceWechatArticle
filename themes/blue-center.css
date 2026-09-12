@@ -12,11 +12,11 @@
 .theme-blue-center .code-block code { background:none;padding:0;border-radius:0;color:inherit; }
 .theme-blue-center strong { font-weight:700;color:#4f46e5; }
 .theme-blue-center a { color:#6366f1;text-decoration:none;border-bottom:1px solid #c7d2fe; }
-.theme-blue-center ul { margin:1.2em 0;padding-left:1.6em;list-style:none; }
-.theme-blue-center ul > li { position:relative;margin:0.5em 0;line-height:1.7;color:#1e293b;padding-left:0.3em; }
-.theme-blue-center ul > li::before { content:'';position:absolute;left:-0.7em;top:0.7em;width:6px;height:6px;background:#6366f1;border-radius:50%; }
-.theme-blue-center ol { margin:1.2em 0;padding-left:1.8em; }
-.theme-blue-center li { margin:0.5em 0;line-height:1.7;color:#1e293b; }
+.theme-blue-center ul { margin:1.2em 0;padding-left:0;list-style:disc;list-style-position:inside;}
+.theme-blue-center ul > li { margin:0.5em 0;line-height:1.7;color:#1e293b;padding-left:0;list-style-position:inside;}
+.theme-blue-center ul > li::before { content:none;position:absolute;left:-0.7em;top:0.7em;width:6px;height:6px;background:#6366f1;border-radius:50%;list-style-position:inside;}
+.theme-blue-center ol { margin:1.2em 0;padding-left:0;list-style-position:inside;}
+.theme-blue-center li { margin:0.5em 0;line-height:1.7;color:#1e293b;list-style-position:inside;}
 .theme-blue-center hr { border:none;border-top:2px solid #c7d2fe;margin:2em 0; }
 .theme-blue-center table { border-collapse:collapse;width:100%;margin:1.5em 0; }
 .theme-blue-center th { border:1px solid #c7d2fe;padding:10px 14px;text-align:left;background:#f0f4ff;color:#4338ca;font-weight:600; }

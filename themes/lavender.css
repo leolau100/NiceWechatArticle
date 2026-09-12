@@ -14,11 +14,11 @@
 .theme-lavender strong { font-weight:700;color:#6642a6; }
 .theme-lavender em { color:#9c7cd4;font-style:italic; }
 .theme-lavender a { color:#7c5cbf;text-decoration:none;border-bottom:1px solid rgba(124,92,191,0.35); }
-.theme-lavender ul { margin:0.8em 0;padding-left:1.6em;list-style:none; }
-.theme-lavender ul > li { position:relative;margin:0.4em 0;padding-left:0.4em;line-height:1.8;color:#3a2a50; }
-.theme-lavender ul > li::before { content:'✿';position:absolute;left:-1.3em;color:#c4a7e7;font-size:0.8em;line-height:2; }
-.theme-lavender ol { margin:0.8em 0;padding-left:1.8em; }
-.theme-lavender li { margin:0.4em 0;line-height:1.8;color:#3a2a50; }
+.theme-lavender ul { margin:0.8em 0;padding-left:0;list-style:disc;list-style-position:inside;}
+.theme-lavender ul > li { margin:0.4em 0;padding-left:0;line-height:1.8;color:#3a2a50;list-style-position:inside;}
+.theme-lavender ul > li::before { content:none;position:absolute;left:-1.3em;color:#c4a7e7;font-size:0.8em;line-height:2;list-style-position:inside;}
+.theme-lavender ol { margin:0.8em 0;padding-left:0;list-style-position:inside;}
+.theme-lavender li { margin:0.4em 0;line-height:1.8;color:#3a2a50;list-style-position:inside;}
 .theme-lavender hr { border:none;height:2px;background:#9c7cd4;margin:2em 0; }
 .theme-lavender table { border-collapse:collapse;width:100%;margin:1.5em 0; }
 .theme-lavender th { border:1px solid rgba(156,124,212,0.3);padding:9px 13px;text-align:left;background:rgba(196,167,231,0.15);color:#6642a6;font-weight:600; }

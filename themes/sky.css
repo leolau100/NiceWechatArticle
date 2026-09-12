@@ -12,11 +12,11 @@
 .theme-sky strong{font-weight:700;color:#0369a1}
 .theme-sky em{color:#0284c7;font-style:italic}
 .theme-sky a{color:#0369a1;text-decoration:none;border-bottom:1px solid rgba(3,105,161,.4)}
-.theme-sky ul{margin:.8em 0;padding-left:1.6em;list-style:none}
-.theme-sky ul>li{position:relative;margin:.4em 0;padding-left:.4em;line-height:1.8;color:#1a3a50}
-.theme-sky ul>li::before{content:'☁';position:absolute;left:-1.4em;color:#38bdf8;font-size:.85em;line-height:2}
-.theme-sky ol{margin:.8em 0;padding-left:1.8em}
-.theme-sky li{margin:.4em 0;line-height:1.8;color:#1a3a50}
+.theme-sky ul{margin:.8em 0;padding-left:0;list-style:disc;list-style-position:inside;}
+.theme-sky ul>li{margin:.4em 0;padding-left:0;line-height:1.8;color:#1a3a50;list-style-position:inside;}
+.theme-sky ul>li::before{content:none;position:absolute;left:-1.4em;color:#38bdf8;font-size:.85em;line-height:2;list-style-position:inside;}
+.theme-sky ol{margin:.8em 0;padding-left:0;list-style-position:inside;}
+.theme-sky li{margin:.4em 0;line-height:1.8;color:#1a3a50;list-style-position:inside;}
 .theme-sky hr{border:none;height:2px;background:#38bdf8;margin:2em 0}
 .theme-sky table{border-collapse:collapse;width:100%;margin:1.5em 0}
 .theme-sky th{border:1px solid rgba(14,165,233,.28);padding:9px 13px;background:rgba(14,165,233,.1);color:#034a6e;font-weight:600}

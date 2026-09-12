@@ -12,11 +12,11 @@
 .theme-copper strong{font-weight:700;color:#e8c460}
 .theme-copper em{color:#c09030;font-style:italic}
 .theme-copper a{color:#d4a840;text-decoration:none;border-bottom:1px solid rgba(212,168,64,.35)}
-.theme-copper ul{margin:.8em 0;padding-left:1.6em;list-style:none}
-.theme-copper ul>li{position:relative;margin:.4em 0;padding-left:.4em;line-height:1.8;color:#c8b480}
-.theme-copper ul>li::before{content:'⚙';position:absolute;left:-1.3em;color:#b8882a;font-size:.75em;line-height:2.1}
-.theme-copper ol{margin:.8em 0;padding-left:1.8em}
-.theme-copper li{margin:.4em 0;line-height:1.8;color:#c8b480}
+.theme-copper ul{margin:.8em 0;padding-left:0;list-style:disc;list-style-position:inside;}
+.theme-copper ul>li{margin:.4em 0;padding-left:0;line-height:1.8;color:#c8b480;list-style-position:inside;}
+.theme-copper ul>li::before{content:none;position:absolute;left:-1.3em;color:#b8882a;font-size:.75em;line-height:2.1;list-style-position:inside;}
+.theme-copper ol{margin:.8em 0;padding-left:0;list-style-position:inside;}
+.theme-copper li{margin:.4em 0;line-height:1.8;color:#c8b480;list-style-position:inside;}
 .theme-copper hr{border:none;height:1px;background:#e8c460;margin:2em 0}
 .theme-copper table{border-collapse:collapse;width:100%;margin:1.5em 0}
 .theme-copper th{border:1px solid rgba(184,136,42,.3);padding:9px 13px;background:rgba(184,136,42,.1);color:#d4a840;font-weight:600}

@@ -15,9 +15,9 @@
 .theme-pop-art .code-block code { background:none;padding:0;border-radius:0;color:inherit;font-size:inherit; }
 .theme-pop-art strong { font-weight:800;color:#000000;background:#ffd43b 0%;background-repeat:no-repeat;background-size:100% 40%;background-position:0 88%;padding:0 2px; }
 .theme-pop-art a { color:#000000;text-decoration:none;border-bottom:3px solid #ff6bcb;font-weight:700; }
-.theme-pop-art ul { margin:0.5rem 0;padding-left:1.5rem;list-style-type:disc; }
-.theme-pop-art ol { margin:0.5rem 0;padding-left:1.5rem;list-style-type:decimal; }
-.theme-pop-art li { margin:0.25rem 0;line-height:1.75; }
+.theme-pop-art ul { margin:0.5rem 0;padding-left:0;list-style-type:disc;list-style-position:inside;}
+.theme-pop-art ol { margin:0.5rem 0;padding-left:0;list-style-type:decimal;list-style-position:inside;}
+.theme-pop-art li { margin:0.25rem 0;line-height:1.75;list-style-position:inside;}
 .theme-pop-art hr { height:0;margin:1rem 0;border:none;border-top:3px solid #000000; }
 .theme-pop-art table { border-collapse:collapse;width:100%;margin:1.5em 0;border:3px solid #000000;box-shadow:4px 4px 0px #ffd43b; }
 .theme-pop-art th { border:2px solid #000000;padding:10px 14px;text-align:left;background:#000000;color:#ffd43b;font-weight:800; }

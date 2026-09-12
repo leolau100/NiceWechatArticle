@@ -12,11 +12,11 @@
 .theme-mono-red strong{font-weight:900;color:#111}
 .theme-mono-red em{color:#555;font-style:italic}
 .theme-mono-red a{color:#e63946;font-weight:600;text-decoration:none}
-.theme-mono-red ul{margin:1em 0;padding-left:0;list-style:none}
-.theme-mono-red ul>li{position:relative;margin:.5em 0;padding-left:1.4em;line-height:1.8;color:#222}
-.theme-mono-red ul>li::before{content:'';position:absolute;left:0;top:.8em;width:8px;height:2px;background:#e63946}
-.theme-mono-red ol{margin:1em 0;padding-left:1.8em}
-.theme-mono-red li{margin:.5em 0;line-height:1.8;color:#222}
+.theme-mono-red ul{margin:1em 0;padding-left:0;list-style:disc;list-style-position:inside;}
+.theme-mono-red ul>li{margin:.5em 0;padding-left:0;line-height:1.8;color:#222;list-style-position:inside;}
+.theme-mono-red ul>li::before{content:none;position:absolute;left:0;top:.8em;width:8px;height:2px;background:#e63946;list-style-position:inside;}
+.theme-mono-red ol{margin:1em 0;padding-left:0;list-style-position:inside;}
+.theme-mono-red li{margin:.5em 0;line-height:1.8;color:#222;list-style-position:inside;}
 .theme-mono-red hr{border:none;border-top:3px solid #111;margin:2.5em 0}
 .theme-mono-red table{border-collapse:collapse;width:100%;margin:1.5em 0}
 .theme-mono-red th{border-top:3px solid #111;border-bottom:2px solid #e63946;padding:10px 14px;text-align:left;font-weight:700;color:#111}

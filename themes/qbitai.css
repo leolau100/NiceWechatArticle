@@ -15,9 +15,9 @@
 .theme-qbitai code { background:#f8f8f8;padding:2px 6px;border-radius:3px;font-family:Consolas,Monaco,monospace;font-size:14px;color:#00997f; }
 .theme-qbitai .code-block { background:#f8f8f8;padding:10px;border-radius:3px;overflow-x:auto;margin:20px 0;font-family:Consolas,Monaco,monospace;font-size:14px;color:#333333;line-height:1.7; white-space:pre-wrap; }
 .theme-qbitai .code-block code { background:none;padding:0;border-radius:0;color:inherit; }
-.theme-qbitai ul { margin:20px 0;padding-left:1.8em;list-style:disc; }
-.theme-qbitai ol { margin:20px 0;padding-left:1.8em;list-style:decimal; }
-.theme-qbitai li { margin:8px 0;line-height:2;letter-spacing:1px;font-size:16px;color:#222222; }
+.theme-qbitai ul { margin:20px 0;padding-left:0;list-style:disc;list-style-position:inside;}
+.theme-qbitai ol { margin:20px 0;padding-left:0;list-style:decimal;list-style-position:inside;}
+.theme-qbitai li { margin:8px 0;line-height:2;letter-spacing:1px;font-size:16px;color:#222222;list-style-position:inside;}
 .theme-qbitai hr { border:none;border-top:1px solid rgba(128,128,128,.15);margin:30px 0; }
 .theme-qbitai table { border-collapse:collapse;width:100%;margin:20px 0; }
 .theme-qbitai th { border:1px solid rgba(128,128,128,.2);padding:8px 10px;text-align:left;background:#f8f8f8;color:#222222;font-weight:700;letter-spacing:1px; }

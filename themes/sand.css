@@ -13,11 +13,11 @@
 .theme-sand strong{font-weight:700;color:#7a4a2a}
 .theme-sand em{color:#a07050;font-style:italic}
 .theme-sand a{color:#9a6040;text-decoration:none;border-bottom:1px solid rgba(154,96,64,.4)}
-.theme-sand ul{margin:.8em 0;padding-left:1.6em;list-style:none}
-.theme-sand ul>li{position:relative;margin:.5em 0;padding-left:.4em;line-height:1.8;color:#3a2a18}
-.theme-sand ul>li::before{content:'◇';position:absolute;left:-1.2em;color:#c4956a;font-size:.8em;line-height:2}
-.theme-sand ol{margin:.8em 0;padding-left:1.8em}
-.theme-sand li{margin:.5em 0;line-height:1.8;color:#3a2a18}
+.theme-sand ul{margin:.8em 0;padding-left:0;list-style:disc;list-style-position:inside;}
+.theme-sand ul>li{margin:.5em 0;padding-left:0;line-height:1.8;color:#3a2a18;list-style-position:inside;}
+.theme-sand ul>li::before{content:none;position:absolute;left:-1.2em;color:#c4956a;font-size:.8em;line-height:2;list-style-position:inside;}
+.theme-sand ol{margin:.8em 0;padding-left:0;list-style-position:inside;}
+.theme-sand li{margin:.5em 0;line-height:1.8;color:#3a2a18;list-style-position:inside;}
 .theme-sand hr{border:none;height:1px;background:#c4956a;margin:2.5em auto;width:70%}
 .theme-sand table{border-collapse:collapse;width:100%;margin:1.5em 0}
 .theme-sand th{border:1px solid rgba(196,149,106,.3);padding:9px 13px;background:rgba(196,149,106,.12);color:#5a3a1a;font-weight:600}

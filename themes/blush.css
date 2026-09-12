@@ -12,11 +12,11 @@
 .theme-blush strong{font-weight:700;color:#c2185b}
 .theme-blush em{color:#e91e8c;font-style:italic}
 .theme-blush a{color:#c2185b;text-decoration:none;border-bottom:1px solid rgba(194,24,91,.35)}
-.theme-blush ul{margin:.8em 0;padding-left:1.6em;list-style:none}
-.theme-blush ul>li{position:relative;margin:.4em 0;padding-left:.4em;line-height:1.8;color:#3a1a28}
-.theme-blush ul>li::before{content:'💕';position:absolute;left:-1.5em;font-size:.72em;line-height:2.1}
-.theme-blush ol{margin:.8em 0;padding-left:1.8em}
-.theme-blush li{margin:.4em 0;line-height:1.8;color:#3a1a28}
+.theme-blush ul{margin:.8em 0;padding-left:0;list-style:disc;list-style-position:inside;}
+.theme-blush ul>li{margin:.4em 0;padding-left:0;line-height:1.8;color:#3a1a28;list-style-position:inside;}
+.theme-blush ul>li::before{content:none;position:absolute;left:-1.5em;font-size:.72em;line-height:2.1;list-style-position:inside;}
+.theme-blush ol{margin:.8em 0;padding-left:0;list-style-position:inside;}
+.theme-blush li{margin:.4em 0;line-height:1.8;color:#3a1a28;list-style-position:inside;}
 .theme-blush hr{border:none;height:1px;background:#f48fb1;margin:2em 0}
 .theme-blush table{border-collapse:collapse;width:100%;margin:1.5em 0}
 .theme-blush th{border:1px solid rgba(244,143,177,.28);padding:9px 13px;background:rgba(244,143,177,.12);color:#8a1040;font-weight:600}

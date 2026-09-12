@@ -12,11 +12,11 @@
 .theme-grape strong{font-weight:700;color:#6a1e8a}
 .theme-grape em{color:#9b59b6;font-style:italic}
 .theme-grape a{color:#8e44ad;text-decoration:none;border-bottom:1px solid rgba(142,68,173,.4)}
-.theme-grape ul{margin:.8em 0;padding-left:1.6em;list-style:none}
-.theme-grape ul>li{position:relative;margin:.4em 0;padding-left:.4em;line-height:1.8;color:#2a1238}
-.theme-grape ul>li::before{content:'🍇';position:absolute;left:-1.5em;font-size:.72em;line-height:2.1}
-.theme-grape ol{margin:.8em 0;padding-left:1.8em}
-.theme-grape li{margin:.4em 0;line-height:1.8;color:#2a1238}
+.theme-grape ul{margin:.8em 0;padding-left:0;list-style:disc;list-style-position:inside;}
+.theme-grape ul>li{margin:.4em 0;padding-left:0;line-height:1.8;color:#2a1238;list-style-position:inside;}
+.theme-grape ul>li::before{content:none;position:absolute;left:-1.5em;font-size:.72em;line-height:2.1;list-style-position:inside;}
+.theme-grape ol{margin:.8em 0;padding-left:0;list-style-position:inside;}
+.theme-grape li{margin:.4em 0;line-height:1.8;color:#2a1238;list-style-position:inside;}
 .theme-grape hr{border:none;height:2px;background:#9b59b6;margin:2em 0}
 .theme-grape table{border-collapse:collapse;width:100%;margin:1.5em 0}
 .theme-grape th{border:1px solid rgba(155,89,182,.28);padding:9px 13px;background:rgba(155,89,182,.1);color:#4a0e6e;font-weight:600}

@@ -15,11 +15,11 @@
 .theme-magazine strong { font-weight:700;color:#1a1a1a; }
 .theme-magazine em { color:#555;font-style:italic; }
 .theme-magazine a { color:#e63946;text-decoration:none;font-weight:500; }
-.theme-magazine ul { margin:1em 0;padding-left:0;list-style:none; }
-.theme-magazine ul > li { position:relative;margin:0.5em 0;padding-left:1.4em;line-height:1.8;color:#333; }
-.theme-magazine ul > li::before { content:'';position:absolute;left:0;top:0.75em;width:8px;height:2px;background:#e63946; }
-.theme-magazine ol { margin:1em 0;padding-left:1.8em; }
-.theme-magazine li { margin:0.5em 0;line-height:1.8;color:#333; }
+.theme-magazine ul { margin:1em 0;padding-left:0;list-style:disc;list-style-position:inside;}
+.theme-magazine ul > li { margin:0.5em 0;padding-left:0;line-height:1.8;color:#333;list-style-position:inside;}
+.theme-magazine ul > li::before { content:none;position:absolute;left:0;top:0.75em;width:8px;height:2px;background:#e63946;list-style-position:inside;}
+.theme-magazine ol { margin:1em 0;padding-left:0;list-style-position:inside;}
+.theme-magazine li { margin:0.5em 0;line-height:1.8;color:#333;list-style-position:inside;}
 .theme-magazine hr { border:none;border-top:3px solid #1a1a1a;margin:2.5em 0; }
 .theme-magazine table { border-collapse:collapse;width:100%;margin:1.5em 0; }
 .theme-magazine th { border-top:3px solid #1a1a1a;border-bottom:1px solid #1a1a1a;padding:10px 14px;text-align:left;font-weight:700;color:#1a1a1a;background:none; }

@@ -12,11 +12,11 @@
 .theme-indigo strong{font-weight:700;color:#3730a3}
 .theme-indigo em{color:#6366f1;font-style:italic}
 .theme-indigo a{color:#4f46e5;text-decoration:none;border-bottom:1px solid rgba(79,70,229,.35)}
-.theme-indigo ul{margin:.8em 0;padding-left:1.6em;list-style:none}
-.theme-indigo ul>li{position:relative;margin:.4em 0;padding-left:.4em;line-height:1.8;color:#252550}
-.theme-indigo ul>li::before{content:'◈';position:absolute;left:-1.2em;color:#6366f1;font-size:.75em;line-height:2.2}
-.theme-indigo ol{margin:.8em 0;padding-left:1.8em}
-.theme-indigo li{margin:.4em 0;line-height:1.8;color:#252550}
+.theme-indigo ul{margin:.8em 0;padding-left:0;list-style:disc;list-style-position:inside;}
+.theme-indigo ul>li{margin:.4em 0;padding-left:0;line-height:1.8;color:#252550;list-style-position:inside;}
+.theme-indigo ul>li::before{content:none;position:absolute;left:-1.2em;color:#6366f1;font-size:.75em;line-height:2.2;list-style-position:inside;}
+.theme-indigo ol{margin:.8em 0;padding-left:0;list-style-position:inside;}
+.theme-indigo li{margin:.4em 0;line-height:1.8;color:#252550;list-style-position:inside;}
 .theme-indigo hr{border:none;height:2px;background:#4f46e5;margin:2em 0}
 .theme-indigo table{border-collapse:collapse;width:100%;margin:1.5em 0}
 .theme-indigo th{border:1px solid rgba(79,70,229,.25);padding:9px 13px;background:rgba(79,70,229,.08);color:#3730a3;font-weight:600}

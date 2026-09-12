@@ -12,11 +12,11 @@
 .theme-vapor strong{font-weight:700;color:#ff71ce;text-shadow:0 0 8px rgba(255,113,206,.4)}
 .theme-vapor em{color:#01cdfe;font-style:italic}
 .theme-vapor a{color:#b967ff;text-decoration:none;border-bottom:1px solid rgba(185,103,255,.35)}
-.theme-vapor ul{margin:.8em 0;padding-left:1.6em;list-style:none}
-.theme-vapor ul>li{position:relative;margin:.4em 0;padding-left:.4em;line-height:1.8;color:#dab8f0}
-.theme-vapor ul>li::before{content:'◈';position:absolute;left:-1.2em;color:#ff71ce;font-size:.75em;line-height:2.2}
-.theme-vapor ol{margin:.8em 0;padding-left:1.8em}
-.theme-vapor li{margin:.4em 0;line-height:1.8;color:#dab8f0}
+.theme-vapor ul{margin:.8em 0;padding-left:0;list-style:disc;list-style-position:inside;}
+.theme-vapor ul>li{margin:.4em 0;padding-left:0;line-height:1.8;color:#dab8f0;list-style-position:inside;}
+.theme-vapor ul>li::before{content:none;position:absolute;left:-1.2em;color:#ff71ce;font-size:.75em;line-height:2.2;list-style-position:inside;}
+.theme-vapor ol{margin:.8em 0;padding-left:0;list-style-position:inside;}
+.theme-vapor li{margin:.4em 0;line-height:1.8;color:#dab8f0;list-style-position:inside;}
 .theme-vapor hr{border:none;height:2px;background:#01cdfe;margin:2em 0}
 .theme-vapor table{border-collapse:collapse;width:100%;margin:1.5em 0}
 .theme-vapor th{border:1px solid rgba(1,205,254,.25);padding:9px 13px;background:rgba(1,205,254,.07);color:#01cdfe;font-weight:600}

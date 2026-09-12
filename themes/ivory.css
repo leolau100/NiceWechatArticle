@@ -12,9 +12,9 @@
 .theme-ivory strong{font-weight:700;color:#111108}
 .theme-ivory em{color:#5a4a28;font-style:italic}
 .theme-ivory a{color:#5a4a28;text-decoration:underline;text-underline-offset:3px;text-decoration-color:rgba(192,176,128,.6)}
-.theme-ivory ul{margin:1em 0;padding-left:2em;list-style:disc}
-.theme-ivory ol{margin:1em 0;padding-left:2em;list-style:decimal}
-.theme-ivory li{margin:.5em 0;line-height:1.9;color:#2a2a18}
+.theme-ivory ul{margin:1em 0;padding-left:0;list-style:disc;list-style-position:inside;}
+.theme-ivory ol{margin:1em 0;padding-left:0;list-style:decimal;list-style-position:inside;}
+.theme-ivory li{margin:.5em 0;line-height:1.9;color:#2a2a18;list-style-position:inside;}
 .theme-ivory hr{border:none;border-top:1px solid #d8d0b8;margin:2.5em auto;width:60%}
 .theme-ivory table{border-collapse:collapse;width:100%;margin:1.5em 0}
 .theme-ivory th{border:1px solid #c8c0a0;padding:9px 13px;background:rgba(200,192,160,.15);color:#1a1a10;font-weight:600}

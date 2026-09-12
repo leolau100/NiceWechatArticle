@@ -17,11 +17,11 @@
 .theme-tech-dark strong { font-weight:700;color:#00ff41;text-shadow:0 0 6px rgba(0,255,65,0.4); }
 .theme-tech-dark em { color:#7fffb2;font-style:italic; }
 .theme-tech-dark a { color:#00ccff;text-decoration:none;border-bottom:1px solid rgba(0,204,255,0.3); }
-.theme-tech-dark ul { margin:0.8em 0;padding-left:1.6em;list-style:none; }
-.theme-tech-dark ul > li { position:relative;margin:0.4em 0;padding-left:0.4em;line-height:1.8;color:#c0d8c0; }
-.theme-tech-dark ul > li::before { content:'$';position:absolute;left:-1.2em;color:#00ff41;font-size:0.9em;line-height:1.9; }
-.theme-tech-dark ol { margin:0.8em 0;padding-left:1.8em; }
-.theme-tech-dark li { margin:0.4em 0;line-height:1.8;color:#c0d8c0; }
+.theme-tech-dark ul { margin:0.8em 0;padding-left:0;list-style:disc;list-style-position:inside;}
+.theme-tech-dark ul > li { margin:0.4em 0;padding-left:0;line-height:1.8;color:#c0d8c0;list-style-position:inside;}
+.theme-tech-dark ul > li::before { content:none;position:absolute;left:-1.2em;color:#00ff41;font-size:0.9em;line-height:1.9;list-style-position:inside;}
+.theme-tech-dark ol { margin:0.8em 0;padding-left:0;list-style-position:inside;}
+.theme-tech-dark li { margin:0.4em 0;line-height:1.8;color:#c0d8c0;list-style-position:inside;}
 .theme-tech-dark hr { border:none;border-top:1px solid rgba(0,255,65,0.2);margin:2em 0; }
 .theme-tech-dark table { border-collapse:collapse;width:100%;margin:1.5em 0; }
 .theme-tech-dark th { border:1px solid rgba(0,255,65,0.25);padding:8px 12px;text-align:left;background:rgba(0,255,65,0.07);color:#00ff41;font-weight:600; }

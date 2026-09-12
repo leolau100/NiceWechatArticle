@@ -15,11 +15,11 @@
 .theme-forest strong { font-weight:700;color:#1a6a38; }
 .theme-forest em { color:#2d7a4a;font-style:italic; }
 .theme-forest a { color:#2d7a4a;text-decoration:none;border-bottom:1px solid rgba(45,122,74,0.4); }
-.theme-forest ul { margin:0.8em 0;padding-left:1.6em;list-style:none; }
-.theme-forest ul > li { position:relative;margin:0.4em 0;padding-left:0.4em;line-height:1.8;color:#1a2e20; }
-.theme-forest ul > li::before { content:'▸';position:absolute;left:-1.1em;color:#4a9e6a;font-size:0.9em;line-height:1.9; }
-.theme-forest ol { margin:0.8em 0;padding-left:1.8em; }
-.theme-forest li { margin:0.4em 0;line-height:1.8;color:#1a2e20; }
+.theme-forest ul { margin:0.8em 0;padding-left:0;list-style:disc;list-style-position:inside;}
+.theme-forest ul > li { margin:0.4em 0;padding-left:0;line-height:1.8;color:#1a2e20;list-style-position:inside;}
+.theme-forest ul > li::before { content:none;position:absolute;left:-1.1em;color:#4a9e6a;font-size:0.9em;line-height:1.9;list-style-position:inside;}
+.theme-forest ol { margin:0.8em 0;padding-left:0;list-style-position:inside;}
+.theme-forest li { margin:0.4em 0;line-height:1.8;color:#1a2e20;list-style-position:inside;}
 .theme-forest hr { border:none;height:2px;background:#4a9e6a;margin:2em 0; }
 .theme-forest table { border-collapse:collapse;width:100%;margin:1.5em 0; }
 .theme-forest th { border:1px solid rgba(45,122,74,0.3);padding:9px 13px;text-align:left;background:rgba(45,122,74,0.12);color:#1a4a2a;font-weight:600; }

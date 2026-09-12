@@ -12,9 +12,9 @@
 .theme-orange .code-block code { background:none;padding:0;border-radius:0;color:inherit; }
 .theme-orange strong { font-weight:700;color:#ea580c; }
 .theme-orange a { color:#fb923c;text-decoration:none;border-bottom:1px solid #fdba74; }
-.theme-orange ul { margin:1.2em 0;padding-left:1.8em; }
-.theme-orange ol { margin:1.2em 0;padding-left:1.8em; }
-.theme-orange li { margin:0.5em 0;line-height:1.7;color:#451a03; }
+.theme-orange ul { margin:1.2em 0;padding-left:0;list-style-position:inside;}
+.theme-orange ol { margin:1.2em 0;padding-left:0;list-style-position:inside;}
+.theme-orange li { margin:0.5em 0;line-height:1.7;color:#451a03;list-style-position:inside;}
 .theme-orange hr { border:none;border-top:2px solid #fdba74;margin:2em 0; }
 .theme-orange table { border-collapse:collapse;width:100%;margin:1.5em 0; }
 .theme-orange th { border:1px solid #fdba74;padding:10px 14px;text-align:left;background:#fff7ed;color:#c2410c;font-weight:600; }

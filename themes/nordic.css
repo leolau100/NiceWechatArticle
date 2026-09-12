@@ -14,11 +14,11 @@
 .theme-nordic strong { font-weight:700;color:#1a1a1a; }
 .theme-nordic em { color:#555;font-style:italic; }
 .theme-nordic a { color:#2c6e9e;text-decoration:none;border-bottom:1px solid rgba(44,110,158,0.4); }
-.theme-nordic ul { margin:0.8em 0;padding-left:1.6em;list-style:none; }
-.theme-nordic ul > li { position:relative;margin:0.5em 0;padding-left:0.4em;line-height:1.8;color:#3c3c3c; }
-.theme-nordic ul > li::before { content:'—';position:absolute;left:-1.2em;color:#2c6e9e;font-weight:600; }
-.theme-nordic ol { margin:0.8em 0;padding-left:1.8em; }
-.theme-nordic li { margin:0.5em 0;line-height:1.8;color:#3c3c3c; }
+.theme-nordic ul { margin:0.8em 0;padding-left:0;list-style:disc;list-style-position:inside;}
+.theme-nordic ul > li { margin:0.5em 0;padding-left:0;line-height:1.8;color:#3c3c3c;list-style-position:inside;}
+.theme-nordic ul > li::before { content:none;position:absolute;left:-1.2em;color:#2c6e9e;font-weight:600;list-style-position:inside;}
+.theme-nordic ol { margin:0.8em 0;padding-left:0;list-style-position:inside;}
+.theme-nordic li { margin:0.5em 0;line-height:1.8;color:#3c3c3c;list-style-position:inside;}
 .theme-nordic hr { border:none;border-top:1px solid #c8c0b8;margin:2.5em 0; }
 .theme-nordic table { border-collapse:collapse;width:100%;margin:1.5em 0; }
 .theme-nordic th { border:1px solid #c8c0b8;padding:10px 14px;text-align:left;background:#ede8e0;color:#1a1a1a;font-weight:600; }

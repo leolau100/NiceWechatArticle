@@ -14,9 +14,9 @@
 .theme-cute-yellow .code-block code { background:none;padding:0;border-radius:0;color:inherit; }
 .theme-cute-yellow strong { font-weight:700;color:#595959; }
 .theme-cute-yellow a { letter-spacing:0;color:#f59e0b;text-decoration:underline; }
-.theme-cute-yellow ul { margin:0.5rem 0;padding-left:1.5rem;list-style-type:disc; }
-.theme-cute-yellow ol { margin:0.5rem 0;padding-left:1.5rem;list-style-type:decimal; }
-.theme-cute-yellow li { margin:0.25rem 0;color:#595959;letter-spacing:2px;line-height:1.7; }
+.theme-cute-yellow ul { margin:0.5rem 0;padding-left:0;list-style-type:disc;list-style-position:inside;}
+.theme-cute-yellow ol { margin:0.5rem 0;padding-left:0;list-style-type:decimal;list-style-position:inside;}
+.theme-cute-yellow li { margin:0.25rem 0;color:#595959;letter-spacing:2px;line-height:1.7;list-style-position:inside;}
 .theme-cute-yellow hr { border:none;height:2px;margin:2rem 0;background:#fbbf24 50%;border-radius:2px; }
 .theme-cute-yellow table { border-collapse:collapse;width:100%;margin:1.5em 0; }
 .theme-cute-yellow th { border:1px solid #fbbf24;padding:10px 14px;text-align:left;background:#fef3c7;color:#595959;font-weight:600; }

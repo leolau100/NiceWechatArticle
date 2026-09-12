@@ -12,11 +12,11 @@
 .theme-earth strong{font-weight:700;color:#6b4c1e}
 .theme-earth em{color:#9a7040;font-style:italic}
 .theme-earth a{color:#8a6030;text-decoration:none;border-bottom:1px solid rgba(138,96,48,.4)}
-.theme-earth ul{margin:.8em 0;padding-left:1.6em;list-style:none}
-.theme-earth ul>li{position:relative;margin:.5em 0;padding-left:.4em;line-height:1.8;color:#3a3028}
-.theme-earth ul>li::before{content:'◉';position:absolute;left:-1.2em;color:#a0713a;font-size:.7em;line-height:2.3}
-.theme-earth ol{margin:.8em 0;padding-left:1.8em}
-.theme-earth li{margin:.5em 0;line-height:1.8;color:#3a3028}
+.theme-earth ul{margin:.8em 0;padding-left:0;list-style:disc;list-style-position:inside;}
+.theme-earth ul>li{margin:.5em 0;padding-left:0;line-height:1.8;color:#3a3028;list-style-position:inside;}
+.theme-earth ul>li::before{content:none;position:absolute;left:-1.2em;color:#a0713a;font-size:.7em;line-height:2.3;list-style-position:inside;}
+.theme-earth ol{margin:.8em 0;padding-left:0;list-style-position:inside;}
+.theme-earth li{margin:.5em 0;line-height:1.8;color:#3a3028;list-style-position:inside;}
 .theme-earth hr{border:none;height:2px;background:#a0713a;margin:2em 0}
 .theme-earth table{border-collapse:collapse;width:100%;margin:1.5em 0}
 .theme-earth th{border:1px solid rgba(160,113,58,.3);padding:9px 13px;background:rgba(160,113,58,.1);color:#4a2808;font-weight:600}

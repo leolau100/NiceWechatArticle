@@ -15,11 +15,11 @@
 .theme-sakura strong { font-weight:700;color:#c2185b; }
 .theme-sakura em { color:#e91e8c;font-style:italic; }
 .theme-sakura a { color:#ad1457;text-decoration:none;border-bottom:1px solid rgba(173,20,87,0.35); }
-.theme-sakura ul { margin:0.8em 0;padding-left:1.6em;list-style:none; }
-.theme-sakura ul > li { position:relative;margin:0.4em 0;padding-left:0.4em;line-height:1.8;color:#3a2030; }
-.theme-sakura ul > li::before { content:'🌸';position:absolute;left:-1.5em;font-size:0.7em;line-height:2.2; }
-.theme-sakura ol { margin:0.8em 0;padding-left:1.8em; }
-.theme-sakura li { margin:0.4em 0;line-height:1.8;color:#3a2030; }
+.theme-sakura ul { margin:0.8em 0;padding-left:0;list-style:disc;list-style-position:inside;}
+.theme-sakura ul > li { margin:0.4em 0;padding-left:0;line-height:1.8;color:#3a2030;list-style-position:inside;}
+.theme-sakura ul > li::before { content:none;position:absolute;left:-1.5em;font-size:0.7em;line-height:2.2;list-style-position:inside;}
+.theme-sakura ol { margin:0.8em 0;padding-left:0;list-style-position:inside;}
+.theme-sakura li { margin:0.4em 0;line-height:1.8;color:#3a2030;list-style-position:inside;}
 .theme-sakura hr { border:none;height:1px;background:#f48fb1;margin:2em 0; }
 .theme-sakura table { border-collapse:collapse;width:100%;margin:1.5em 0; }
 .theme-sakura th { border:1px solid rgba(233,30,140,0.25);padding:9px 13px;text-align:left;background:rgba(248,187,208,0.2);color:#ad1457;font-weight:600; }

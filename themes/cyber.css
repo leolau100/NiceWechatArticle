@@ -13,11 +13,11 @@
 .theme-cyber strong{font-weight:700;color:#ffe600;text-shadow:0 0 8px rgba(255,230,0,.5)}
 .theme-cyber em{color:#ff0090;font-style:italic}
 .theme-cyber a{color:#00f0ff;text-decoration:none;border-bottom:1px solid rgba(0,240,255,.35)}
-.theme-cyber ul{margin:.8em 0;padding-left:1.6em;list-style:none}
-.theme-cyber ul>li{position:relative;margin:.4em 0;padding-left:.4em;line-height:1.8;color:#c8b8f0}
-.theme-cyber ul>li::before{content:'▶';position:absolute;left:-1.2em;color:#ffe600;font-size:.65em;line-height:2.6}
-.theme-cyber ol{margin:.8em 0;padding-left:1.8em}
-.theme-cyber li{margin:.4em 0;line-height:1.8;color:#c8b8f0}
+.theme-cyber ul{margin:.8em 0;padding-left:0;list-style:disc;list-style-position:inside;}
+.theme-cyber ul>li{margin:.4em 0;padding-left:0;line-height:1.8;color:#c8b8f0;list-style-position:inside;}
+.theme-cyber ul>li::before{content:none;position:absolute;left:-1.2em;color:#ffe600;font-size:.65em;line-height:2.6;list-style-position:inside;}
+.theme-cyber ol{margin:.8em 0;padding-left:0;list-style-position:inside;}
+.theme-cyber li{margin:.4em 0;line-height:1.8;color:#c8b8f0;list-style-position:inside;}
 .theme-cyber hr{border:none;height:1px;background:#ffe600;margin:2em 0}
 .theme-cyber table{border-collapse:collapse;width:100%;margin:1.5em 0}
 .theme-cyber th{border:1px solid rgba(0,240,255,.3);padding:9px 13px;background:rgba(0,240,255,.07);color:#00f0ff;font-weight:600}

@@ -12,11 +12,11 @@
 .theme-coral strong{font-weight:700;color:#c0392b}
 .theme-coral em{color:#d4452a;font-style:italic}
 .theme-coral a{color:#c0392b;text-decoration:none;border-bottom:1px solid rgba(192,57,43,.4)}
-.theme-coral ul{margin:.8em 0;padding-left:1.6em;list-style:none}
-.theme-coral ul>li{position:relative;margin:.4em 0;padding-left:.4em;line-height:1.8;color:#2a1510}
-.theme-coral ul>li::before{content:'🪸';position:absolute;left:-1.5em;font-size:.72em;line-height:2.1}
-.theme-coral ol{margin:.8em 0;padding-left:1.8em}
-.theme-coral li{margin:.4em 0;line-height:1.8;color:#2a1510}
+.theme-coral ul{margin:.8em 0;padding-left:0;list-style:disc;list-style-position:inside;}
+.theme-coral ul>li{margin:.4em 0;padding-left:0;line-height:1.8;color:#2a1510;list-style-position:inside;}
+.theme-coral ul>li::before{content:none;position:absolute;left:-1.5em;font-size:.72em;line-height:2.1;list-style-position:inside;}
+.theme-coral ol{margin:.8em 0;padding-left:0;list-style-position:inside;}
+.theme-coral li{margin:.4em 0;line-height:1.8;color:#2a1510;list-style-position:inside;}
 .theme-coral hr{border:none;height:2px;background:#ff6b6b;margin:2em 0}
 .theme-coral table{border-collapse:collapse;width:100%;margin:1.5em 0}
 .theme-coral th{border:1px solid rgba(255,107,107,.28);padding:9px 13px;background:rgba(255,107,107,.1);color:#8a2515;font-weight:600}

@@ -16,11 +16,11 @@
 .theme-red-festive strong { font-weight:700;color:#c62a2a; }
 .theme-red-festive em { color:#9c1a1a;font-style:italic; }
 .theme-red-festive a { color:#c62a2a;text-decoration:none;border-bottom:1px solid rgba(198,42,42,0.35); }
-.theme-red-festive ul { margin:0.8em 0;padding-left:1.6em;list-style:none; }
-.theme-red-festive ul > li { position:relative;margin:0.4em 0;padding-left:0.4em;line-height:1.8;color:#2a0f0f; }
-.theme-red-festive ul > li::before { content:'❖';position:absolute;left:-1.3em;color:#e53935;font-size:0.65em;line-height:2.5; }
-.theme-red-festive ol { margin:0.8em 0;padding-left:1.8em; }
-.theme-red-festive li { margin:0.4em 0;line-height:1.8;color:#2a0f0f; }
+.theme-red-festive ul { margin:0.8em 0;padding-left:0;list-style:disc;list-style-position:inside;}
+.theme-red-festive ul > li { margin:0.4em 0;padding-left:0;line-height:1.8;color:#2a0f0f;list-style-position:inside;}
+.theme-red-festive ul > li::before { content:none;position:absolute;left:-1.3em;color:#e53935;font-size:0.65em;line-height:2.5;list-style-position:inside;}
+.theme-red-festive ol { margin:0.8em 0;padding-left:0;list-style-position:inside;}
+.theme-red-festive li { margin:0.4em 0;line-height:1.8;color:#2a0f0f;list-style-position:inside;}
 .theme-red-festive hr { border:none;height:2px;background:#ffcc00;margin:2em 0; }
 .theme-red-festive table { border-collapse:collapse;width:100%;margin:1.5em 0; }
 .theme-red-festive th { border:1px solid rgba(198,42,42,0.25);padding:9px 13px;text-align:left;background:rgba(198,42,42,0.08);color:#c62a2a;font-weight:600; }

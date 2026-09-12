@@ -14,9 +14,9 @@
 .theme-tech-purple .code-block code { background:none;padding:0;border-radius:0;color:inherit; }
 .theme-tech-purple strong { font-weight:700;color:#595959; }
 .theme-tech-purple a { letter-spacing:0;color:#a564f5;text-decoration:underline; }
-.theme-tech-purple ul { margin:0.5rem 0;padding-left:1.5rem;list-style-type:disc; }
-.theme-tech-purple ol { margin:0.5rem 0;padding-left:1.5rem;list-style-type:decimal; }
-.theme-tech-purple li { margin:0.25rem 0;color:#595959;letter-spacing:2px;line-height:1.7; }
+.theme-tech-purple ul { margin:0.5rem 0;padding-left:0;list-style-type:disc;list-style-position:inside;}
+.theme-tech-purple ol { margin:0.5rem 0;padding-left:0;list-style-type:decimal;list-style-position:inside;}
+.theme-tech-purple li { margin:0.25rem 0;color:#595959;letter-spacing:2px;line-height:1.7;list-style-position:inside;}
 .theme-tech-purple hr { border:none;height:2px;margin:2rem 0;background:#8b5cf6 50%;border-radius:2px; }
 .theme-tech-purple table { border-collapse:collapse;width:100%;margin:1.5em 0; }
 .theme-tech-purple th { border:1px solid #ddd6fe;padding:10px 14px;text-align:left;background:#faf5ff;color:#4c1d95;font-weight:600; }

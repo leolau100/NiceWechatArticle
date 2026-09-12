@@ -14,9 +14,9 @@
 .theme-plain-minimal strong { font-weight:700;color:#111; }
 .theme-plain-minimal em { font-style:italic;color:#333; }
 .theme-plain-minimal a { color:#0066cc;text-decoration:underline; }
-.theme-plain-minimal ul { margin:1em 0;padding-left:1.8em;list-style:disc; }
-.theme-plain-minimal ol { margin:1em 0;padding-left:1.8em;list-style:decimal; }
-.theme-plain-minimal li { margin:0.4em 0;line-height:1.7;color:#333; }
+.theme-plain-minimal ul { margin:1em 0;padding-left:0;list-style:disc;list-style-position:inside;}
+.theme-plain-minimal ol { margin:1em 0;padding-left:0;list-style:decimal;list-style-position:inside;}
+.theme-plain-minimal li { margin:0.4em 0;line-height:1.7;color:#333;list-style-position:inside;}
 .theme-plain-minimal hr { border:none;border-top:1px solid #ddd;margin:2em 0; }
 .theme-plain-minimal table { border-collapse:collapse;width:100%;margin:1.4em 0; }
 .theme-plain-minimal th { border:1px solid #ddd;padding:8px 12px;text-align:left;background:#fafafa;font-weight:700;color:#111; }

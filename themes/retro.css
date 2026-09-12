@@ -15,11 +15,11 @@
 .theme-retro strong { font-weight:700;color:#2a2018;text-decoration:underline; }
 .theme-retro em { color:#4a3828;font-style:italic; }
 .theme-retro a { color:#6a3810;text-decoration:underline; }
-.theme-retro ul { margin:0.8em 0;padding-left:1.6em;list-style:none; }
-.theme-retro ul > li { position:relative;margin:0.4em 0;padding-left:0.4em;line-height:1.8;color:#2a2018; }
-.theme-retro ul > li::before { content:'[*]';position:absolute;left:-2.2em;color:#a08060;font-size:0.85em;line-height:1.9; }
-.theme-retro ol { margin:0.8em 0;padding-left:1.8em; }
-.theme-retro li { margin:0.4em 0;line-height:1.8;color:#2a2018; }
+.theme-retro ul { margin:0.8em 0;padding-left:0;list-style:disc;list-style-position:inside;}
+.theme-retro ul > li { margin:0.4em 0;padding-left:0;line-height:1.8;color:#2a2018;list-style-position:inside;}
+.theme-retro ul > li::before { content:none;position:absolute;left:-2.2em;color:#a08060;font-size:0.85em;line-height:1.9;list-style-position:inside;}
+.theme-retro ol { margin:0.8em 0;padding-left:0;list-style-position:inside;}
+.theme-retro li { margin:0.4em 0;line-height:1.8;color:#2a2018;list-style-position:inside;}
 .theme-retro hr { border:none;border-top:2px dashed #a08060;margin:2em 0; }
 .theme-retro table { border-collapse:collapse;width:100%;margin:1.5em 0; }
 .theme-retro th { border:2px solid #2a2018;padding:8px 12px;text-align:left;background:rgba(160,128,96,0.2);color:#1a1208;font-weight:700; }

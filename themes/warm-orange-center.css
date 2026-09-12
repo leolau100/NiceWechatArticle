@@ -15,9 +15,9 @@
 .theme-warm-orange-center .code-block code { background:none;padding:0;border-radius:0;color:inherit; }
 .theme-warm-orange-center strong { font-weight:700;color:#ea580c;background:rgba(255,237,213,0.4)135deg,rgba(255,237,213,0.4) 0%,transparent 100%);padding:0 3px;border-radius:3px; }
 .theme-warm-orange-center a { color:#ea580c;text-decoration:none;border-bottom:2px solid rgba(234,88,12,0.3);padding-bottom:1px;font-weight:500; }
-.theme-warm-orange-center ul { margin:0.75rem 0;padding-left:0;list-style:none; }
-.theme-warm-orange-center ol { margin:0.75rem 0;padding-left:0;list-style:none; }
-.theme-warm-orange-center li { position:relative;margin:0.5rem 0;padding-left:1.5rem;color:#374151;line-height:1.8; }
+.theme-warm-orange-center ul { margin:0.75rem 0;padding-left:0;list-style:disc;list-style-position:inside;}
+.theme-warm-orange-center ol { margin:0.75rem 0;padding-left:0;list-style:decimal;list-style-position:inside;}
+.theme-warm-orange-center li { margin:0.5rem 0;padding-left:0;color:#374151;line-height:1.8;list-style-position:inside;}
 .theme-warm-orange-center hr { height:3px;margin:2rem 0;background:#f97316 50%;border:none;border-radius:3px; }
 .theme-warm-orange-center table { border-collapse:collapse;width:100%;margin:1.5em 0; }
 .theme-warm-orange-center th { border:1px solid #fdba74;padding:10px 14px;text-align:left;background:#fff7ed;color:#c2410c;font-weight:600; }

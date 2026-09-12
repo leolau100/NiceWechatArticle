@@ -13,12 +13,12 @@
 .theme-elegant-purple .code-block code { background:none;padding:0;border-radius:0;color:inherit;font-size:inherit; }
 .theme-elegant-purple strong { font-weight:700;color:#6b46c1;background:rgba(139,92,246,0.1)135deg,rgba(139,92,246,0.1) 0%,transparent 100%);padding:0 2px; }
 .theme-elegant-purple a { color:#7c3aed;text-decoration:none;border-bottom:1.5px solid rgba(124,58,237,0.3);padding-bottom:1px;transition:all 0.2s ease; }
-.theme-elegant-purple ul { margin:0.75rem 0;padding-left:0;list-style:none; }
-.theme-elegant-purple ol { margin:0.75rem 0;padding-left:0;list-style:none;counter-reset:list-counter; }
-.theme-elegant-purple li { position:relative;margin:0.5rem 0;padding-left:1.5rem;color:#374151;line-height:1.8; }
-.theme-elegant-purple ul > li::before { content:'▸';position:absolute;left:0;color:#8b5cf6;font-weight:bold;font-size:1em;line-height:1.8; }
-.theme-elegant-purple ol > li { counter-increment:list-counter;padding-left:2rem; }
-.theme-elegant-purple ol > li::before { content:counter(list-counter);position:absolute;top:0.3em;left:0;display:flex;align-items:center;justify-content:center;width:1.4rem;height:1.4rem;color:white;font-weight:600;font-size:0.75rem;background:#8b5cf6;border-radius:50%; }
+.theme-elegant-purple ul { margin:0.75rem 0;padding-left:0;list-style:disc;list-style-position:inside;}
+.theme-elegant-purple ol { margin:0.75rem 0;padding-left:0;list-style:decimal;counter-reset:list-counter;list-style-position:inside;}
+.theme-elegant-purple li { margin:0.5rem 0;padding-left:0;color:#374151;line-height:1.8;list-style-position:inside;}
+.theme-elegant-purple ul > li::before { content:none;position:absolute;left:0;color:#8b5cf6;font-weight:bold;font-size:1em;line-height:1.8;list-style-position:inside;}
+.theme-elegant-purple ol > li { counter-increment:list-counter;padding-left:0;list-style-position:inside;}
+.theme-elegant-purple ol > li::before { content:none;position:absolute;top:0.3em;left:0;display:flex;align-items:center;justify-content:center;width:1.4rem;height:1.4rem;color:white;font-weight:600;font-size:0.75rem;background:#8b5cf6;border-radius:50%;list-style-position:inside;}
 .theme-elegant-purple hr { height:2px;margin:2rem 0;background:#8b5cf6 50%;border:none;border-radius:2px; }
 .theme-elegant-purple table { border-collapse:collapse;width:100%;margin:1.5em 0; }
 .theme-elegant-purple th { border:1px solid #ddd6fe;padding:10px 14px;text-align:left;background:rgba(139,92,246,0.08)90deg,rgba(139,92,246,0.08) 0%,transparent 100%);color:#6b46c1;font-weight:600; }

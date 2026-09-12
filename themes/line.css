@@ -15,9 +15,9 @@
 .theme-line strong { font-weight:700;color:#1f2328; }
 .theme-line em { color:#1f2328;font-style:italic; }
 .theme-line a { color:#2563eb;text-decoration:none;border-bottom:1px solid #93c5fd; }
-.theme-line ul { margin:1em 0;padding-left:1.6em;list-style:disc; }
-.theme-line ol { margin:1em 0;padding-left:1.6em;list-style:decimal; }
-.theme-line li { margin:0.4em 0;line-height:1.7;color:#24292f; }
+.theme-line ul { margin:1em 0;padding-left:0;list-style:disc;list-style-position:inside;}
+.theme-line ol { margin:1em 0;padding-left:0;list-style:decimal;list-style-position:inside;}
+.theme-line li { margin:0.4em 0;line-height:1.7;color:#24292f;list-style-position:inside;}
 .theme-line hr { border:none;border-top:1px solid #e2e8f0;margin:2em 0; }
 .theme-line table { border-collapse:collapse;width:100%;margin:1.4em 0; }
 .theme-line th { border:1px solid #e2e8f0;padding:8px 12px;text-align:left;background:#f8fafc;color:#1f2328;font-weight:600; }

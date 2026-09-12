@@ -12,11 +12,11 @@
 .theme-slate strong{font-weight:700;color:#212529}
 .theme-slate em{color:#495057;font-style:italic}
 .theme-slate a{color:#495057;text-decoration:none;border-bottom:1px solid #adb5bd}
-.theme-slate ul{margin:.8em 0;padding-left:1.6em;list-style:none}
-.theme-slate ul>li{position:relative;margin:.5em 0;padding-left:.4em;line-height:1.8;color:#343a40}
-.theme-slate ul>li::before{content:'';position:absolute;left:-.9em;top:.75em;width:5px;height:5px;background:#868e96;border-radius:50%}
-.theme-slate ol{margin:.8em 0;padding-left:1.8em}
-.theme-slate li{margin:.5em 0;line-height:1.8;color:#343a40}
+.theme-slate ul{margin:.8em 0;padding-left:0;list-style:disc;list-style-position:inside;}
+.theme-slate ul>li{margin:.5em 0;padding-left:0;line-height:1.8;color:#343a40;list-style-position:inside;}
+.theme-slate ul>li::before{content:none;position:absolute;left:-.9em;top:.75em;width:5px;height:5px;background:#868e96;border-radius:50%;list-style-position:inside;}
+.theme-slate ol{margin:.8em 0;padding-left:0;list-style-position:inside;}
+.theme-slate li{margin:.5em 0;line-height:1.8;color:#343a40;list-style-position:inside;}
 .theme-slate hr{border:none;border-top:1px solid #dee2e6;margin:2em 0}
 .theme-slate table{border-collapse:collapse;width:100%;margin:1.5em 0}
 .theme-slate th{border:1px solid #dee2e6;padding:10px 14px;background:#e9ecef;color:#212529;font-weight:600}

@@ -12,11 +12,11 @@
 .theme-breeze strong{font-weight:700;color:#1a6080}
 .theme-breeze em{color:#2980b9;font-style:italic}
 .theme-breeze a{color:#2980b9;text-decoration:none;border-bottom:1px solid rgba(41,128,185,.4)}
-.theme-breeze ul{margin:.8em 0;padding-left:1.6em;list-style:none}
-.theme-breeze ul>li{position:relative;margin:.4em 0;padding-left:.4em;line-height:1.8;color:#253545}
-.theme-breeze ul>li::before{content:'🌊';position:absolute;left:-1.5em;font-size:.72em;line-height:2.1}
-.theme-breeze ol{margin:.8em 0;padding-left:1.8em}
-.theme-breeze li{margin:.4em 0;line-height:1.8;color:#253545}
+.theme-breeze ul{margin:.8em 0;padding-left:0;list-style:disc;list-style-position:inside;}
+.theme-breeze ul>li{margin:.4em 0;padding-left:0;line-height:1.8;color:#253545;list-style-position:inside;}
+.theme-breeze ul>li::before{content:none;position:absolute;left:-1.5em;font-size:.72em;line-height:2.1;list-style-position:inside;}
+.theme-breeze ol{margin:.8em 0;padding-left:0;list-style-position:inside;}
+.theme-breeze li{margin:.4em 0;line-height:1.8;color:#253545;list-style-position:inside;}
 .theme-breeze hr{border:none;height:2px;background:#2980b9;margin:2em 0}
 .theme-breeze table{border-collapse:collapse;width:100%;margin:1.5em 0}
 .theme-breeze th{border:1px solid rgba(41,128,185,.28);padding:9px 13px;background:rgba(41,128,185,.1);color:#0d3a58;font-weight:600}

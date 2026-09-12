@@ -12,11 +12,11 @@
 .theme-peach strong{font-weight:700;color:#bf4f30}
 .theme-peach em{color:#d4622a;font-style:italic}
 .theme-peach a{color:#bf4f30;text-decoration:none;border-bottom:1px solid rgba(191,79,48,.4)}
-.theme-peach ul{margin:.8em 0;padding-left:1.6em;list-style:none}
-.theme-peach ul>li{position:relative;margin:.4em 0;padding-left:.4em;line-height:1.8;color:#3a2015}
-.theme-peach ul>li::before{content:'🍑';position:absolute;left:-1.5em;font-size:.72em;line-height:2.1}
-.theme-peach ol{margin:.8em 0;padding-left:1.8em}
-.theme-peach li{margin:.4em 0;line-height:1.8;color:#3a2015}
+.theme-peach ul{margin:.8em 0;padding-left:0;list-style:disc;list-style-position:inside;}
+.theme-peach ul>li{margin:.4em 0;padding-left:0;line-height:1.8;color:#3a2015;list-style-position:inside;}
+.theme-peach ul>li::before{content:none;position:absolute;left:-1.5em;font-size:.72em;line-height:2.1;list-style-position:inside;}
+.theme-peach ol{margin:.8em 0;padding-left:0;list-style-position:inside;}
+.theme-peach li{margin:.4em 0;line-height:1.8;color:#3a2015;list-style-position:inside;}
 .theme-peach hr{border:none;height:2px;background:#ff8a65;margin:2em 0}
 .theme-peach table{border-collapse:collapse;width:100%;margin:1.5em 0}
 .theme-peach th{border:1px solid rgba(255,138,101,.3);padding:9px 13px;background:rgba(255,138,101,.12);color:#9a3520;font-weight:600}

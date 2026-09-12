@@ -15,9 +15,9 @@
 .theme-github-light-center em { color:#1f2328;font-style:italic; }
 .theme-github-light-center a { color:#0969da;text-decoration:none; }
 .theme-github-light-center a:hover { text-decoration:underline; }
-.theme-github-light-center ul { margin:0 0 1em;padding-left:2em;list-style:disc; }
-.theme-github-light-center ol { margin:0 0 1em;padding-left:2em;list-style:decimal; }
-.theme-github-light-center li { margin:0.25em 0;line-height:1.75;color:#1f2328; }
+.theme-github-light-center ul { margin:0 0 1em;padding-left:0;list-style:disc;list-style-position:inside;}
+.theme-github-light-center ol { margin:0 0 1em;padding-left:0;list-style:decimal;list-style-position:inside;}
+.theme-github-light-center li { margin:0.25em 0;line-height:1.75;color:#1f2328;list-style-position:inside;}
 .theme-github-light-center hr { border:none;border-top:2px solid #d1d9e0;margin:2em 0; }
 .theme-github-light-center table { border-collapse:collapse;width:100%;margin:1em 0; }
 .theme-github-light-center th { border:1px solid #d1d9e0;padding:8px 12px;text-align:left;background:#f6f8fa;font-weight:600;color:#1f2328; }

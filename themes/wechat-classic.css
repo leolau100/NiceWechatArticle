@@ -14,11 +14,11 @@
 .theme-wechat-classic strong { font-weight:700;color:#07c160; }
 .theme-wechat-classic em { color:#059652;font-style:italic; }
 .theme-wechat-classic a { color:#07c160;text-decoration:none;border-bottom:1px solid rgba(7,193,96,0.35); }
-.theme-wechat-classic ul { margin:0.8em 0;padding-left:1.6em;list-style:none; }
-.theme-wechat-classic ul > li { position:relative;margin:0.4em 0;padding-left:0.4em;line-height:1.8;color:#1a1a1a; }
-.theme-wechat-classic ul > li::before { content:'';position:absolute;left:-0.9em;top:0.65em;width:6px;height:6px;background:#07c160;border-radius:50%; }
-.theme-wechat-classic ol { margin:0.8em 0;padding-left:1.8em; }
-.theme-wechat-classic li { margin:0.4em 0;line-height:1.8;color:#1a1a1a; }
+.theme-wechat-classic ul { margin:0.8em 0;padding-left:0;list-style:disc;list-style-position:inside;}
+.theme-wechat-classic ul > li { margin:0.4em 0;padding-left:0;line-height:1.8;color:#1a1a1a;list-style-position:inside;}
+.theme-wechat-classic ul > li::before { content:none;position:absolute;left:-0.9em;top:0.65em;width:6px;height:6px;background:#07c160;border-radius:50%;list-style-position:inside;}
+.theme-wechat-classic ol { margin:0.8em 0;padding-left:0;list-style-position:inside;}
+.theme-wechat-classic li { margin:0.4em 0;line-height:1.8;color:#1a1a1a;list-style-position:inside;}
 .theme-wechat-classic hr { border:none;height:1px;background:#07c160;margin:2em 0; }
 .theme-wechat-classic table { border-collapse:collapse;width:100%;margin:1.5em 0; }
 .theme-wechat-classic th { border:1px solid rgba(7,193,96,0.25);padding:10px 14px;text-align:left;background:rgba(7,193,96,0.08);color:#07a050;font-weight:600; }

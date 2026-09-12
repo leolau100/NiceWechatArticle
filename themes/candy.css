@@ -13,11 +13,11 @@
 .theme-candy strong { font-weight:700;color:#db2777; }
 .theme-candy em { color:#7c3aed;font-style:italic; }
 .theme-candy a { color:#0ea5e9;text-decoration:none;border-bottom:2px solid rgba(14,165,233,0.3);border-radius:1px; }
-.theme-candy ul { margin:0.8em 0;padding-left:1.6em;list-style:none; }
-.theme-candy ul > li { position:relative;margin:0.4em 0;padding-left:0.4em;line-height:1.8;color:#3a2840; }
-.theme-candy ul > li::before { content:'🍬';position:absolute;left:-1.5em;font-size:0.75em;line-height:2; }
-.theme-candy ol { margin:0.8em 0;padding-left:1.8em; }
-.theme-candy li { margin:0.4em 0;line-height:1.8;color:#3a2840; }
+.theme-candy ul { margin:0.8em 0;padding-left:0;list-style:disc;list-style-position:inside;}
+.theme-candy ul > li { margin:0.4em 0;padding-left:0;line-height:1.8;color:#3a2840;list-style-position:inside;}
+.theme-candy ul > li::before { content:none;position:absolute;left:-1.5em;font-size:0.75em;line-height:2;list-style-position:inside;}
+.theme-candy ol { margin:0.8em 0;padding-left:0;list-style-position:inside;}
+.theme-candy li { margin:0.4em 0;line-height:1.8;color:#3a2840;list-style-position:inside;}
 .theme-candy hr { border:none;height:3px;background:#67e8f9;border-radius:2px;margin:2em 0; }
 .theme-candy table { border-collapse:collapse;width:100%;margin:1.5em 0; }
 .theme-candy th { border:1px solid rgba(167,139,250,0.3);padding:9px 13px;text-align:left;background:rgba(255,157,226,0.12);color:#7c3aed;font-weight:600; }

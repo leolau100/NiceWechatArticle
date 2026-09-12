@@ -15,9 +15,9 @@
 .theme-jiqizhixin code { background:#f2f4f7;padding:2px 5px;border-radius:3px;font-family:Consolas,Monaco,monospace;font-size:13px;color:#00427b; }
 .theme-jiqizhixin .code-block { background:#f7f8fa;padding:12px;border-radius:4px;overflow-x:auto;margin:1.2em 0;font-family:Consolas,Monaco,monospace;font-size:13px;color:#3f3f3f;line-height:1.7; white-space:pre-wrap; }
 .theme-jiqizhixin .code-block code { background:none;padding:0;border-radius:0;color:inherit; }
-.theme-jiqizhixin ul { margin:1em 0;padding-left:1.6em;list-style:disc; }
-.theme-jiqizhixin ol { margin:1em 0;padding-left:1.6em;list-style:decimal; }
-.theme-jiqizhixin li { margin:0.4em 0;line-height:1.75;font-size:15px;color:#3f3f3f; }
+.theme-jiqizhixin ul { margin:1em 0;padding-left:0;list-style:disc;list-style-position:inside;}
+.theme-jiqizhixin ol { margin:1em 0;padding-left:0;list-style:decimal;list-style-position:inside;}
+.theme-jiqizhixin li { margin:0.4em 0;line-height:1.75;font-size:15px;color:#3f3f3f;list-style-position:inside;}
 .theme-jiqizhixin hr { border:none;border-top:1px solid #e5e5e5;margin:1.8em 0; }
 .theme-jiqizhixin table { border-collapse:collapse;width:100%;margin:1.2em 0; }
 .theme-jiqizhixin th { border:1px solid #e5e5e5;padding:8px 10px;text-align:left;background:#f7f8fa;color:#00427b;font-weight:700; }

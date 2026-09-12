@@ -15,11 +15,11 @@
 .theme-autumn strong { font-weight:700;color:#a04820; }
 .theme-autumn em { color:#c05a18;font-style:italic; }
 .theme-autumn a { color:#a04820;text-decoration:none;border-bottom:1px solid rgba(160,72,32,0.4); }
-.theme-autumn ul { margin:0.8em 0;padding-left:1.6em;list-style:none; }
-.theme-autumn ul > li { position:relative;margin:0.4em 0;padding-left:0.4em;line-height:1.8;color:#3a2510; }
-.theme-autumn ul > li::before { content:'🍂';position:absolute;left:-1.5em;font-size:0.75em;line-height:2; }
-.theme-autumn ol { margin:0.8em 0;padding-left:1.8em; }
-.theme-autumn li { margin:0.4em 0;line-height:1.8;color:#3a2510; }
+.theme-autumn ul { margin:0.8em 0;padding-left:0;list-style:disc;list-style-position:inside;}
+.theme-autumn ul > li { margin:0.4em 0;padding-left:0;line-height:1.8;color:#3a2510;list-style-position:inside;}
+.theme-autumn ul > li::before { content:none;position:absolute;left:-1.5em;font-size:0.75em;line-height:2;list-style-position:inside;}
+.theme-autumn ol { margin:0.8em 0;padding-left:0;list-style-position:inside;}
+.theme-autumn li { margin:0.4em 0;line-height:1.8;color:#3a2510;list-style-position:inside;}
 .theme-autumn hr { border:none;height:2px;background:#e8a020;margin:2em 0; }
 .theme-autumn table { border-collapse:collapse;width:100%;margin:1.5em 0; }
 .theme-autumn th { border:1px solid rgba(212,114,10,0.3);padding:9px 13px;text-align:left;background:rgba(212,114,10,0.1);color:#7a3010;font-weight:600; }

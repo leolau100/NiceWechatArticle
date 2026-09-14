@@ -252,6 +252,11 @@ function applyThemeRulesToDom(container, rules, doc) {
       if (tag === 'code' && el.closest('.code-block')) {
         const preCodeRules = rules['.code-block code']
         if (preCodeRules) applyProps(el, preCodeRules)
+        // 代码块内 code 强制等宽字体，避免继承正文中文衬线 / 无衬线字体
+        const blockRules = rules['.code-block']
+        if (blockRules && blockRules['font-family']) {
+          el.style.setProperty('font-family', blockRules['font-family'])
+        }
         return
       }
 
@@ -309,9 +314,12 @@ function applyThemeRulesToDom(container, rules, doc) {
     })
   })
 
+  // 处理复合 / 类选择器（如 .code-block、.code-block code）。
+  // 纯标签选择器（p/h1/code…）已由上面的 TAG_KEYS 循环处理，这里跳过，
+  // 只处理「含 . 的类名」或「含空格的后代组合」选择器，避免重复应用。
   Object.keys(rules).forEach(key => {
-    if (key === '__root__' || !key.includes(' ')) return
-    if (key.includes('::')) return
+    if (key === '__root__' || key.includes('::')) return
+    if (/^[a-zA-Z][a-zA-Z0-9]*$/.test(key)) return
     try {
       container.querySelectorAll(key).forEach(el => {
         applyProps(el, rules[key])

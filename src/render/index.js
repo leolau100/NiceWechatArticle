@@ -48,10 +48,37 @@ function escapeHtmlForCode(s) {
     .replace(/</g, '＜')
     .replace(/>/g, '＞')
 }
+// ── 仓库地址代码块（单独的代码块样式）────────────────────────────────────────
+// 当代码块内包含仓库地址（GitHub / Gitee / GitCode / GitLab / Bitbucket，
+// 或 git@ / git clone 形式）时，渲染为「仓库地址专用代码块」：绿色左边框 +
+// 浅绿底，仓库 URL 高亮为蓝色下划线，与普通代码块明显区分，方便读者一眼识别。
+// 实现上用 `.code-block-repo`（不含 `.code-block` 类）并把全部样式内联在
+// <div> 上、不使用 <code> 元素：既避免被任意主题的 `.code-block` 规则覆盖绿框，
+// 也避免 wechatify 把内部 <code> 当成行内代码套上主题 pill 样式；内联样式在
+// 微信兼容化后保留。
+const REPO_URL_RE = /(?:https?:\/\/)?(?:[\w-]+\.)*(?:github\.com|gitee\.com|gitcode\.net|gitlab\.com|bitbucket\.org)[\w./\-@]+/i
+const REPO_CMD_RE = /\b(?:git\s+clone|git@[\w.\-]+:[\w./\-]+\.git)/i
+// 全部样式内联在 <div> 上、且不使用 <code> 元素（避免被 wechatify 当成
+// 行内代码套上主题 pill 样式，也避免 .code-block 主题规则覆盖绿框），
+// URL 高亮为蓝色下划线，与普通代码块明显区分。
+const REPO_BOX_STYLE = "background:#eef6f0;border-left:4px solid #2da44e;padding:12px 14px;border-radius:6px;box-sizing:border-box;overflow-wrap:break-word;font-family:Consolas,Monaco,'Courier New',monospace;font-size:14px;color:#24292e;line-height:1.6;white-space:pre-wrap;word-break:break-all;"
+function isRepoCodeBlock(text) {
+  return REPO_URL_RE.test(text) || REPO_CMD_RE.test(text)
+}
+function highlightRepoUrl(escaped) {
+  const re = new RegExp(REPO_URL_RE.source, 'gi')
+  return escaped.replace(re, m =>
+    `<span style="color:#0366d6;text-decoration:underline;">${m}</span>`)
+}
+
 marked.use({
   renderer: {
     code(token) {
       const text = getCodeText(token)
+      if (isRepoCodeBlock(text)) {
+        const highlighted = highlightRepoUrl(escapeHtmlForCode(text))
+        return `<div class="code-block-repo" style="${REPO_BOX_STYLE}">${highlighted}</div>\n`
+      }
       return `<div class="code-block"><code>${escapeHtmlForCode(text)}</code></div>\n`
     },
     codespan(token) {

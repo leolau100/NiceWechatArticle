@@ -27,7 +27,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--md", required=True,
                     help="文章 md 绝对路径（自动复制到 06 根），或已在 06 根的相对文件名")
-    ap.add_argument("--theme", default="ocean")
+    ap.add_argument("--theme", default="qbitai")
     ap.add_argument("--footer", default="footer.html",
                     help="v2 默认 footer.html；传空字符串表示不加 footer")
     ap.add_argument("--port", type=int, default=8901)

@@ -454,6 +454,42 @@ export function inlineThemeToSection(doc, themeCssText, theme = '') {
   return result
 }
 
+// 参考链接区块：在 wechatify 最后强制注入 15px / #888888（避免被主题 / 继承处理覆盖）
+// 定位逻辑：正文（data-tpl="body"）内出现「参考链接」文本的元素开始，到 body 末尾
+// （或遇到下一个 H1/H2/H3 标题）之间的所有文本元素与链接统一设 15px / 灰。
+function styleRefLinks(root) {
+  const body = root.querySelector('[data-tpl="body"]') || root
+  const els = body.querySelectorAll('*')
+  let anchor = null
+  for (const el of els) {
+    const t = (el.textContent || '').trim()
+    if (t === '参考链接' || t === '参考链接：' ||
+        (el.children.length === 0 && t.includes('参考链接'))) {
+      anchor = el
+      while (anchor && anchor !== body && !/^(P|DIV|LI|SECTION)$/.test(anchor.tagName)) {
+        anchor = anchor.parentElement
+      }
+      break
+    }
+  }
+  if (!anchor) return
+  let node = anchor
+  while (node) {
+    node.querySelectorAll('p,li,span,a,strong,em,div,section').forEach(e => {
+      e.style.setProperty('font-size', '15px')
+      e.style.setProperty('color', '#888888')
+      if (e.tagName === 'A') {
+        e.style.setProperty('text-decoration', 'none')
+        e.style.setProperty('word-break', 'break-all')
+      }
+    })
+    const nxt = node.nextElementSibling
+    if (!nxt) break
+    if (/^(H1|H2|H3)$/.test(nxt.tagName)) break
+    node = nxt
+  }
+}
+
 // 微信兼容化处理（对应 Editor.vue 中 buildInlinedHtml 的第 1~8 步）
 function wechatifySection(doc, section, theme = '') {
   // 1. 克隆，删除预览专用元素
@@ -555,6 +591,9 @@ function wechatifySection(doc, section, theme = '') {
       .filter(a => a.name.startsWith('data-'))
       .forEach(a => el.removeAttribute(a.name))
   })
+
+  // 9. 参考链接区块样式（最后注入，覆盖主题 / 继承处理，保证微信端 15px / #888888）
+  styleRefLinks(clone)
 
   return clone.outerHTML
 }

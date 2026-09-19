@@ -459,23 +459,27 @@ export function inlineThemeToSection(doc, themeCssText, theme = '') {
 // （或遇到下一个 H1/H2/H3 标题）之间的所有文本元素与链接统一设 15px / 灰。
 function styleRefLinks(root) {
   const body = root.querySelector('[data-tpl="body"]') || root
-  const els = body.querySelectorAll('*')
-  let anchor = null
-  for (const el of els) {
+  // 1. 定位「参考链接」标题（仅靠标题文本，避免误命中正文里的「参考」字样）
+  let titleEl = null
+  for (const el of body.querySelectorAll('*')) {
     const t = (el.textContent || '').trim()
-    if (t === '参考链接' || t === '参考链接：' ||
-        (el.children.length === 0 && t.includes('参考链接'))) {
-      anchor = el
-      while (anchor && anchor !== body && !/^(P|DIV|LI|SECTION)$/.test(anchor.tagName)) {
-        anchor = anchor.parentElement
-      }
+    if (t === '参考链接' || t === '参考链接：' || t === '参考链接:') {
+      titleEl = el
       break
     }
   }
-  if (!anchor) return
-  let node = anchor
-  while (node) {
-    node.querySelectorAll('p,li,span,a,strong,em,div,section').forEach(e => {
+  if (!titleEl) return
+
+  // 2. 判断是否包在「参考链接块」小容器内（该容器第一个元素子即标题）。
+  //    若不是（标题与正文同属大容器），则不向上追溯，避免把整篇正文染灰。
+  let container = titleEl.parentElement
+  const inBlock = !!container && container !== body &&
+                  container.children.length && container.children[0] === titleEl
+
+  const TARGETS = 'p, li, span, a, strong, em, div, section'
+  const paint = (n) => {
+    n.querySelectorAll(TARGETS).forEach(e => {
+      if (/^(H1|H2|H3|H4|H5|H6)$/.test(e.tagName)) return  // 不染标题本身
       e.style.setProperty('font-size', '15px')
       e.style.setProperty('color', '#888888')
       if (e.tagName === 'A') {
@@ -483,10 +487,18 @@ function styleRefLinks(root) {
         e.style.setProperty('word-break', 'break-all')
       }
     })
-    const nxt = node.nextElementSibling
-    if (!nxt) break
-    if (/^(H1|H2|H3)$/.test(nxt.tagName)) break
-    node = nxt
+  }
+
+  // 3. 仅从「参考链接」标题之后向后遍历，绝不波及之前的正文；遇 footer 即停。
+  let node = inBlock ? container : titleEl
+  while (node) {
+    if (node !== titleEl) {
+      const txt = node.textContent || ''
+      if (/^(H1|H2|H3)$/.test(node.tagName)) break
+      if (txt.includes('关于作者') || txt.includes('公众号名片')) break  // 不染 footer
+      paint(node)
+    }
+    node = node.nextElementSibling
   }
 }
 

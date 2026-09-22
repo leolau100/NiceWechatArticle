@@ -778,6 +778,8 @@ export function applyCopyrightNoticeStyle(doc) {
   const headings = doc.querySelectorAll('h1, h2, h3, h4, h5, h6')
   headings.forEach(h => {
     if (!h.textContent || !h.textContent.includes('版权与侵权')) return
+    // 标题「版权与侵权声明」本身：用户要求字号 16px（覆盖主题 h2 的 20px）
+    h.style.fontSize = '16px'
     const targets = []
     let el = h.nextElementSibling
     while (el && !/^h[1-6]$/i.test(el.tagName)) {

@@ -15,9 +15,9 @@
 .theme-qbitai .ref-links a { color:#888888;text-decoration:none;word-break:break-all; }
 .theme-qbitai em { font-style:normal;color:#8f8f8f; }
 .theme-qbitai a { color:#00997f;text-decoration:none; }
-.theme-qbitai code { background:#f8f8f8;padding:2px 6px;border-radius:3px;font-family:Consolas,Monaco,monospace;font-size:14px;color:#00997f; }
-.theme-qbitai .code-block { background:#f8f8f8;padding:10px;border-radius:3px;overflow-x:auto;margin:20px 0;font-family:Consolas,Monaco,monospace;font-size:14px;color:#333333;line-height:1.7; white-space:pre-wrap; }
-.theme-qbitai .code-block code { background:none;padding:0;border-radius:0;color:inherit; }
+.theme-qbitai code { background:#eef2f4;padding:2px 6px;border-radius:4px;font-family:Consolas,Monaco,Menlo,'Courier New',monospace;font-size:14px;color:#00997f; }
+.theme-qbitai .code-block { background:#f6f8fa;padding:14px 16px;border-left:4px solid #00997f;border-radius:6px;overflow-x:auto;margin:20px 0;font-family:Consolas,Monaco,Menlo,'Courier New',monospace;font-size:15px;color:#24292e;line-height:1.7;letter-spacing:0;white-space:pre-wrap; }
+.theme-qbitai .code-block code { background:none;padding:0;border-radius:0;color:inherit;font-size:inherit;font-family:inherit; }
 .theme-qbitai ul { margin:20px 0;padding-left:0;list-style:disc;list-style-position:inside;}
 .theme-qbitai ol { margin:20px 0;padding-left:0;list-style:decimal;list-style-position:inside;}
 .theme-qbitai li { margin:8px 0;line-height:2;letter-spacing:1px;font-size:16px;color:#222222;list-style-position:inside;}
